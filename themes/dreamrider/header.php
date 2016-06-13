@@ -21,9 +21,18 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
+				<div class="dreamrider-header">
+					<img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
+					<!-- <img src="<?php echo get_template_directory_uri() ?>/images/hamburger.png"> -->
+					<div class="hamburger-container">
+						<div class="hamburger-lines"></div>
+						<div class="hamburger-lines"></div>
+						<div class="hamburger-lines"></div>
+					</div>
+				</div>
 				<div class="site-branding">
-					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+					<!-- <h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
+					<!-- <p class="site-description"><?php bloginfo( 'description' ); ?></p> -->
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">

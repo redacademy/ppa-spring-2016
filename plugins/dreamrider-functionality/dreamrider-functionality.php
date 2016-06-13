@@ -1,10 +1,10 @@
 <?php
  /**
  *
- * @package   [SITE NAME] Functionality
- * @author    Your Name <your_email@email.com>
+ * @package   Dreamrider Functionality
+ * @author    Claudine Bananal <claudine.bananal@gmail.com>
  * @license   GPL-2.0+
- * @copyright 2015 Your Name or Company
+ * @copyright 2016
  *
  * @wordpress-plugin
  * Plugin Name: [SITE NAME] Functionality
