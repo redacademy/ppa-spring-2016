@@ -55,3 +55,7 @@ themes/dreamrider/node_modules/*
 # Ignore build files #
 # ================== #
 themes/dreamrider/build/*
+
+# Ignore gulpfile #
+# ================== #
+themes/dreamrider/gulpfile.js
