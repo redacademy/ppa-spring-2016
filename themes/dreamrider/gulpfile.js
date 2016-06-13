@@ -63,7 +63,8 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
-        proxy: 'inhabitent.dev',
+        proxy: 'localhost/dreamrider',
+        port:5000
     });
 
     gulp.watch(files).on('change', browserSync.reload);

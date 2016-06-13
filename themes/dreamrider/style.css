@@ -656,3 +656,24 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.footer-container {
+  width: 100%;
+  background: #8c2c8b;
+  margin: 0;
+  padding: 0; }
+
+.footer-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .footer-nav p {
+    text-transform: uppercase;
+    color: #fff; }
+
+.site-info {
+  display: none; }

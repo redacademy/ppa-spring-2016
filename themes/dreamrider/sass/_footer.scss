@@ -1,0 +1,22 @@
+.footer-container {
+	width: 100%;
+	background: #8c2c8b;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	p {
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+}
+
+.site-info {
+	display: none;
+}
