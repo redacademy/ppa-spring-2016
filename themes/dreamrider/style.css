@@ -489,7 +489,7 @@ a {
 /* ============================================== */
 .site-header {
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px 15px;
   background-color: #fff;
   border-bottom: 1px solid #000;
   position: fixed;
@@ -507,12 +507,12 @@ a {
       align-self: center; }
 
 .hamburger-lines {
-  width: 30px;
-  height: 2px;
+  width: 40px;
+  height: 4px;
   background-color: grey; }
 
 .hamburger-lines:nth-child(even) {
-  margin: 8px 0; }
+  margin: 5px 0; }
 
 .screen-rider-text {
   display: none; }
