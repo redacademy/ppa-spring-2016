@@ -63,8 +63,12 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
+<<<<<<< 27a59969ae96bf03c7073d5da856e3f3ca6b9b5b
         proxy: 'localhost/dreamrider',
         port:5000
+=======
+        proxy: 'http://localhost/dreamrider/',
+>>>>>>> Product Type and Testimonial Type Added to Wordpress. Added gulpfile.js to gitignore
     });
 
     gulp.watch(files).on('change', browserSync.reload);
