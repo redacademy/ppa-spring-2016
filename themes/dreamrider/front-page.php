@@ -101,19 +101,19 @@ get_header(); ?>
 			<h2>Community Impact</h2>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<p>Tracks Behavior Change Data</p>
+				<p>Tracks Behaviour <br>Change Data</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<p>Raises Awareness and Influencing Positive Change</p>
+				<p>Raises Awareness and <br>Influencing Positive Change</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<p>Encourages a Positive Attitude towards Waste Reduction</p>
+				<p>Encourages a Positive Attitude towards <br>Waste Reduction</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<p>Increases Awareness towards Eco-Friendly Methods</p>
+				<p>Increases Awareness towards <br>Eco-Friendly Methods</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
@@ -121,7 +121,7 @@ get_header(); ?>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<p>Cultivates Creativity and Innovation</p>
+				<p>Cultivates Creativity <br>and Innovation</p>
 			</div>
 			<div class="btn-inverted">
 				<a href="#">Read Case Studies</a>
