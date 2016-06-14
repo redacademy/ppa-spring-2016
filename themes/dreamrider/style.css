@@ -43,6 +43,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+/* ============================================== */
+/* ========= Dreamrider: Custom Styles ========== */
+/* ============================================== */
+/* ----------- Variables: Descriptive  -----------*/
+/* Colors */
+/* ----------- Variables: Functional  -----------*/
+/* Plain Text */
+/* Backgrounds */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -708,6 +716,11 @@ object {
   width: 60%;
   margin: 0 auto;
   text-align: center; }
+
+.programs {
+  color: #fff;
+  text-align: center;
+  background-color: #4ab4e9; }
 
 .footer-container {
   width: 100%;

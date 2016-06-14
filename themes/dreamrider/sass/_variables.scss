@@ -26,3 +26,26 @@ $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+
+
+/* ============================================== */
+/* ========= Dreamrider: Custom Styles ========== */
+/* ============================================== */
+
+
+/* ----------- Variables: Descriptive  -----------*/
+
+/* Colors */
+$white: #fff;
+$violet: #8c2c8b;
+$orange: #f3a536;
+$blue: #4ab4e9;
+
+/* ----------- Variables: Functional  -----------*/
+
+/* Plain Text */
+$color_text-programs: $white;
+
+/* Backgrounds */
+$color_background-programs: $blue;
