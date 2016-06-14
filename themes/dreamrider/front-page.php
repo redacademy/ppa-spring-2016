@@ -129,49 +129,52 @@ get_header(); ?>
 		</section><!-- community-impact -->
 
 		<section class="community-partners">
-			<h1>featured community partners</h1>
+			<h1>Community Partners</h1>
 			<div class="partners-images">
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.brandon.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/brandon.png" alt="City of Brandon Logo"></a>
 				</div>
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.guelph.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/guelph.png" alt="City of Guelph Logo"></a>
 				</div>
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.edmonton.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/edmonton.png" alt="City of Edmonton Logo"></a>
 				</div>
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.vernon.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/vernon.png" alt=""></a>
 				</div>
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.city.peterborough.on.ca"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/peterborough.png" alt="City of Peterborough Logo"></a>
 				</div>
 				<div class="partner-image">
-					<img src="" alt="">
+					<a href="http://www.westvancouver.ca"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/west-vancouver.png" alt="West Vancouver School District Logo"></a>
 				</div>
-			</div><!-- partners-images -->
+			</div>
+			<!--end partners-images-->
+			<div class="partners-testimonials">
+				<img src="" alt="">
+				<div class="quotes-container">
+					<div class="quotes">
+						<p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
+						<p>Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
+					</div>
+					<div class="quotes">
+						<p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yoursel. It's unlike anything I've ever seen.</p>
+						<p>Amy Fournier, Sustainability, City of Vancouver, BC</p>
+					</div>
+					<div class="quotes">
+						<p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
+						<p>Madeleine Lemaire, City of Coquitlam, BC</p>
+					</div>
+				</div>
+				<!--end quotes-container-->
+			</div>
+			<!--end partners-testimonials-->
+			<div class="btn">
+				<p>Request a Demo</p>
+			</div>
 		</section><!-- community-partners -->
-		<section class="quotes-section">
-			<img src="" alt="">
-			<div class="quotes-container">
-				<div class="quotes">
-					<p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
-					<p>Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
-				</div>
-				<div class="quotes">
-					<p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yoursel. It's unlike anything I've ever seen.</p>
-					<p>Amy Fournier, Sustainability, City of Vancouver, BC</p>
 
-				</div>
-				<div class="quotes">
-					<p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
-					<p>Madeleine Lemaire, City of Coquitlam, BC</p>
-				</div>
-			</div>
-		<div class="btn">
-				<p>request a demo</p>
-			</div>
-		</section><!-- quotes -->
 		<section class="awards">
 			<img src="" alt="">
 			<h1>awards</h1>
