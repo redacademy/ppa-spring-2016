@@ -1,0 +1,46 @@
+.not-found-page-wrapper { 
+	background: #00aeef;
+	color: #fff;
+	height: 100vh;
+	.big-text {
+		font-size: 7rem;
+		text-align: center;
+		margin: 0;
+	}
+	.page-title {
+		text-align: center;
+		
+	}
+	.page-content {
+		p:first-child { 
+			text-align: center;
+		}
+	}
+	.btn-container {
+		display: flex;
+		justify-content: center;
+		.btn { 
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 1rem;
+			margin: 0 5px;
+			padding: 6px 40px;
+			border-radius: 20px;
+			p {
+				margin: 0;
+				text-transform: uppercase;
+			}
+		}
+		.return {
+			background: #892b88;
+		}
+
+		.contact {
+			background: #f5a623;
+		}
+
+	}
+	
+	
+}
