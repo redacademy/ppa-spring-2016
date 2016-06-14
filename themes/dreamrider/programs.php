@@ -23,6 +23,9 @@ get_header(); ?>
 				<section class="programs-heroes">
 					<h2>heroes</h2>
 					<p>Lorem ipsum dolor sit amet, id cetero iriure impetus eam, quo in maiorum facilisi definitionem. Mel tollit vivendo ex. Ne qui exerci doming. Per eu utroque apeirian scriptorem, no consul primis quo, et eos case tation ornatus. Ad iusto choro periculis nec, id cum tota definiebas efficiantur.Tota movet sapientem id mea, duo vivendo docendi constituto cu, nibh dicit incorrupte eam ea. Ut dolor option concludaturque vim, at mea partem concludaturque. Impetus alterum invenire id nam, id illum populo regione vim. Eum facilis efficiantur an, oportere conceptam temporibus no usu.</p>
+					<div class="btn">
+						<a class="cta-button" href="#">Get started now</a>
+					</div>
 				</section><!-- programs-heroes -->
 				
 
