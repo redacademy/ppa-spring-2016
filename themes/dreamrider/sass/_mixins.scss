@@ -20,7 +20,9 @@
 
 /* ----------- Buttons  -----------*/
 
-//Main Call-to-Action Button
+
+/* Main Call-to-Action Button */
+
 @mixin cta-button {
 	margin: 50px auto;
 	font-size: 20px;
@@ -32,6 +34,7 @@
 		height: auto;
 		padding: 13px 50px;
 		margin: 0 auto;
+		color: $color_button-text-default;
 		text-decoration: none;
 		text-transform: uppercase;
 		background-color: $color_button-background-default;
@@ -45,7 +48,39 @@
 	}
 }
 
-//Section Styles
+
+/* Inverted Button */
+
+@mixin inverted-cta-button {
+	margin: 50px auto;
+	font-size: 20px;
+	font-family: 'francois-one', sans-serif;
+  text-align: center;
+	letter-spacing: 2px;
+	a, a:visited {
+		width: autopx;
+		height: auto;
+		padding: 13px 50px;
+		margin: 0 auto;
+		color: $color_button-text-inverted;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: $color_button-background-inverted;
+		border: 1px solid $color_button-border-inverted;
+		border-radius: 2rem;
+		&:hover {
+			color: $color_button-text-inverted-hover;
+			background-color: $color_button-background-inverted-hover;
+		}
+	}
+}
+
+
+/* ----------- Section Styles  -----------*/
+
+
+/* Sections with Blue Background */
+
 @mixin blue-section {
 	margin-top: 50px;
   padding: 45px;
@@ -53,4 +88,22 @@
   text-align: center;
   background-color: $color_background-programs;
   box-shadow: 1px 0px 1px $gray;
+}
+
+/* Sections with Icons */
+
+@mixin iconography{
+	width: 80%;
+  margin: 0 auto;
+  h2 {
+		font-size: 1.9rem;
+    font-family: $secondary-text;
+    text-transform: uppercase;
+    text-align: center;
+		letter-spacing: 2px;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }

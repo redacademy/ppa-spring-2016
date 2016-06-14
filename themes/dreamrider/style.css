@@ -57,6 +57,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ========= Dreamrider: Custom Styles ========== */
 /* ============================================== */
 /* ----------- Buttons  -----------*/
+/* Main Call-to-Action Button */
+/* Inverted Button */
+/* ----------- Section Styles  -----------*/
+/* Sections with Blue Background */
+/* Sections with Icons */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -812,6 +817,7 @@ object {
     height: auto;
     padding: 13px 50px;
     margin: 0 auto;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     background-color: #f3a536;
@@ -826,12 +832,49 @@ object {
   width: 80%;
   margin: 0 auto; }
   .learning-benefits h2 {
+    font-size: 1.9rem;
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 2px; }
   .learning-benefits p {
     font-size: 1.2rem;
     text-align: center; }
+
+/* Community Impact */
+.community-impact {
+  width: 80%;
+  margin: 0 auto; }
+  .community-impact h2 {
+    font-size: 1.9rem;
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px; }
+  .community-impact p {
+    font-size: 1.2rem;
+    text-align: center; }
+
+.btn-inverted {
+  margin: 50px auto;
+  font-size: 20px;
+  font-family: 'francois-one', sans-serif;
+  text-align: center;
+  letter-spacing: 2px; }
+  .btn-inverted a, .btn-inverted a:visited {
+    width: autopx;
+    height: auto;
+    padding: 13px 50px;
+    margin: 0 auto;
+    color: #f3a536;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #f3a536;
+    border-radius: 2rem; }
+    .btn-inverted a:hover, .btn-inverted a:visited:hover {
+      color: #fff;
+      background-color: #f3a536; }
 
 .footer-container {
   width: 100%;
