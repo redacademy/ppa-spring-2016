@@ -1,22 +1,13 @@
 <?php
  /**
  *
-<<<<<<< 27a59969ae96bf03c7073d5da856e3f3ca6b9b5b
- * @package   dreamrider Functionality
- * @author    Kyle Minchin <kyleminchin@hotmail.com>
-=======
  * @package   Dreamrider Functionality
  * @author    Your Name <your_email@email.com>
->>>>>>> Product Type and Testimonial Type Added to Wordpress. Added gulpfile.js to gitignore
  * @license   GPL-2.0+
  * @copyright 2016 kyle minchin
  *
  * @wordpress-plugin
-<<<<<<< 27a59969ae96bf03c7073d5da856e3f3ca6b9b5b
- * Plugin Name: dreamrider Functionality
-=======
  * Plugin Name: Dreamrider Functionality
->>>>>>> Product Type and Testimonial Type Added to Wordpress. Added gulpfile.js to gitignore
  * Description: This very important plugin contains all of the core functionality for this website so that it remains theme-independent.
  * Version:     1.0.0
  * Author:      Kyle Minchin
