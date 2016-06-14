@@ -50,7 +50,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Colors */
 /* ----------- Variables: Functional  -----------*/
 /* Plain Text */
+/* Buttons */
 /* Backgrounds */
+/* ============================================== */
+/* ========= Dreamrider: Custom Styles ========== */
+/* ============================================== */
+/* ----------- Buttons  -----------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -721,6 +726,11 @@ object {
   color: #fff;
   text-align: center;
   background-color: #4ab4e9; }
+
+.cta-button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #f3a536; }
 
 .footer-container {
   width: 100%;

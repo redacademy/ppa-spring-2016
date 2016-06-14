@@ -10,3 +10,17 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+
+/* ============================================== */
+/* ========= Dreamrider: Custom Styles ========== */
+/* ============================================== */
+
+
+/* ----------- Buttons  -----------*/
+@mixin orange {
+	color: $color_default-button-text;
+	text-transform: uppercase;
+	background-color: $color_default-button-background;
+}

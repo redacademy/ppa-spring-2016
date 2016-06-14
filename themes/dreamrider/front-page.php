@@ -10,14 +10,14 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<section class="hero-banner">
-		
+
 		</section>
 
 		<section class="main-title">
 			<h1>Inspiring environmental superheroes to lead change</h1>
 			<p class="more-info">The Planet Protector Academy is an innovative digital-led classroom experience that teaches kids about important environmental issues and empowers them to lead change in their families.</p>
 			<div class="btn">
-				<p>Get started now</p>
+				<a class="cta-button" href="#">Get started now</a>
 			</div>
 		</section><!-- main-title -->
 
@@ -59,7 +59,7 @@ get_header(); ?>
 			<div class="learning-content-holder">
 				<img src="" alt="">
 				<h5>Helps bring tech into the classroom</h5>
-			</div>		
+			</div>
 		</section><!-- learning-benefits -->
 		<section class="testimonials">
 			<img src="" alt="">
@@ -67,7 +67,7 @@ get_header(); ?>
 			<div class="testimonial-container">
 				<div class="testimonial">
 					<div class="testimonial-bubble">
-					</div>	
+					</div>
 					<div class="testimonial-lower">
 					<img src="" alt="">
 					<p></p>
@@ -75,7 +75,7 @@ get_header(); ?>
 				</div><!-- testimonial -->
 				<div class="testimonial">
 					<div class="testimonial-bubble">
-					</div>	
+					</div>
 					<div class="testimonial-lower">
 					<img src="" alt="">
 					<p></p>
@@ -83,7 +83,7 @@ get_header(); ?>
 				</div><!-- testimonial -->
 				<div class="testimonial">
 					<div class="testimonial-bubble">
-					</div>	
+					</div>
 					<div class="testimonial-lower">
 					<img src="" alt="">
 					<p></p>

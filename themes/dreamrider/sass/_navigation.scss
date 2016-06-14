@@ -132,6 +132,7 @@ a {
 }
 
 
+
 /* ============================================== */
 /* ========= Dreamrider: Custom Styles ========== */
 /* ============================================== */
@@ -154,6 +155,7 @@ a {
 .hamburger-container {
 	align-self: center;
 }
+
 .hamburger-lines {
 	width: 40px;
 	height: 4px;
@@ -179,7 +181,7 @@ a {
 	display: none;
 }
 
-//Stop header from overlapping the content
+//Stops header and content from overlapping
 .entry-header {
 	margin-top: 100px;
 }
