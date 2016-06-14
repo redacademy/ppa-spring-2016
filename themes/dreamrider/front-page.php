@@ -39,27 +39,27 @@ get_header(); ?>
 			<h2>Learning Benefits</h2>
 			<div class="content-holder">
 				<img src="" alt="">
-				<p>Easy to use and implement</p>
+				<p>Easy to use and Implement</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<p>Engages and meets diverse learning needs</p>
+				<p>Flexible and <br>Adaptable</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<p>Flexible and adaptable</p>
+				<p>Supports<br>Curriculum</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<p>Supports curriculum</p>
+				<p>Engages and Meets <br>Diverse Learning Needs</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<p>Inspires real change beyond the classroom</p>
+				<p>Helps Bring Tech <br>Into the Classroom</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<p>Helps bring tech into the classroom</p>
+				<p>Inspires Real Change <br>Beyond the Classroom</p>
 			</div>
 		</section><!-- learning-benefits -->
 
