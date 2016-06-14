@@ -961,3 +961,6 @@ object {
       background: #892b88; }
     .not-found-page-wrapper .btn-container .contact {
       background: #f5a623; }
+
+.contact-main {
+  text-align: center; }
