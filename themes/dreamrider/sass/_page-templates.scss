@@ -12,11 +12,16 @@
 }
 
 .programs {
+  margin-top: 50px;
+  padding: 20px;
   color: $color_text-programs;
   text-align: center;
   background-color: $color_background-programs;
+  h1 {
+    text-transform: uppercase;
+  }
 }
 
 .cta-button {
-  @include orange;
+  @include cta-button;
 }

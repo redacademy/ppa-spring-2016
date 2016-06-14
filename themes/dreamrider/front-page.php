@@ -16,13 +16,12 @@ get_header(); ?>
 		<section class="main-title">
 			<h1>Inspiring environmental superheroes to lead change</h1>
 			<p class="more-info">The Planet Protector Academy is an innovative digital-led classroom experience that teaches kids about important environmental issues and empowers them to lead change in their families.</p>
-			<div class="btn">
-				<a class="cta-button" href="#">Get started now</a>
-			</div>
 		</section><!-- main-title -->
-
+		<div class="cta-button">
+			<a href="#">Get started now</a>
+		</div>
 		<section class="programs">
-			<h1>programs</h1>
+			<h1>Programs</h1>
 			<div class="program-one">
 				<img src="" alt="">
 				<h4>zero hero</h4>

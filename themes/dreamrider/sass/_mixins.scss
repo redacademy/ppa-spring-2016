@@ -19,8 +19,25 @@
 
 
 /* ----------- Buttons  -----------*/
-@mixin orange {
-	color: $color_default-button-text;
-	text-transform: uppercase;
-	background-color: $color_default-button-background;
+
+//Main Call-to-Action Button
+@mixin cta-button {
+	margin: 50px auto;
+  text-align: center;
+	a {
+		width: autopx;
+		height: auto;
+		padding: 13px 50px;
+		margin: 0 auto;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: $color_default-button-background;
+		border-radius: 2rem;
+		&:hover {
+			background-color: darken($color_default-button-background, 5%);
+		}
+		&:visited {
+		color: $color_default-button-text;
+		}
+	}
 }
