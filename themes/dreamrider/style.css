@@ -286,6 +286,20 @@ th {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'lato-bold';
+  src: url("../../fonts/../../fonts/lato-bold-webfont.eot");
+  src: url("../../fonts/../../fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/../../fonts/lato-bold-webfont.woff2") format("woff2"), url("../../fonts/../../fonts/lato-bold-webfont.woff") format("woff"), url("../../fonts/../../fonts/lato-bold-webfont.ttf") format("truetype"), url("../../fonts/../../fonts/lato-bold-webfont.svg#latobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-medium';
+  src: url("../../fonts/lato-medium-webfont.eot");
+  src: url("../../fonts/lato-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-medium-webfont.woff2") format("woff2"), url("../../fonts/lato-medium-webfont.woff") format("woff"), url("../../fonts/lato-medium-webfont.ttf") format("truetype"), url("../../fonts/lato-medium-webfont.svg#latomedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -897,3 +911,39 @@ object {
 
 .site-info {
   display: none; }
+
+.not-found-page-wrapper {
+  background: #00aeef;
+  color: #fff;
+  height: 100vh; }
+  .not-found-page-wrapper .big-text {
+    font-size: 7rem;
+    text-align: center;
+    margin: 0; }
+  .not-found-page-wrapper .page-title {
+    text-align: center; }
+  .not-found-page-wrapper .page-content p:first-child {
+    text-align: center; }
+  .not-found-page-wrapper .btn-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .not-found-page-wrapper .btn-container .btn {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      font-size: 1rem;
+      margin: 0 5px;
+      padding: 6px 40px;
+      border-radius: 20px; }
+      .not-found-page-wrapper .btn-container .btn p {
+        margin: 0;
+        text-transform: uppercase; }
+    .not-found-page-wrapper .btn-container .return {
+      background: #892b88; }
+    .not-found-page-wrapper .btn-container .contact {
+      background: #f5a623; }

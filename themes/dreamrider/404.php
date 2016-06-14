@@ -8,11 +8,11 @@
  */
 
 get_header(); ?>
-	<div class="404-page-wrapper">
+	<div class="not-found-page-wrapper">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 
-				<section class="error-404 not-found">
+				<section class="error-not-found">
 					<header class="page-header">
 						<h1 class="big-text">Uh Oh</h1>
 						<h4 class="page-title">404 page not found</h4>
@@ -24,11 +24,11 @@ get_header(); ?>
 					</div><!-- .page-content -->
 					<p>The page you were looking for can't be found. But we have solutions for you.</p>
 
-					<div class="404-btn-container">
-						<div class="404-btn-a">
+					<div class="btn-container">
+						<div class="btn return">
 							<p>return home</p>
 						</div>
-						<div class="404-btn-b">
+						<div class="btn contact">
 							<p>contact us</p>
 						</div>
 					</div>
