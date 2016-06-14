@@ -19,10 +19,14 @@ get_header(); ?>
 					</header><!-- .page-header -->
 
 					<div class="page-content">
+						<div class="not-found-picture">
 						<img src="" alt="">
-						<h4>goober is working on it</h4>
+						</div>
+						<div class="text">
+							<h4>goober is working on it</h4>
+						</div>
 					</div><!-- .page-content -->
-					<p>The page you were looking for can't be found. But we have solutions for you.</p>
+					<p class="looking-for">The page you were looking for can't be found. But we have solutions for you.</p>
 
 					<div class="btn-container">
 						<div class="btn return">
