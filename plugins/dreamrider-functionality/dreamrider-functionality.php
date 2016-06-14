@@ -1,10 +1,24 @@
 <?php
  /**
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * @package   Dreamrider Functionality
+ * @author    Claudine Bananal <claudine.bananal@gmail.com>
+ * @license   GPL-2.0+
+ * @copyright 2016
+=======
+<<<<<<< 27a59969ae96bf03c7073d5da856e3f3ca6b9b5b
+ * @package   dreamrider Functionality
+ * @author    Kyle Minchin <kyleminchin@hotmail.com>
+=======
+>>>>>>> efe8586280e3803fbd47da70876087ad4ae7d3b8
  * @package   Dreamrider Functionality
  * @author    Your Name <your_email@email.com>
  * @license   GPL-2.0+
  * @copyright 2016 kyle minchin
+>>>>>>> 40bac106fcf586019e8ccc9296b1ef7a0623531f
  *
  * @wordpress-plugin
  * Plugin Name: Dreamrider Functionality
