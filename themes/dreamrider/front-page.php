@@ -16,51 +16,53 @@ get_header(); ?>
 		<section class="main-title">
 			<h1>Inspiring environmental superheroes to lead change</h1>
 			<p class="more-info">The Planet Protector Academy is an innovative digital-led classroom experience that teaches kids about important environmental issues and empowers them to lead change in their families.</p>
-			<div class="btn">
-				<a class="cta-button" href="#">Get started now</a>
-			</div>
 		</section><!-- main-title -->
+		<div class="cta-button">
+			<a href="#">Get started now</a>
+		</div>
 
 		<section class="programs">
-			<h1>programs</h1>
+			<h2>Programs</h2>
 			<div class="program-one">
 				<img src="" alt="">
-				<h4>zero hero</h4>
-				<p>Lorem ipsum dolor sit amet, eros consul ut has. Eum clita nostrud splendide ex, ius eu amet nonumes. Tempor abhorreant at eos, sed at tempor postea mollis.</p>
+				<h4>Zero Hero</h4>
+				<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 			</div><!-- program-one -->
 			<div class="program-two">
 				<img src="" alt="">
-				<h4>keep cool</h4>
-				<p>Lorem ipsum dolor sit amet, eros consul ut has. Eum clita nostrud splendide ex, ius eu amet nonumes. Tempor abhorreant at eos, sed at tempor postea mollis.</p>
+				<h4>Keep Cool</h4>
+				<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 			</div><!-- program-two -->
-
 		</section><!-- programs -->
+
 		<section class="learning-benefits">
+			<h2>Learning Benefits</h2>
 			<div class="content-holder">
 				<img src="" alt="">
-				<h5>Easy to use and implement</h5>
+				<p>Easy to use and implement</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<h5>Engages and meets diverse learning needs</h5>
+				<p>Engages and meets diverse learning needs</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<h5>Flexible and adaptable</h5>
+				<p>Flexible and adaptable</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<h5>Supports curriculum</h5>
+				<p>Supports curriculum</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<h5>Inspires real change beyond the classroom</h5>
+				<p>Inspires real change beyond the classroom</p>
 			</div>
 			<div class="learning-content-holder">
 				<img src="" alt="">
-				<h5>Helps bring tech into the classroom</h5>
+				<p>Helps bring tech into the classroom</p>
 			</div>
 		</section><!-- learning-benefits -->
+
 		<section class="testimonials">
 			<img src="" alt="">
 			<h1>testimonials</h1>
@@ -94,35 +96,38 @@ get_header(); ?>
 				<p>start my free trail</p>
 			</div>
 		</section><!-- testimonials -->
+
 		<section class="community-impact">
+			<h2>Community Impact</h2>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>tracks behavior change data</h5>
+				<p>Tracks Behavior Change Data</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>increase awareness towards eco-friendly methods</h5>
+				<p>Raises Awareness and Influencing Positive Change</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>easy to scale</h5>
+				<p>Encourages a Positive Attitude towards Waste Reduction</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>encourages a positive attitude towards waste reduction</h5>
+				<p>Increases Awareness towards Eco-Friendly Methods</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>cultivates creativity and innovation</h5>
+				<p>Easy to Scale</p>
 			</div>
 			<div class="community-content-holder">
 				<img src="" alt="">
-				<h5>raises awareness and influences positive changes</h5>
+				<p>Cultivates Creativity and Innovation</p>
 			</div>
 			<div class="btn-inverted">
-				<p>read case studies</p>
+				<a href="#">Read Case Studies</a>
 			</div>
 		</section><!-- community-impact -->
+
 		<section class="community-partners">
 			<h1>featured community partners</h1>
 			<div class="partners-images">

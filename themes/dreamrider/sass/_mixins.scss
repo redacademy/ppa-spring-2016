@@ -19,8 +19,38 @@
 
 
 /* ----------- Buttons  -----------*/
-@mixin orange {
-	color: $color_default-button-text;
-	text-transform: uppercase;
-	background-color: $color_default-button-background;
+
+//Main Call-to-Action Button
+@mixin cta-button {
+	margin: 50px auto;
+	font-size: 20px;
+	font-family: 'francois-one', sans-serif;
+  text-align: center;
+	letter-spacing: 2px;
+	a {
+		width: autopx;
+		height: auto;
+		padding: 13px 50px;
+		margin: 0 auto;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: $color_button-background-default;
+		border-radius: 2rem;
+		&:hover {
+			background-color: darken($color_button-background-default, 5%);
+		}
+		&:visited {
+		color: $color_button-text-default;
+		}
+	}
+}
+
+//Section Styles
+@mixin blue-section {
+	margin-top: 50px;
+  padding: 45px;
+  color: $color_text-programs;
+  text-align: center;
+  background-color: $color_background-programs;
+  box-shadow: 1px 0px 1px $gray;
 }

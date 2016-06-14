@@ -36,11 +36,16 @@ $font__line-height-pre: 1.6;
 
 /* ----------- Variables: Descriptive  -----------*/
 
+/* Fonts */
+$default-text: 'lato-light', sans-serif;
+$secondary-text: 'francois-one', sans-serif;
+
 /* Colors */
 $white: #fff;
 $violet: #8c2c8b;
 $orange: #f3a536;
 $blue: #4ab4e9;
+$gray: #636363;
 
 /* ----------- Variables: Functional  -----------*/
 
@@ -48,8 +53,8 @@ $blue: #4ab4e9;
 $color_text-programs: $white;
 
 /* Buttons */
-$color_default-button-text: $white;
-$color_default-button-background: $orange;
+$color_button-text-default: $white;
+$color_button-background-default: $orange;
 
 /* Backgrounds */
 $color_background-programs: $blue;
