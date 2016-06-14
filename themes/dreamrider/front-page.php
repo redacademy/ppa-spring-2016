@@ -24,13 +24,13 @@ get_header(); ?>
 			<h1>Programs</h1>
 			<div class="program-one">
 				<img src="" alt="">
-				<h4>zero hero</h4>
-				<p>Lorem ipsum dolor sit amet, eros consul ut has. Eum clita nostrud splendide ex, ius eu amet nonumes. Tempor abhorreant at eos, sed at tempor postea mollis.</p>
+				<h4>Zero Hero</h4>
+				<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 			</div><!-- program-one -->
 			<div class="program-two">
 				<img src="" alt="">
-				<h4>keep cool</h4>
-				<p>Lorem ipsum dolor sit amet, eros consul ut has. Eum clita nostrud splendide ex, ius eu amet nonumes. Tempor abhorreant at eos, sed at tempor postea mollis.</p>
+				<h4>Keep Cool</h4>
+				<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 			</div><!-- program-two -->
 
 		</section><!-- programs -->

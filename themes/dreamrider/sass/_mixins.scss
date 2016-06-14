@@ -41,3 +41,13 @@
 		}
 	}
 }
+
+//Section Styles
+@mixin blue-section {
+	margin-top: 50px;
+  padding: 45px;
+  color: $color_text-programs;
+  text-align: center;
+  background-color: $color_background-programs;
+  box-shadow: 1px 0px 1px $gray;
+}
