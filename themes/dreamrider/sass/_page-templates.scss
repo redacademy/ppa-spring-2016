@@ -6,7 +6,6 @@
 
 .hero-banner {
   width: auto;
-  height: 250px;
   margin-bottom: 50px;
   // background: url('../../images/hero-image.png') no-repeat;
   background-size: 730px;
@@ -15,8 +14,8 @@
   overflow:hidden;
 
   img{
-    height:750px;
-    width:auto;
+    width:100%;
+    height:auto;
   }
 }
 
