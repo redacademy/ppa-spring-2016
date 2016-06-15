@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				
+
 				<section class="hero-banner" >
 					<img src ="<?php echo CFS()->get('hero_image') ?>">
 				</section>
@@ -142,51 +142,54 @@ get_header(); ?>
 					</div>
 				</section><!-- community-impact -->
 
-				<section class="community-partners">
-					<h2>Community Partners</h2>
-					<div class="partners-images">
-						<div class="partner-image">
-							<a href="http://www.brandon.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/brandon.png" alt="City of Brandon Logo"></a>
-						</div>
-						<div class="partner-image">
-							<a href="http://www.guelph.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/guelph.png" alt="City of Guelph Logo"></a>
-						</div>
-						<div class="partner-image">
-							<a href="http://www.edmonton.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/edmonton.png" alt="City of Edmonton Logo"></a>
-						</div>
-						<div class="partner-image">
-							<a href="http://www.vernon.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/vernon.png" alt=""></a>
-						</div>
-						<div class="partner-image">
-							<a href="http://www.city.peterborough.on.ca"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/peterborough.png" alt="City of Peterborough Logo"></a>
-						</div>
-						<div class="partner-image">
-							<a href="http://www.westvancouver.ca"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/west-vancouver.png" alt="West Vancouver School District Logo"></a>
-						</div>
-					</div>
-					<!--end partners-images-->
-					<div class="partners-testimonials">
-						<img src="" alt="">
-						<div class="quotes-container">
-							<div class="quotes">
-								<p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
-								<p>Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
-							</div>
-							<div class="quotes">
-								<p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yoursel. It's unlike anything I've ever seen.</p>
-								<p>Amy Fournier, Sustainability, City of Vancouver, BC</p>
-							</div>
-							<div class="quotes">
-								<p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
-								<p>Madeleine Lemaire, City of Coquitlam, BC</p>
-							</div>
-						</div>
-						<!--end quotes-container-->
-					</div>
-					<!--end partners-testimonials-->
-					<div class="btn">
-						<p>Request a Demo</p>
-					</div>
+				<section class="community-partners-container">
+				  <h2>Community Partners</h2>
+				  <div class="partners-images">
+				    <div class="partner-image">
+				      <a href="http://www.brandon.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/brandon.png" alt="City of Brandon Logo"></a>
+				    </div>
+				    <div class="partner-image">
+				      <a href="http://www.edmonton.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/edmonton.png" alt="City of Edmonton Logo"></a>
+				    </div>
+				    <div class="partner-image">
+				      <a href="http://www.city.peterborough.on.ca" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/peterborough.png" alt="City of Peterborough Logo"></a>
+				    </div>
+				    <div class="partner-image">
+				      <a href="http://www.guelph.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/guelph.png" alt="City of Guelph Logo"></a>
+				    </div>
+				    <div class="partner-image">
+				      <a href="http://www.vernon.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/vernon.png" alt=""></a>
+				    </div>
+				    <div class="partner-image">
+				      <a href="http://www.westvancouver.ca" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/west-vancouver.png" alt="West Vancouver School District Logo"></a>
+				    </div>
+				  </div>
+				  <!--end partners-images-->
+				  <div class="partners-testimonials">
+				    <img src="" alt="">
+				    <div class="quotes-container">
+				      <div class="quotes">
+				        <p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
+				        <p class="quote-source">Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
+				        <div class="quote-separator"></div>
+				      </div>
+				      <div class="quotes">
+				        <p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yourself. It's unlike anything I've ever seen.</p>
+				        <p class="quote-source">Amy Fournier, Sustainability, City of Vancouver, BC</p>
+				        <div class="quote-separator"></div>
+				      </div>
+				      <div class="quotes">
+				        <p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
+				        <p class="quote-source">Madeleine Lemaire, City of Coquitlam, BC</p>
+				        <div class="quote-separator"></div>
+				      </div>
+				    </div>
+				    <!--end quotes-container-->
+				  </div>
+				  <!--end partners-testimonials-->
+				  <div class="request-demo-button">
+				    <a href="#">Request a Demo</a>
+				  </div>
 				</section><!-- community-partners -->
 
 				<section class="awards">
@@ -197,7 +200,7 @@ get_header(); ?>
 					<p>Earth Day Canada's Canadian</p>
 					<p>Top Ten Hometown Hero, 2009</p>
 				</section><!-- awards -->
-				
+
 
 				</article><!-- #post-## -->
 
