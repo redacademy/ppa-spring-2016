@@ -7,9 +7,6 @@
 .hero-banner {
   width: auto;
   margin-bottom: 50px;
-  // background: url('../../images/hero-image.png') no-repeat;
-  background-size: 730px;
-  background-position: 42%;
   text-align:center;
   overflow:hidden;
 
@@ -138,4 +135,19 @@
 
 .request-demo-button {
   @include cta-button;
+  h2 {
+    font-family: $font_heading-section;
+  }
+}
+
+
+/* Awards */
+.awards {
+  @include blue-section;
+  padding: 25px;
+  h2 {
+    font-family: $font_heading-section;
+    text-transform: uppercase;
+    letter-spacing:  2px;
+  }
 }

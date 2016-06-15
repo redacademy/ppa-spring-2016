@@ -52,13 +52,17 @@ $gray: #636363;
 
 /* ----------- Variables: Functional  -----------*/
 
-/* Plain Text */
+/* Fonts: Heading */
+$font_heading-section: $secondary-text;
+
+
+/* Color: Plain Text */
 $color-text-default: $gray;
 $color_text-programs: $white;
 $color_text-heading: $black;
 $color_text-partner-testimonial: $light-gray;
 
-/* Buttons */
+/* Color: Buttons */
 $color_button-text-default: $white;
 $color_button-background-default: $orange;
 $color_button-text-inverted: $orange;
@@ -67,8 +71,8 @@ $color_button-background-inverted: $white;
 $color_button-background-inverted-hover: $orange;
 $color_button-border-inverted: $orange;
 
-/* Backgrounds */
+/* Color: Backgrounds */
 $color_background-programs: $blue;
 
-/* Borders / Separators */
+/* Color: Borders / Separators */
 $color_separator-partner-testimonial: $light-gray;

@@ -193,12 +193,11 @@ get_header(); ?>
 				</section><!-- community-partners -->
 
 				<section class="awards">
-					<img src="" alt="">
-					<h1>awards</h1>
+					<img src="<?php echo get_template_directory_uri() ?>//images/award.png" alt="Awards Icon">
+					<h2>Awards</h2>
 					<p>Awesome Award, 2015</p>
 					<p>Telus Innovation Award, 2014</p>
-					<p>Earth Day Canada's Canadian</p>
-					<p>Top Ten Hometown Hero, 2009</p>
+					<p>Earth Day Canada's Canadian Top Ten Hometown Hero, 2009</p>
 				</section><!-- awards -->
 
 

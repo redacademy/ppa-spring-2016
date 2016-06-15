@@ -50,10 +50,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Fonts */
 /* Colors */
 /* ----------- Variables: Functional  -----------*/
-/* Plain Text */
-/* Buttons */
-/* Backgrounds */
-/* Borders / Separators */
+/* Fonts: Heading */
+/* Color: Plain Text */
+/* Color: Buttons */
+/* Color: Backgrounds */
+/* Color: Borders / Separators */
 /* ==============================================
  		Dreamrider: Custom Styles 
  ============================================== */
@@ -781,8 +782,6 @@ object {
 .hero-banner {
   width: auto;
   margin-bottom: 50px;
-  background-size: 730px;
-  background-position: 42%;
   text-align: center;
   overflow: hidden; }
   .hero-banner img {
@@ -956,6 +955,22 @@ object {
       background-color: #f29a1e; }
     .request-demo-button a:visited {
       color: #fff; }
+  .request-demo-button h2 {
+    font-family: "francois-one", sans-serif; }
+
+/* Awards */
+.awards {
+  margin-top: 50px;
+  padding: 45px;
+  color: #fff;
+  text-align: center;
+  background-color: #4ab4e9;
+  box-shadow: 1px 0px 1px #636363;
+  padding: 25px; }
+  .awards h2 {
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 .footer-container {
   width: 100%;
