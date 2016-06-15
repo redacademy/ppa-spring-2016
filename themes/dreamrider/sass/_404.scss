@@ -1,77 +1,81 @@
 .error404 {
-	background: #00aeef;
+	background: #44b3eb;
 }
 
 .not-found-page-wrapper { 
 	color: #fff;
-	height: 100vh;
+	height: 90vh;
 	.site-main {
 		margin-top: 25px;
+	}
+	.page-header {
+		height: 34vh; 
 	}
 	.big-text {
 		font-size: 7rem;
 		text-align: center;
 		margin: 0;
 		text-transform: uppercase; 
+		font-family: 'francois-one';
+		letter-spacing: 2px;
+		margin: 20% 0 0 0;
 	}
 	.page-title {
 		text-align: center;
 		text-transform: uppercase;
+		font-size: 20px;
+		margin: 0;
 		
 	}
 	
 	.page-content {
 		display: flex;
-		justify-content: space-between;
-		height: 35vh;
-		.not-found-picture {
-			background: blue;
-			width: 48%;
+		align-items: center;
+		height: 33vh;
+		img {
+			
+			width: 60%;
 		}
-		.text {
-			display: flex;
-			align-items: center;
-			width:48%;
-			h4 {
-				text-align: center;
-				text-transform: uppercase;
-				font-size: 1.3rem;
-				margin: 0 21%;
-    		}
-		}
-	}
+		h4 {
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1.3rem;
+			margin-right: 7%;
+    	}
+}
+
 	.looking-for { 
 		text-align: center;
-		margin: 20px 10%;
+		margin: 2% 5%;
 	}
 
-	.btn-container {
-		display: flex;
-		justify-content: space-between;
-		margin: 0 4%;
+	// .btn-container {
+	// 	display: flex;
+	// 	justify-content: space-between;
+	// 	margin: 0 4%;
 
-		.btn { 
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			padding: 15px 30px;
-			border-radius: 20px;
-			p {
-				margin: 0;
-				text-transform: uppercase;
-				font-size: 1rem;
-				font-weight: 600;
-			}
-		}
-		.return {
-			background: #892b88;
-		}
+	// 	.btn { 
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 		padding: 15px 30px;
+	// 		border-radius: 20px;
+	// 		p {
+	// 			margin: 0;
+	// 			text-transform: uppercase;
+	// 			font-size: 1rem;
+	// 			font-weight: 600;
+	// 		}
+	// 	}
+	// 	.return {
+	// 		background: #892b88;
+	// 	}
 
-		.contact {
-			background: #f5a623;
-		}
+	// 	.contact {
+	// 		background: #f5a623;
+	// 	}
 
-	}
+	// }
 	
 	
 }

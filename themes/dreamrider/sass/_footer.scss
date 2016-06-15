@@ -1,8 +1,10 @@
 .footer-container {
 	width: 100%;
-	background: #8c2c8b;
-	margin: 0;
-	padding: 0;
+	padding: 10px 0 20px;
+	color: $color_text-footer;
+	background: $color_background-footer;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 .footer-nav {
@@ -10,13 +12,26 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	p {
-		text-transform: uppercase;
-		color: #fff;
-	}
-
 }
 
+.footer-menu {
+	margin: 0 auto;
+	padding: 5px 0 20px;
+}
+.menu-item {
+	padding: 5px;
+	text-align: center;
+	list-style-type: none;
+	a, a:visited {
+		color: $color_text-link-footer;
+		text-decoration: none;
+	}
+	&:hover {
+		font-weight: bold;
+	}
+}
+
+//Hide "Powered by Wordpress"
 .site-info {
 	display: none;
 }
