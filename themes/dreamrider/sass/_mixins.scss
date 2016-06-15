@@ -35,7 +35,7 @@
  /* Sections with Icons */
 
 @mixin iconography{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
   h2 {
@@ -106,7 +106,7 @@
 
 @mixin inverted-cta-button {
 	margin: 50px auto;
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-family: 'francois-one', sans-serif;
   text-align: center;
 	letter-spacing: 2px;
