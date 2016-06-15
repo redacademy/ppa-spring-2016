@@ -31,3 +31,5 @@ function dreamrider_enqueued_scripts() {
 add_action( 'wp_enqueue_scripts', 'dreamrider_enqueued_scripts' );
 
 
+//Adds a theme support
+
