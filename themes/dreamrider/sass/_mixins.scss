@@ -23,36 +23,36 @@
 
  /* Sections with Blue Background */
 
- @mixin blue-section {
- 	margin-top: 50px;
-   padding: 45px;
-   color: $color_text-programs;
-   text-align: center;
-   background-color: $color_background-programs;
-   box-shadow: 1px 0px 1px $gray;
+@mixin blue-section {
+	margin-top: 50px;
+  padding: 45px;
+  color: $color_text-programs;
+  text-align: center;
+  background-color: $color_background-programs;
+  box-shadow: 1px 0px 1px $gray;
  }
 
  /* Sections with Icons */
 
- @mixin iconography{
- 	width: 80%;
-   margin: 0 auto;
- 	text-align: center;
-   h2 {
- 		font-size: 1.9rem;
-     font-family: $secondary-text;
-     text-transform: uppercase;
- 		letter-spacing: 2px;
+@mixin iconography{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+  h2 {
+		font-size: 1.9rem;
+    font-family: $secondary-text;
+    text-transform: uppercase;
+		letter-spacing: 2px;
    }
    p {
-     font-size: 1.2rem;
-     text-align: center;
- 		margin: 5px auto 50px;
+    font-size: 1.2rem;
+    text-align: center;
+		margin: 5px auto 50px;
    }
- 	img {
- 		width: 20%;
- 		height: auto;
- 	}
+	 img {
+		width: 20%;
+		height: auto;
+	}
  }
 
 
@@ -62,8 +62,9 @@
  /* Headings */
 
 @mixin black-on-white-heading {
-	font-size: 1.9rem;
+	margin: 50px auto;
 	color: $color_text-heading;
+	font-size: 1.9rem;
 	font-family: $secondary-text;
 	text-transform: uppercase;
 	letter-spacing: 2px;
