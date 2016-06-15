@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+=======
+/* ==============================================
+     Dreamrider: Custom Styles
+============================================== */
+
+
+
+/* ----------- Front Page  -----------*/
+
+/* Hero */
+.hero-banner {
+  width: auto;
+  height: 250px;
+  margin-bottom: 50px;
+  background: url('../../images/hero-image.png') no-repeat;
+  background-size: 730px;
+  background-position: 42%;
+
+}
+
 /* Programs */
 
 .main-title {
@@ -52,4 +73,18 @@
 
 .btn-inverted {
   @include inverted-cta-button;
+}
+
+
+/* Community Partners */
+.community-partners {
+  width: 100%;
+  text-align: center;
+  h2 {
+    font-size: 1.9rem;
+    color: $color_text-heading;
+    font-family: $secondary-text;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 }

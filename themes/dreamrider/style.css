@@ -43,9 +43,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles 
+ ============================================== */
 /* ----------- Variables: Descriptive  -----------*/
 /* Fonts */
 /* Colors */
@@ -53,9 +53,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Plain Text */
 /* Buttons */
 /* Backgrounds */
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles 
+ ============================================== */
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
@@ -238,9 +238,9 @@ td,
 th {
   padding: 0; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles
+ ============================================== */
 /* ----------- Francois One -----------*/
 @font-face {
   font-family: 'francois-one';
@@ -344,11 +344,11 @@ mark, ins {
 big {
   font-size: 125%; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles 
+============================================== */
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "lato-light", sans-serif; }
 
 /*--------------------------------------------------------------
@@ -705,11 +705,11 @@ a {
 .bypostauthor {
   display: block; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles
+ ============================================== */
 .site-main {
-  margin-top: 100px; }
+  margin-top: 71px; }
 
 /*--------------------------------------------------------------
 # Media
@@ -771,6 +771,22 @@ object {
 .gallery-caption {
   display: block; }
 
+<<<<<<< HEAD
+=======
+/* ==============================================
+     Dreamrider: Custom Styles
+============================================== */
+/* ----------- Front Page  -----------*/
+/* Hero */
+.hero-banner {
+  width: auto;
+  height: 250px;
+  margin-bottom: 50px;
+  background: url("../../images/hero-image.png") no-repeat;
+  background-size: 730px;
+  background-position: 42%; }
+
+>>>>>>> 4c9e1933e16bd6c5e7065620bd0897c87a0cfb6c
 /* Programs */
 .main-title {
   text-align: center; }
@@ -872,6 +888,17 @@ object {
       color: #fff;
       background-color: #f3a536; }
 
+/* Community Partners */
+.community-partners {
+  width: 100%;
+  text-align: center; }
+  .community-partners h2 {
+    font-size: 1.9rem;
+    color: #000;
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
 .footer-container {
   width: 100%;
   background: #8c2c8b;
@@ -894,23 +921,51 @@ object {
 .site-info {
   display: none; }
 
+.error404 {
+  background: #00aeef; }
+
 .not-found-page-wrapper {
-  background: #00aeef;
   color: #fff;
   height: 100vh; }
+  .not-found-page-wrapper .site-main {
+    margin-top: 25px; }
   .not-found-page-wrapper .big-text {
     font-size: 7rem;
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    text-transform: uppercase; }
   .not-found-page-wrapper .page-title {
-    text-align: center; }
-  .not-found-page-wrapper .page-content p:first-child {
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
+  .not-found-page-wrapper .page-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    height: 35vh; }
+    .not-found-page-wrapper .page-content .not-found-picture {
+      background: blue;
+      width: 48%; }
+    .not-found-page-wrapper .page-content .text {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 48%; }
+      .not-found-page-wrapper .page-content .text h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin: 0 21%; }
+  .not-found-page-wrapper .looking-for {
+    text-align: center;
+    margin: 20px 10%; }
   .not-found-page-wrapper .btn-container {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 4%; }
     .not-found-page-wrapper .btn-container .btn {
       display: -ms-flexbox;
       display: flex;
@@ -918,14 +973,17 @@ object {
           align-items: center;
       -ms-flex-pack: center;
           justify-content: center;
-      font-size: 1rem;
-      margin: 0 5px;
-      padding: 6px 40px;
+      padding: 15px 30px;
       border-radius: 20px; }
       .not-found-page-wrapper .btn-container .btn p {
         margin: 0;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600; }
     .not-found-page-wrapper .btn-container .return {
       background: #892b88; }
     .not-found-page-wrapper .btn-container .contact {
       background: #f5a623; }
+
+.contact-main {
+  text-align: center; }

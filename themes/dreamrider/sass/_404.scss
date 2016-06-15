@@ -1,35 +1,66 @@
-.not-found-page-wrapper { 
+.error404 {
 	background: #00aeef;
+}
+
+.not-found-page-wrapper { 
 	color: #fff;
 	height: 100vh;
+	.site-main {
+		margin-top: 25px;
+	}
 	.big-text {
 		font-size: 7rem;
 		text-align: center;
 		margin: 0;
+		text-transform: uppercase; 
 	}
 	.page-title {
 		text-align: center;
+		text-transform: uppercase;
 		
 	}
+	
 	.page-content {
-		p:first-child { 
-			text-align: center;
+		display: flex;
+		justify-content: space-between;
+		height: 35vh;
+		.not-found-picture {
+			background: blue;
+			width: 48%;
+		}
+		.text {
+			display: flex;
+			align-items: center;
+			width:48%;
+			h4 {
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 1.3rem;
+				margin: 0 21%;
+    		}
 		}
 	}
+	.looking-for { 
+		text-align: center;
+		margin: 20px 10%;
+	}
+
 	.btn-container {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
+		margin: 0 4%;
+
 		.btn { 
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 1rem;
-			margin: 0 5px;
-			padding: 6px 40px;
+			padding: 15px 30px;
 			border-radius: 20px;
 			p {
 				margin: 0;
 				text-transform: uppercase;
+				font-size: 1rem;
+				font-weight: 600;
 			}
 		}
 		.return {

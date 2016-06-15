@@ -29,9 +29,9 @@ $font__line-height-pre: 1.6;
 
 
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles 
+ ============================================== */
 
 
 /* ----------- Variables: Descriptive  -----------*/
@@ -42,6 +42,7 @@ $secondary-text: 'francois-one', sans-serif;
 
 /* Colors */
 $white: #fff;
+$black: #000;
 $violet: #8c2c8b;
 $orange: #f3a536;
 $blue: #4ab4e9;
@@ -52,6 +53,7 @@ $gray: #636363;
 
 /* Plain Text */
 $color_text-programs: $white;
+$color_text-heading: $black;
 
 /* Buttons */
 $color_button-text-default: $white;
