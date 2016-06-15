@@ -20,7 +20,7 @@ get_header(); ?>
 
 					<div class="page-content">
 						<div class="not-found-picture">
-						<img src="" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/goober_404.png" alt="Goober Jumping">
 						</div>
 						<div class="text">
 							<h4>goober is working on it</h4>
@@ -43,3 +43,5 @@ get_header(); ?>
 	</div><!-- 404-page-wrapper -->
 
 <?php get_footer(); ?>
+
+
