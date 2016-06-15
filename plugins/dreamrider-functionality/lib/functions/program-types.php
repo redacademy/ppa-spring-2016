@@ -42,7 +42,7 @@ function dreamrider_program_type() {
 		'label'                 => 'program',
 		'description'           => 'program Post Type',
 		'labels'                => $labels,
-		'supports'              => array( ),
+		'supports'              => array( 'thumbnail', ),
 		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
