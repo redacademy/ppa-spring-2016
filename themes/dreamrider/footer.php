@@ -12,7 +12,7 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="footer-container">
 					<div class="footer-nav">
-						<p>Back to top</p>
+						<p class="back-to-top">Back to top</p>
 						<a href="/about"><p>About Us</p></a>
 						<a href="/programs"><p>Programs</p></a>
 						<a href="/blog"><p>Blog</p></a>
