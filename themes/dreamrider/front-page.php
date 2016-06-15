@@ -156,22 +156,25 @@ get_header(); ?>
 				<div class="quotes-container">
 					<div class="quotes">
 						<p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
-						<p>Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
+						<p class="quote-source">Kim Houghton, Environmental Office, Corporation of Delta, BC</p>
+						<div class="quote-separator"></div>
 					</div>
 					<div class="quotes">
-						<p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yoursel. It's unlike anything I've ever seen.</p>
-						<p>Amy Fournier, Sustainability, City of Vancouver, BC</p>
+						<p>It's hard to believe how much DreamRider engages kids if you haven't seen it for yourself. It's unlike anything I've ever seen.</p>
+						<p class="quote-source">Amy Fournier, Sustainability, City of Vancouver, BC</p>
+						<div class="quote-separator"></div>
 					</div>
 					<div class="quotes">
 						<p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
-						<p>Madeleine Lemaire, City of Coquitlam, BC</p>
+						<p class="quote-source">Madeleine Lemaire, City of Coquitlam, BC</p>
+						<div class="quote-separator"></div>
 					</div>
 				</div>
 				<!--end quotes-container-->
 			</div>
 			<!--end partners-testimonials-->
-			<div class="btn">
-				<p>Request a Demo</p>
+			<div class="request-demo-button">
+				<a href="#">Request a Demo</a>
 			</div>
 		</section><!-- community-partners -->
 

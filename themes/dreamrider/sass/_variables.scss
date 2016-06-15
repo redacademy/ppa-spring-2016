@@ -30,7 +30,7 @@ $font__line-height-pre: 1.6;
 
 
 /* ==============================================
-     Dreamrider: Custom Styles 
+     Dreamrider: Custom Styles
  ============================================== */
 
 
@@ -46,14 +46,17 @@ $black: #000;
 $violet: #8c2c8b;
 $orange: #f3a536;
 $blue: #4ab4e9;
+$light-gray: #afafaf;
 $gray: #636363;
 
 
 /* ----------- Variables: Functional  -----------*/
 
 /* Plain Text */
+$color-text-default: $gray;
 $color_text-programs: $white;
 $color_text-heading: $black;
+$color_text-partner-testimonial: $light-gray;
 
 /* Buttons */
 $color_button-text-default: $white;
@@ -66,3 +69,6 @@ $color_button-border-inverted: $orange;
 
 /* Backgrounds */
 $color_background-programs: $blue;
+
+/* Borders / Separators */
+$color_separator-partner-testimonial: $light-gray;

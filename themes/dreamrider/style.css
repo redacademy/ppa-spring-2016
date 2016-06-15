@@ -44,7 +44,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 --------------------------------------------------------------*/
 /* ==============================================
-     Dreamrider: Custom Styles 
+     Dreamrider: Custom Styles
  ============================================== */
 /* ----------- Variables: Descriptive  -----------*/
 /* Fonts */
@@ -53,6 +53,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Plain Text */
 /* Buttons */
 /* Backgrounds */
+/* Borders / Separators */
 /* ==============================================
  		Dreamrider: Custom Styles 
  ============================================== */
@@ -345,10 +346,11 @@ big {
   font-size: 125%; }
 
 /* ==============================================
- 		Dreamrider: Custom Styles 
+ 		Dreamrider: Custom Styles
 ============================================== */
 body {
   font-size: 18px;
+  color: #636363;
   font-family: "lato-light", sans-serif; }
 
 /*--------------------------------------------------------------
@@ -779,12 +781,11 @@ object {
 .hero-banner {
   width: auto;
   height: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   background: url("../../images/hero-image.png") no-repeat;
   background-size: 730px;
   background-position: 42%; }
 
-/* Programs */
 .main-title {
   text-align: center; }
   .main-title h1 {
@@ -797,23 +798,6 @@ object {
     width: 70%;
     margin: 30px auto;
     font-size: 1.2rem; }
-
-.programs {
-  margin-top: 50px;
-  padding: 45px;
-  color: #fff;
-  text-align: center;
-  background-color: #4ab4e9;
-  box-shadow: 1px 0px 1px #636363; }
-  .programs h2 {
-    margin-top: 0;
-    text-transform: uppercase; }
-  .programs h4 {
-    text-transform: uppercase; }
-  .programs p {
-    width: 240px;
-    margin: 0 auto;
-    font-size: 1.1rem; }
 
 .cta-button {
   margin: 50px auto;
@@ -835,6 +819,24 @@ object {
       background-color: #f29a1e; }
     .cta-button a:visited {
       color: #fff; }
+
+/* Programs */
+.programs {
+  margin-top: 50px;
+  padding: 45px;
+  color: #fff;
+  text-align: center;
+  background-color: #4ab4e9;
+  box-shadow: 1px 0px 1px #636363; }
+  .programs h2 {
+    margin-top: 0;
+    text-transform: uppercase; }
+  .programs h4 {
+    text-transform: uppercase; }
+  .programs p {
+    width: 240px;
+    margin: 0 auto;
+    font-size: 1.1rem; }
 
 /* Learning Benefits */
 .learning-benefits {
@@ -885,7 +887,7 @@ object {
       color: #fff;
       background-color: #f3a536; }
 
-/* Community Partners */
+/* Community Partners: Logos */
 .community-partners-container {
   width: 100%;
   margin-top: 50px;
@@ -907,6 +909,50 @@ object {
   height: auto;
   margin: 10px;
   display: inline-block; }
+
+/* Community Partners: Testimonials */
+.partners-testimonials {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.3; }
+
+.quote-source {
+  font-size: 0.8rem;
+  color: #afafaf;
+  letter-spacing: 2px;
+  line-height: 2; }
+
+.quote-separator {
+  width: 15%;
+  height: 2px;
+  margin: 50px auto;
+  background-color: #afafaf; }
+
+.quotes:last-child .quote-separator {
+  display: none; }
+
+.request-demo-button {
+  margin: 50px auto;
+  font-size: 20px;
+  font-family: 'francois-one', sans-serif;
+  text-align: center;
+  letter-spacing: 2px; }
+  .request-demo-button a {
+    width: autopx;
+    height: auto;
+    padding: 13px 50px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f3a536;
+    border-radius: 2rem; }
+    .request-demo-button a:hover {
+      background-color: #f29a1e; }
+    .request-demo-button a:visited {
+      color: #fff; }
 
 .footer-container {
   width: 100%;
