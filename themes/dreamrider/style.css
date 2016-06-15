@@ -860,8 +860,9 @@ object {
     width: 20%;
     height: auto; }
   .learning-benefits h2 {
-    font-size: 1.9rem;
+    margin: 50px auto;
     color: #000;
+    font-size: 1.9rem;
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
@@ -884,8 +885,9 @@ object {
     width: 20%;
     height: auto; }
   .community-impact h2 {
-    font-size: 1.9rem;
+    margin: 50px auto;
     color: #000;
+    font-size: 1.9rem;
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
@@ -915,13 +917,16 @@ object {
 .community-partners-container {
   width: 100%;
   margin-top: 50px;
-  text-align: center; }
+  text-align: center;
+  border-top: 1px solid #afafaf; }
   .community-partners-container h2 {
-    font-size: 1.9rem;
+    margin: 50px auto;
     color: #000;
+    font-size: 1.9rem;
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    margin-bottom: 5px; }
 
 .partners-images {
   width: 100%;
