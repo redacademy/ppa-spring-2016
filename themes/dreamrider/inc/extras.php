@@ -21,7 +21,7 @@ function red_starter_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
 
-//Custom Function for setting Featured Image as Splash for About Page
+//Custom Function added to dreamrider
 function dreamrider_enqueued_scripts() {
        	
        	//adds custom javascript for search function
@@ -29,3 +29,5 @@ function dreamrider_enqueued_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'dreamrider_enqueued_scripts' );
+
+

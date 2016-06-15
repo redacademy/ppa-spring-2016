@@ -6,10 +6,16 @@
   width: auto;
   height: 250px;
   margin-bottom: 50px;
-  background: url('../../images/hero-image.png') no-repeat;
+  // background: url('../../images/hero-image.png') no-repeat;
   background-size: 730px;
   background-position: 42%;
+  text-align:center;
+  overflow:hidden;
 
+  img{
+    height:750px;
+    width:auto;
+  }
 }
 
 /* Programs */

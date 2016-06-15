@@ -780,9 +780,13 @@ object {
   width: auto;
   height: 250px;
   margin-bottom: 50px;
-  background: url("../../images/hero-image.png") no-repeat;
   background-size: 730px;
-  background-position: 42%; }
+  background-position: 42%;
+  text-align: center;
+  overflow: hidden; }
+  .hero-banner img {
+    height: 750px;
+    width: auto; }
 
 /* Programs */
 .main-title {
