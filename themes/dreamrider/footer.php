@@ -12,7 +12,16 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="footer-container">
 					<div class="footer-nav">
+						
+						<!-- Back to Top Button -->
 						<p class="back-to-top">Back to top</p>
+
+						<!-- Footer Menu -->
+						<?php echo wp_nav_menu( array(
+						    'menu' => 'Footer Menu',
+							'menu_class' => 'footer-menu'
+						)); ?>
+
 						<a href="/about"><p>About Us</p></a>
 						<a href="/programs"><p>Programs</p></a>
 						<a href="/blog"><p>Blog</p></a>
