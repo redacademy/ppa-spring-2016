@@ -60,6 +60,9 @@
 
 .learning-benefits {
   @include iconography;
+  h2 {
+    @include black-on-white-heading;
+  }
 }
 
 
@@ -67,6 +70,9 @@
 
 .community-impact {
   @include iconography;
+  h2 {
+    @include black-on-white-heading;
+  }
 }
 
 .btn-inverted {
@@ -81,11 +87,7 @@
   margin-top: 50px;
   text-align: center;
   h2 {
-    font-size: 1.9rem;
-    color: $color_text-heading;
-    font-family: $secondary-text;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    @include black-on-white-heading;
   }
 }
 
