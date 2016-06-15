@@ -21,11 +21,7 @@
 						    'menu' => 'Footer Menu',
 							'menu_class' => 'footer-menu'
 						)); ?>
-
-						<a href="/about"><p>About Us</p></a>
-						<a href="/programs"><p>Programs</p></a>
-						<a href="/blog"><p>Blog</p></a>
-						<a href="/contact"><p>Contact</p></a>
+						
 					</div><!-- footer-nav -->
 					<div class="site-info">
 						<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
