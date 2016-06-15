@@ -918,23 +918,51 @@ object {
 .site-info {
   display: none; }
 
+.error404 {
+  background: #00aeef; }
+
 .not-found-page-wrapper {
-  background: #00aeef;
   color: #fff;
   height: 100vh; }
+  .not-found-page-wrapper .site-main {
+    margin-top: 25px; }
   .not-found-page-wrapper .big-text {
     font-size: 7rem;
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    text-transform: uppercase; }
   .not-found-page-wrapper .page-title {
-    text-align: center; }
-  .not-found-page-wrapper .page-content p:first-child {
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
+  .not-found-page-wrapper .page-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    height: 35vh; }
+    .not-found-page-wrapper .page-content .not-found-picture {
+      background: blue;
+      width: 48%; }
+    .not-found-page-wrapper .page-content .text {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 48%; }
+      .not-found-page-wrapper .page-content .text h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin: 0 21%; }
+  .not-found-page-wrapper .looking-for {
+    text-align: center;
+    margin: 20px 10%; }
   .not-found-page-wrapper .btn-container {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 4%; }
     .not-found-page-wrapper .btn-container .btn {
       display: -ms-flexbox;
       display: flex;
@@ -942,14 +970,17 @@ object {
           align-items: center;
       -ms-flex-pack: center;
           justify-content: center;
-      font-size: 1rem;
-      margin: 0 5px;
-      padding: 6px 40px;
+      padding: 15px 30px;
       border-radius: 20px; }
       .not-found-page-wrapper .btn-container .btn p {
         margin: 0;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600; }
     .not-found-page-wrapper .btn-container .return {
       background: #892b88; }
     .not-found-page-wrapper .btn-container .contact {
       background: #f5a623; }
+
+.contact-main {
+  text-align: center; }
