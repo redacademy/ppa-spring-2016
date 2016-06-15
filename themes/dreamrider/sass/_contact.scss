@@ -1,3 +1,33 @@
- .contact-main {
- 	text-align: center;
+ .contact-page-wrapper {
+
+ 	.contact-header-section {
+		color: #44b3eb;
+		text-align: center;
+		h3 {
+			margin: 0;
+		}
+		.middle {
+			margin: 4px 0 0 0;
+		}
+		p {
+			margin: 0;
+		}
+ 	}
+
+	.entry-title {
+		display: none;
+	}
+
+
  }
+
+
+ .contact-main {
+ 	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wpcf7-form {
+
+ 	}

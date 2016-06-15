@@ -11,7 +11,7 @@ get_header(); ?>
 			<main id="main" class="site-main contact-main" role="main">
 				<section class="contact-header-section">
 					<h3>interested in knowing more?</h3>
-					<p>Get in touch with us at <span class="tel">604-939-0364</span></p>
+					<p class="middle">Get in touch with us at <span class="tel">604-939-0364</span></p>
 					<p>or send us a message below.</p>
 				</section>
 				<?php while ( have_posts() ) : the_post(); ?>
