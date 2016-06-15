@@ -9,8 +9,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<section class="hero-banner">
 
+		<section class="hero-banner">
 		</section>
 
 		<section class="main-title">
@@ -129,7 +129,7 @@ get_header(); ?>
 		</section><!-- community-impact -->
 
 		<section class="community-partners">
-			<h1>Community Partners</h1>
+			<h2>Community Partners</h2>
 			<div class="partners-images">
 				<div class="partner-image">
 					<a href="http://www.brandon.ca"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/brandon.png" alt="City of Brandon Logo"></a>

@@ -43,9 +43,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles 
+ ============================================== */
 /* ----------- Variables: Descriptive  -----------*/
 /* Fonts */
 /* Colors */
@@ -53,9 +53,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Plain Text */
 /* Buttons */
 /* Backgrounds */
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles 
+ ============================================== */
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
@@ -238,9 +238,9 @@ td,
 th {
   padding: 0; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles
+ ============================================== */
 /* ----------- Francois One -----------*/
 @font-face {
   font-family: 'francois-one';
@@ -276,20 +276,6 @@ th {
   font-family: 'lato-bold';
   src: url("../../fonts/lato-bold-webfont.eot");
   src: url("../../fonts/fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/fonts/lato-bold-webfont.woff2") format("woff2"), url("../../fonts/fonts/lato-bold-webfont.woff") format("woff"), url("../../fonts/fonts/lato-bold-webfont.ttf") format("truetype"), url("../../fonts/fonts/lato-bold-webfont.svg#latobold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'lato-medium';
-  src: url("../../fonts/lato-medium-webfont.eot");
-  src: url("../../fonts/lato-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-medium-webfont.woff2") format("woff2"), url("../../fonts/lato-medium-webfont.woff") format("woff"), url("../../fonts/lato-medium-webfont.ttf") format("truetype"), url("../../fonts/lato-medium-webfont.svg#latomedium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'lato-bold';
-  src: url("../../fonts/../../fonts/lato-bold-webfont.eot");
-  src: url("../../fonts/../../fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/../../fonts/lato-bold-webfont.woff2") format("woff2"), url("../../fonts/../../fonts/lato-bold-webfont.woff") format("woff"), url("../../fonts/../../fonts/lato-bold-webfont.ttf") format("truetype"), url("../../fonts/../../fonts/lato-bold-webfont.svg#latobold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -358,11 +344,11 @@ mark, ins {
 big {
   font-size: 125%; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles 
+============================================== */
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "lato-light", sans-serif; }
 
 /*--------------------------------------------------------------
@@ -719,11 +705,11 @@ a {
 .bypostauthor {
   display: block; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+ 		Dreamrider: Custom Styles
+ ============================================== */
 .site-main {
-  margin-top: 100px; }
+  margin-top: 71px; }
 
 /*--------------------------------------------------------------
 # Media
@@ -785,10 +771,19 @@ object {
 .gallery-caption {
   display: block; }
 
-/* ============================================== */
-/* ========= Dreamrider: Custom Styles ========== */
-/* ============================================== */
+/* ==============================================
+     Dreamrider: Custom Styles
+============================================== */
 /* ----------- Front Page  -----------*/
+/* Hero */
+.hero-banner {
+  width: auto;
+  height: 250px;
+  margin-bottom: 50px;
+  background: url("../../images/hero-image.png") no-repeat;
+  background-size: 730px;
+  background-position: 42%; }
+
 /* Programs */
 .main-title {
   text-align: center; }
@@ -889,6 +884,17 @@ object {
     .btn-inverted a:hover, .btn-inverted a:visited:hover {
       color: #fff;
       background-color: #f3a536; }
+
+/* Community Partners */
+.community-partners {
+  width: 100%;
+  text-align: center; }
+  .community-partners h2 {
+    font-size: 1.9rem;
+    color: #000;
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 .footer-container {
   width: 100%;
