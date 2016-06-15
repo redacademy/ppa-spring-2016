@@ -56,11 +56,16 @@ $gray: #636363;
 $font_heading-section: $secondary-text;
 
 
+/* Color: Text Links */
+$color_text-link-footer: $white;
+
+
 /* Color: Plain Text */
 $color-text-default: $gray;
 $color_text-programs: $white;
 $color_text-heading: $black;
 $color_text-partner-testimonial: $light-gray;
+$color_text-footer: $white;
 
 /* Color: Buttons */
 $color_button-text-default: $white;
@@ -73,6 +78,7 @@ $color_button-border-inverted: $orange;
 
 /* Color: Backgrounds */
 $color_background-programs: $blue;
+$color_background-footer: $violet;
 
 /* Color: Borders / Separators */
 $color_separator-partner-testimonial: $light-gray;

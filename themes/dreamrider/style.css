@@ -51,6 +51,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Colors */
 /* ----------- Variables: Functional  -----------*/
 /* Fonts: Heading */
+/* Color: Text Links */
 /* Color: Plain Text */
 /* Color: Buttons */
 /* Color: Backgrounds */
@@ -998,9 +999,11 @@ object {
 
 .footer-container {
   width: 100%;
+  padding: 10px 0 20px;
+  color: #fff;
   background: #8c2c8b;
-  margin: 0;
-  padding: 0; }
+  letter-spacing: 1px;
+  text-transform: uppercase; }
 
 .footer-nav {
   display: -ms-flexbox;
@@ -1011,9 +1014,20 @@ object {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
-  .footer-nav p {
-    text-transform: uppercase;
-    color: #fff; }
+
+.footer-menu {
+  margin: 0 auto;
+  padding: 5px 0 20px; }
+
+.menu-item {
+  padding: 5px;
+  text-align: center;
+  list-style-type: none; }
+  .menu-item a, .menu-item a:visited {
+    color: #fff;
+    text-decoration: none; }
+  .menu-item:hover {
+    font-weight: bold; }
 
 .site-info {
   display: none; }
