@@ -84,46 +84,38 @@ get_header(); ?>
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
+<<<<<<< HEAD
 
 					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
 					<p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p>
 
 					<?php endforeach; wp_reset_postdata(); ?>
+=======
+					
+					<?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?>
+>>>>>>> 1278bf6dd84337dc3865d23be5e7fefc8fad91a2
 
 					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="checkmark icon" alt="Checkmark Icon">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
+					
+						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+
 						<div class="individual-testimonial">
 							<div class="testimonial-bubble">
-								<p>"I have never heard of behaviour change results anywhere near this good."</p>
+								<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>
 							</div>
 							<div class="testimonial-source">
 								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
-								<div><p>Scott Sinclair, Founder of <br>Climate Change Showdown</p></div>
+								<!-- Pulls the testimonial's name and title -->
+								<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
 							</div>
 						</div>
 						<!-- end testimonial one-->
-						<div class="individual-testimonial">
-							<div class="testimonial-bubble">
-								<p>"It's brilliant! Incorporates a lot of the curriculum that I have trouble sneaking into my day."</p>
-							</div>
-							<div class="testimonial-source opposite">
-								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_2.png" alt="testimonial-icon"></div>
-								<div><p>Shannon Shinoda, <br>Grade 2-3 Teacher</p></div>
-							</div>
-						</div>
-						<!-- end testimonial two-->
-						<div class="individual-testimonial">
-							<div class="testimonial-bubble">
-								<p>"Students had so much fun. The site is great! We love it and so tangible to our curriculum.""</p>
-							</div>
-							<div class="testimonial-source ">
-								<div><img class="third-icon" src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_3.png" alt="testimonial-icon"></div>
-								<div><p>Shane Hipwell, <br>Grade 4-5 Teacher</p></div>
-							</div>
-						</div>
-						<!-- end testimonial three-->
+					
+					<?php endforeach; wp_reset_postdata(); ?>
+
 					</div>
 					<!-- end testimonial-container -->
 					<div class="free-trial-button">
