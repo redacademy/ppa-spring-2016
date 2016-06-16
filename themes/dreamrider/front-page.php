@@ -37,16 +37,25 @@ get_header(); ?>
 
 				<section class="programs">
 					<h2>Programs</h2>
-					<div class="program-one">
-						<a href="#"><img src="<?php echo get_template_directory_uri()?>/images/garbage-bag.png" alt="Garbage Bag Icon"></a>
-						<h4>Zero Hero</h4>
-						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
-					</div><!-- program-one -->
-					<div class="program-two">
-						<a href="#"><img class="program-icon" src="<?php echo get_template_directory_uri()?>/images/ice-cube.png" alt="Ice Cube Icon"></a>
-						<h4>Keep Cool</h4>
-						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
-					</div><!-- program-two -->
+
+					<?php
+					   $args = array( 'post_type' => 'program', 
+					   				  'order' => 'ASC',
+					   				  'posts_per_page' => 3	 );
+					   $programs_posts = get_posts( $args ); // returns an array of posts
+					?>
+					
+					<?php foreach ( $programs_posts as $post ) : setup_postdata( $post ); ?>
+
+						<div class="individual-program">
+							<a href="#"><img src="<?php echo CFS()->get('program_image')?>" alt="Garbage Bag Icon"></a>
+							<h4><?php echo get_the_title() ?></h4>
+							<p><?php echo wp_trim_words(get_the_content(), 10, '...'); ?></p>
+						</div>
+
+					<?php endforeach; wp_reset_postdata(); ?>
+
+
 				</section><!-- programs -->
 
 				<section class="learning-benefits">
@@ -78,31 +87,28 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
+					
+					<!-- Custom Loop Defined for Testimonial -->
 					<?php
-					   $args = array( 'post_type' => 'testimonial',
+					   $args = array( 'post_type' => 'testimonial', 
 					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
 
-					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="Checkmark Icon">
-					<h2>Testimonials</h2>
-					<div class="testimonial-container">
+					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
-						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
-
-						<div class="individual-testimonial">
-							<div class="testimonial-bubble">
-								<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>
-							</div>
-							<div class="testimonial-source">
-								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
-								<!-- Pulls the testimonial's name and title -->
-								<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
-							</div>
+					<div class="individual-testimonial">
+						<div class="testimonial-bubble">
+							<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>
 						</div>
-						<!-- end testimonial one-->
-
+						<div class="testimonial-source">
+							<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
+							<!-- Pulls the testimonial's name and title -->
+							<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
+						</div>
+					</div>
+					
 					<?php endforeach; wp_reset_postdata(); ?>
 
 					</div>
