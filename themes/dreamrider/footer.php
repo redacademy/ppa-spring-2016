@@ -14,8 +14,10 @@
 					<div class="footer-nav">
 
 						<!-- Back to Top Button -->
-						<img src="<?php echo get_template_directory_uri()?>/images/top-arrow.png" alt="Back to Top Icon">
-						<p class="back-to-top">Back To Top</p>
+						<div class="back-to-top">
+							<img src="<?php echo get_template_directory_uri()?>/images/top-arrow.png" alt="Back to Top Icon">
+							<p>Back To Top</p>
+						</div>
 
 						<!-- Footer Menu -->
 						<?php echo wp_nav_menu( array(

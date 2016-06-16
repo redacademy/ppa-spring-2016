@@ -604,9 +604,6 @@ a {
 .entry-header {
   margin-top: 100px; }
 
-.back-to-top {
-  cursor: pointer; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -1120,6 +1117,10 @@ object {
   background: #8c2c8b;
   letter-spacing: 1px;
   text-transform: uppercase; }
+
+.back-to-top {
+  cursor: pointer;
+  text-align: center; }
 
 .footer-nav {
   padding-bottom: 30px;
