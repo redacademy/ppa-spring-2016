@@ -64,6 +64,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Sections with Icons */
 /* ----------- Texts  -----------*/
 /* Headings */
+/* Sources of Quotations / Testimonials */
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
@@ -354,7 +355,7 @@ big {
 ============================================== */
 body {
   font-size: 18px;
-  color: #636363;
+  color: #4a4a4a;
   font-family: "lato-light", sans-serif; }
 
 /*--------------------------------------------------------------
@@ -831,11 +832,20 @@ object {
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
-  box-shadow: 1px 0px 1px #636363; }
+  box-shadow: 1px 0px 1px #4a4a4a; }
   .programs h2 {
-    margin-top: 0;
-    text-transform: uppercase; }
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0; }
+  .programs img {
+    margin-bottom: 0; }
+  .programs .program-icon {
+    width: 125px;
+    height: auto;
+    margin-top: 20px; }
   .programs h4 {
+    margin-top: 0px;
     text-transform: uppercase; }
   .programs p {
     width: 240px;
@@ -876,11 +886,61 @@ object {
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
-  box-shadow: 1px 0px 1px #636363; }
+  box-shadow: 1px 0px 1px #4a4a4a; }
   .testimonials h2 {
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
+
+.individual-testimonial {
+  margin-bottom: 20px; }
+
+.testimonial-bubble {
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 20px;
+  color: #4a4a4a;
+  background-color: #fff;
+  border-radius: 1rem;
+  line-height: 1.2;
+  text-align: left; }
+  .testimonial-bubble p {
+    margin: 0; }
+
+.testimonial-source {
+  width: 75%;
+  margin: 15px auto 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center; }
+  .testimonial-source div:first-child {
+    padding-right: 10px; }
+  .testimonial-source img {
+    width: 50px;
+    height: auto; }
+  .testimonial-source .third-icon {
+    width: 45px;
+    height: auto; }
+  .testimonial-source p {
+    font-size: 0.8rem;
+    color: #afafaf;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 0.7rem;
+    color: #fff; }
+
+.opposite {
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+  .opposite div:first-child {
+    -ms-flex-order: 2;
+        order: 2; }
+  .opposite p {
+    text-align: right;
+    margin-right: 10px; }
 
 .free-trial-button {
   margin: 50px auto;
@@ -985,6 +1045,11 @@ object {
   letter-spacing: 1px;
   line-height: 1.3; }
 
+.quotation-mark {
+  width: 70px;
+  height: auto;
+  margin-bottom: 20px; }
+
 .quote-source {
   font-size: 0.8rem;
   color: #afafaf;
@@ -1032,7 +1097,7 @@ object {
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
-  box-shadow: 1px 0px 1px #636363;
+  box-shadow: 1px 0px 1px #4a4a4a;
   padding: 25px; }
   .awards h2 {
     font-family: "francois-one", sans-serif;
