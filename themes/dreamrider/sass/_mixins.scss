@@ -78,6 +78,22 @@
 	letter-spacing:  2px;
 }
 
+@mixin page-heading {
+	width: 100%;
+  padding: 10px;
+  font-family: $font_page-title;
+  color: $color_text-page-titles;
+  background-color: $color_background-page-titles;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+}
+
 /* Sources of Quotations / Testimonials */
 
 @mixin quote-source {
