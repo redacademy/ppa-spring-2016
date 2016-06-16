@@ -84,22 +84,11 @@ get_header(); ?>
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
-<<<<<<< HEAD
-
-					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
-
-					<p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p>
-
-					<?php endforeach; wp_reset_postdata(); ?>
-=======
 					
-					<?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?>
->>>>>>> 1278bf6dd84337dc3865d23be5e7fefc8fad91a2
-
 					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="checkmark icon" alt="Checkmark Icon">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
-					
+
 						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
 						<div class="individual-testimonial">
@@ -113,7 +102,7 @@ get_header(); ?>
 							</div>
 						</div>
 						<!-- end testimonial one-->
-					
+
 					<?php endforeach; wp_reset_postdata(); ?>
 
 					</div>
