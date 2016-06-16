@@ -39,29 +39,23 @@ get_header(); ?>
 					<h2>Programs</h2>
 
 					<?php
-					   $args = array( 'post_type' => 'programs', 
+					   $args = array( 'post_type' => 'program', 
 					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
-					   $testimonial_posts = get_posts( $args ); // returns an array of posts
+					   $programs_posts = get_posts( $args ); // returns an array of posts
 					?>
 					
-					<?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?>
+					<?php foreach ( $programs_posts as $post ) : setup_postdata( $post ); ?>
 
-						<p><?php echo wp_trim_words(get_the_content(), 36, '...'); ?></p>
+						<div class="individual-program">
+							<a href="#"><img src="<?php echo CFS()->get('program_image')?>" alt="Garbage Bag Icon"></a>
+							<h4><?php echo get_the_title() ?></h4>
+							<p><?php echo wp_trim_words(get_the_content(), 10, '...'); ?></p>
+						</div>
 
 					<?php endforeach; wp_reset_postdata(); ?>
 
 
-					<div class="program-one">
-						<a href="#"><img src="<?php echo get_template_directory_uri()?>/images/garbage-bag.png" alt="Garbage Bag Icon"></a>
-						<h4>Zero Hero</h4>
-						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
-					</div><!-- program-one -->
-					<div class="program-two">
-						<a href="#"><img class="program-icon" src="<?php echo get_template_directory_uri()?>/images/ice-cube.png" alt="Ice Cube Icon"></a>
-						<h4>Keep Cool</h4>
-						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
-					</div><!-- program-two -->
 				</section><!-- programs -->
 
 				<section class="learning-benefits">
@@ -101,8 +95,6 @@ get_header(); ?>
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
-					
-					<?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?>
 
 					<img src="" alt="">
 					<h2>Testimonials</h2>
