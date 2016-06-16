@@ -35,7 +35,7 @@ add_action('login_head', 'dreamrider_custom_login');
 
 //Links the logo to the homepage
 function dreamrider_login_logo( $url ) {
-    return get_bloginfo( 'url' );
+    return get_template_directory_uri();
 }
 add_filter( 'login_headerurl', 'dreamrider_login_logo' );
 

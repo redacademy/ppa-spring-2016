@@ -82,6 +82,7 @@
 
 .testimonials {
   @include blue-section;
+  padding: 40px 20px 20px;
   h2 {
     @include white-on-blue-heading;
   }
@@ -234,7 +235,7 @@
 
 .request-demo-button {
   @include cta-button;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   h2 {
     font-family: $font_heading-section;
   }

@@ -78,6 +78,19 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
+					<?php
+					   $args = array( 'post_type' => 'testimonial',
+					   				  'order' => 'DSC',
+					   				  'posts_per_page' => 3	 );
+					   $testimonial_posts = get_posts( $args ); // returns an array of posts
+					?>
+
+					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+
+					<p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p>
+
+					<?php endforeach; wp_reset_postdata(); ?>
+
 					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="checkmark icon" alt="Checkmark Icon">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
