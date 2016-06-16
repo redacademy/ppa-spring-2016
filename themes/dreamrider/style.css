@@ -56,9 +56,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Color: Buttons */
 /* Color: Backgrounds */
 /* Color: Borders / Separators */
-/* ==============================================
+/* --------------------------------------------
  		Dreamrider: Custom Styles
- ============================================== */
+ -------------------------------------------- */
 /* ----------- Section Styles  -----------*/
 /* Sections with Blue Background */
 /* Sections with Icons */
@@ -1111,15 +1111,18 @@ object {
     text-transform: uppercase;
     letter-spacing: 2px; }
 
+/* --------------------------------------------
+ 		Dreamrider: Custom Styles
+ -------------------------------------------- */
 .footer-container {
   width: 100%;
-  padding: 10px 0 20px;
   color: #fff;
   background: #8c2c8b;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
 .footer-nav {
+  padding-bottom: 30px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1128,6 +1131,10 @@ object {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
+  .footer-nav img {
+    width: 40px;
+    height: auto;
+    margin-top: 40px; }
 
 .footer-menu {
   margin: 0 auto;
