@@ -7,25 +7,27 @@
 
 // Add your custom post types here...
 
+		
 
-// Register Custom Post Type - program
+
+// Register Custom Post Type
 function dreamrider_program_type() {
 
 	$labels = array(
-		'name'                  => 'programs',
-		'singular_name'         => 'program',
-		'menu_name'             => 'programs',
-		'name_admin_bar'        => 'program',
-		'archives'              => 'program Archives',
-		'parent_item_colon'     => 'Parent program:',
-		'all_items'             => 'All programs',
-		'add_new_item'          => 'Add New program',
-		'add_new'               => 'Add New program',
-		'new_item'              => 'New program',
-		'edit_item'             => 'Edit program',
-		'update_item'           => 'Update program',
-		'view_item'             => 'View program',
-		'search_items'          => 'Search program',
+		'name'                  => 'Programs',
+		'singular_name'         => 'Program',
+		'menu_name'             => 'Program Types',
+		'name_admin_bar'        => 'Program Type',
+		'archives'              => 'Program Archives',
+		'parent_item_colon'     => 'Parent Program:',
+		'all_items'             => 'All Programs',
+		'add_new_item'          => 'Add New Program',
+		'add_new'               => 'Add New',
+		'new_item'              => 'New Program',
+		'edit_item'             => 'Edit Program',
+		'update_item'           => 'Update Program',
+		'view_item'             => 'View Program',
+		'search_items'          => 'Search Program',
 		'not_found'             => 'Not found',
 		'not_found_in_trash'    => 'Not found in Trash',
 		'featured_image'        => 'Featured Image',
@@ -34,22 +36,22 @@ function dreamrider_program_type() {
 		'use_featured_image'    => 'Use as featured image',
 		'insert_into_item'      => 'Insert into program',
 		'uploaded_to_this_item' => 'Uploaded to this program',
-		'items_list'            => 'programs list',
-		'items_list_navigation' => 'programs list navigation',
+		'items_list'            => 'Programs list',
+		'items_list_navigation' => 'Programs list navigation',
 		'filter_items_list'     => 'Filter programs list',
 	);
 	$args = array(
-		'label'                 => 'program',
-		'description'           => 'program Post Type',
+		'label'                 => 'Program',
+		'description'           => 'Program Description',
 		'labels'                => $labels,
-		'supports'              => array( 'thumbnail', ),
+		'supports'              => array( ),
 		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
 		'menu_position'         => 5,
-		'menu_icon'             => 'dashicons-cart',
+		'menu_icon'             => 'dashicons-admin-page',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
@@ -58,7 +60,11 @@ function dreamrider_program_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'program', $args );
+	register_post_type( 'Program', $args );
 
 }
 add_action( 'init', 'dreamrider_program_type', 0 );
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9d3cbc52701baa14816cf9bd2f80eae76a2bf90

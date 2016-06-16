@@ -1,5 +1,5 @@
  .contact-page-wrapper {
-
+		
  	.contact-header-section {
 		color: #44b3eb;
 		text-align: center;
@@ -13,12 +13,77 @@
 			margin: 0;
 		}
  	}
+ 	.wpcf7 input.wpcf7-text {
+ 		width: 275px; 
+ 	}
+
+	.wpcf7 textarea.wpcf7-textarea { 
+		width: 275px; 
+	} 
 
 	.entry-title {
 		display: none;
 	}
+	.entry-header {
+		margin: 0;
+	}
+	form {
+		padding: 20px;
+	    border-left: 3px solid #44b3eb;
+	    border-right: 3px solid #44b3eb; 
+	    border-radius: 5%;
+	    margin: 10px;
+	    p:last-child {
+	    	text-align: center;
+	    }
+	}
 
+	input {
+		border: none;
+		border-bottom: 2px solid #ccc;
+	}
+	
+	textarea {
+		border: none;
+		border-bottom: 2px solid #ccc;
+		height: 2rem;
+	}
+	
+	::-webkit-input-placeholder {
+	   color:#44b3eb;
+	}
 
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #44b3eb;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #44b3eb;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #44b3eb;  
+	}
+
+	.wpcf7-submit {
+		background: #eba704;
+	    padding: 13px 50px;
+	    color: $color_button-text-default;
+	    font-size: 20px;
+		font-family: 'francois-one', sans-serif;
+		background-color: $color_button-background-default;
+		border-radius: 2rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		box-shadow: none;
+		text-shadow: none;
+		&:hover {
+			background-color: darken($color_button-background-default, 5%);
+		}
+		&:visited {
+		color: $color_button-text-default;
+		}
+	}
  }
 
 
