@@ -78,7 +78,7 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
-					<img src="" alt="">
+					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="checkmark icon" alt="Checkmark Icon">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
 						<div class="individual-testimonial">

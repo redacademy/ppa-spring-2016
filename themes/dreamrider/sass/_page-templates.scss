@@ -6,7 +6,7 @@
 
 .hero-banner {
   width: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align:center;
   overflow: hidden;
   img {
@@ -87,6 +87,11 @@
   }
 }
 
+.checkmark-icon {
+  width: 50px;
+  height: auto;
+}
+
 .individual-testimonial {
   margin-bottom: 20px;
 }
@@ -102,6 +107,7 @@
   text-align: left;
   p {
     margin: 0;
+    text-overflow: ellipsis;
   }
 }
 
@@ -228,6 +234,7 @@
 
 .request-demo-button {
   @include cta-button;
+  margin-bottom: 80px;
   h2 {
     font-family: $font_heading-section;
   }
