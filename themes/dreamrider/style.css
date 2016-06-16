@@ -808,7 +808,7 @@ object {
   text-align: center;
   letter-spacing: 2px; }
   .cta-button a {
-    width: autopx;
+    width: auto;
     height: auto;
     padding: 13px 50px;
     margin: 0 auto;
@@ -824,8 +824,10 @@ object {
 
 /* Programs */
 .programs {
+  width: 100%;
+  height: auto;
   margin-top: 50px;
-  padding: 45px;
+  padding: 20px;
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
@@ -864,6 +866,44 @@ object {
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
+
+/* Testimonials */
+.testimonials {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #4ab4e9;
+  box-shadow: 1px 0px 1px #636363; }
+  .testimonials h2 {
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.free-trial-button {
+  margin: 50px auto;
+  font-size: 20px;
+  font-family: 'francois-one', sans-serif;
+  text-align: center;
+  letter-spacing: 2px; }
+  .free-trial-button a {
+    width: auto;
+    height: auto;
+    padding: 13px 50px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f3a536;
+    border-radius: 2rem; }
+    .free-trial-button a:hover {
+      background-color: #f29a1e; }
+    .free-trial-button a:visited {
+      color: #fff; }
+  .free-trial-button a {
+    padding: 13px 30px; }
 
 /* Community Impact */
 .community-impact {
@@ -967,7 +1007,7 @@ object {
   text-align: center;
   letter-spacing: 2px; }
   .request-demo-button a {
-    width: autopx;
+    width: auto;
     height: auto;
     padding: 13px 50px;
     margin: 0 auto;
@@ -985,8 +1025,10 @@ object {
 
 /* Awards */
 .awards {
+  width: 100%;
+  height: auto;
   margin-top: 50px;
-  padding: 45px;
+  padding: 20px;
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;

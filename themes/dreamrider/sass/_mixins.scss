@@ -24,8 +24,10 @@
  /* Sections with Blue Background */
 
 @mixin blue-section {
+	width: 100%;
+	height: auto;
 	margin-top: 50px;
-  padding: 45px;
+	padding: 20px;
   color: $color_text-programs;
   text-align: center;
   background-color: $color_background-programs;
@@ -70,6 +72,11 @@
 	letter-spacing: 2px;
  }
 
+@mixin white-on-blue-heading {
+	font-family: $font_heading-section;
+	text-transform: uppercase;
+	letter-spacing:  2px;
+}
 
 /* ----------- Buttons  -----------*/
 
@@ -83,7 +90,7 @@
   text-align: center;
 	letter-spacing: 2px;
 	a {
-		width: autopx;
+		width: auto;
 		height: auto;
 		padding: 13px 50px;
 		margin: 0 auto;

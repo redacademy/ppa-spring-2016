@@ -79,37 +79,39 @@ get_header(); ?>
 
 				<section class="testimonials">
 					<img src="" alt="">
-					<h1>testimonials</h1>
+					<h2>Testimonials</h2>
 					<div class="testimonial-container">
-						<div class="testimonial">
-							<div class="testimonial-bubble">
+						<div class="testimonial-one">
+							<div class="testimonial-bubble"></div>
+							<div class="testimonial-source">
+								<img src="" alt="">
+								<p>I have never heard of behaviour change results anywhere near this good.</p>
 							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
+						</div>
+						<!-- end testimonial one-->
+						<div class="testimonial-two">
+							<div class="testimonial-bubble"></div>
+							<div class="testimonial-source">
+								<img src="" alt="">
+								<p>"It's brilliant! Incorporates a lot of the curriculum that I have trouble sneaking into my day."</p>
 							</div>
-						</div><!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-bubble">
+						</div>
+						<!-- end testimonial two-->
+						<div class="testimonial-three">
+							<div class="testimonial-bubble"></div>
+							<div class="testimonial-source">
+								<img src="" alt="">
+								<p>Students had so much fun. The site is great! We love it and so tangible to our curriculum.</p>
 							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
-							</div>
-						</div><!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-bubble">
-							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
-							</div>
-						</div><!-- testimonial -->
-					</div><!-- testimonial-container -->
-					<div class="btn">
-						<p>start my free trail</p>
+						</div>
+						<!-- end testimonial three-->
 					</div>
-				</section><!-- testimonials -->
+					<!-- end testimonial-container -->
+					<div class="free-trial-button">
+						<a href="#">Start My Free Trial</a>
+					</div>
+				</section>
+				<!-- end testimonials section-->
 
 				<section class="community-impact">
 					<h2>Community Impact</h2>
