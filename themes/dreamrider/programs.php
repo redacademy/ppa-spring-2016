@@ -11,7 +11,7 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 				
 				<header class="entry-header">
-					<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 				</header><!-- .entry-header -->
 		 
 				<div class="writeup">
@@ -32,7 +32,6 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri()?>/images/ice-cube.png" alt="Ice Cube Icon">
 					</div>
 					<p>This is a description of the program. uo in maiorum facilisi definitionem. Mel tollit vivendo ex. Ne qui exerci doming. Per eu utroque apeirian  Impetus  </p>
-					<h2>keep it cool</p>
 				</section><!-- heroes -->
 					<div class="cta-button">
 						<a href="#">Get started now</a>
