@@ -16,7 +16,7 @@
  	.wpcf7 input.wpcf7-text {
  		width: 275px; 
  	}
-
+ 
 	.wpcf7 textarea.wpcf7-textarea { 
 		width: 275px; 
 	} 
@@ -84,6 +84,10 @@
 		color: $color_button-text-default;
 		}
 	}
+	.ajax-loader {
+		display: none;
+	}
+
  }
 
 

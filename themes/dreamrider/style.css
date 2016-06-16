@@ -1250,6 +1250,9 @@ object {
   .contact-page-wrapper .wpcf7-submit:visited {
     color: #fff; }
 
+.contact-page-wrapper .ajax-loader {
+  display: none; }
+
 .contact-main {
   display: -ms-flexbox;
   display: flex;
