@@ -45,7 +45,7 @@ function dreamrider_login_title(){
     return 'Return to home page';
 }
 
-add_filter( 'login_headertitle', 'inhabitent_login_title');
+add_filter( 'login_headertitle', 'dreamrider_login_title');
 
 //////////////////////////
 /* WP Page Functions    */
