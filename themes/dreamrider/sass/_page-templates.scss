@@ -66,6 +66,22 @@
 }
 
 
+/* Testimonials */
+.testimonials {
+  @include blue-section;
+  h2 {
+    @include white-on-blue-heading;
+  }
+}
+
+.free-trial-button {
+  @include cta-button;
+  a {
+    padding: 13px 30px;
+  }
+}
+
+
 /* Community Impact */
 
 .community-impact {
@@ -151,8 +167,6 @@
   @include blue-section;
   padding: 25px;
   h2 {
-    font-family: $font_heading-section;
-    text-transform: uppercase;
-    letter-spacing:  2px;
+    @include white-on-blue-heading;
   }
 }
