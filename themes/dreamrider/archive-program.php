@@ -10,9 +10,10 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 				
+				<!--
 				<header class="entry-header">
 					<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
-				</header><!-- .entry-header -->
+				</header>
 		 
 				<div class="writeup">
 					<p>The Planet Protector Academy is an innovative digital-led classroom experience that teaches kids about important environmental issues and empowers them to lead change in their families. </p>
@@ -20,7 +21,7 @@ get_header(); ?>
 				<section class="image-slider">
 					
 					
-				</section><!-- image-slider -->
+				</section>
 				<section class="programs-container">
 					<h2>zero heroes</h2>
 					<div class="image-container image-one">
@@ -33,10 +34,17 @@ get_header(); ?>
 					</div>
 					<p>This is a description of the program. uo in maiorum facilisi definitionem. Mel tollit vivendo ex. Ne qui exerci doming. Per eu utroque apeirian  Impetus  </p>
 					<h2>keep it cool</p>
-				</section><!-- heroes -->
+				</section>
 					<div class="cta-button">
 						<a href="#">Get started now</a>
 					</div>
+				-->
+				
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part( 'template-parts/content', 'program' ); ?>
+
+				<?php endwhile; // End of the loop. ?>
 
 			</main><!-- #main -->
 		</div><!-- #primary -->
