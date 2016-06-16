@@ -24,7 +24,7 @@ get_header(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 				<section class="hero-banner" >
-					<img src ="<?php echo CFS()->get('hero_image') ?>">
+					<img src ="<?php echo CFS()->get('hero_image') ?>" alt="Hero Image">
 				</section>
 
 				<section class="main-title">
@@ -96,23 +96,18 @@ get_header(); ?>
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
 
-					<img src="" alt="">
-					<h2>Testimonials</h2>
-					<div class="testimonial-container">
-						
-						<!-- Loop Starts -->
-						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
-						<div class="individual-testimonial">
-							<div class="testimonial-bubble">
-								<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>
-							</div>
-							<div class="testimonial-source">
-								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
-								<!-- Pulls the testimonial's name and title -->
-								<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
-							</div>
+					<div class="individual-testimonial">
+						<div class="testimonial-bubble">
+							<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>
 						</div>
+						<div class="testimonial-source">
+							<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
+							<!-- Pulls the testimonial's name and title -->
+							<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
+						</div>
+					</div>
 					
 					<?php endforeach; wp_reset_postdata(); ?>
 

@@ -1,0 +1,47 @@
+ .programs-page-wrapper {
+ 	.site-main {
+ 		text-align: center;
+	}
+	h2 {
+		font-family: 'francois-one';
+		font-size: 20px;
+		text-transform: uppercase;
+		letter-spacing: 2px;	
+	}
+
+	
+	
+	.entry-header {
+		margin-top: -3%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #44b3eb;
+		h2 {
+			color: #fff;
+		}
+	}
+	.writeup {
+		margin: 10% 10% 0 10%;
+	}
+	.programs-container {
+		h2 {
+			margin: 40px 0;
+		}
+		img {
+			width: 250px;
+			height: 250px;
+		}
+		p {
+			margin: 5% 15% 0 15%;
+		}
+	}
+
+	.image-one {
+		background: #eba704;
+		width: 270px;
+		height: 270px;
+		margin: 0 auto;
+		position: relative;
+	}
+ } 

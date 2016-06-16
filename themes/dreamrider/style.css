@@ -56,9 +56,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Color: Buttons */
 /* Color: Backgrounds */
 /* Color: Borders / Separators */
-/* ==============================================
+/* --------------------------------------------
  		Dreamrider: Custom Styles
- ============================================== */
+ -------------------------------------------- */
 /* ----------- Section Styles  -----------*/
 /* Sections with Blue Background */
 /* Sections with Icons */
@@ -604,9 +604,6 @@ a {
 .entry-header {
   margin-top: 100px; }
 
-.back-to-top {
-  cursor: pointer; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -782,7 +779,7 @@ object {
 /* Hero */
 .hero-banner {
   width: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   overflow: hidden; }
   .hero-banner img {
@@ -828,7 +825,7 @@ object {
   width: 100%;
   height: auto;
   margin-top: 50px;
-  padding: 20px;
+  padding: 40px 20px;
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
@@ -882,15 +879,20 @@ object {
   width: 100%;
   height: auto;
   margin-top: 50px;
-  padding: 20px;
+  padding: 40px 20px;
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
-  box-shadow: 1px 0px 1px #4a4a4a; }
+  box-shadow: 1px 0px 1px #4a4a4a;
+  padding: 40px 20px 20px; }
   .testimonials h2 {
     font-family: "francois-one", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
+
+.checkmark-icon {
+  width: 50px;
+  height: auto; }
 
 .individual-testimonial {
   margin-bottom: 20px; }
@@ -905,7 +907,8 @@ object {
   line-height: 1.2;
   text-align: left; }
   .testimonial-bubble p {
-    margin: 0; }
+    margin: 0;
+    text-overflow: ellipsis; }
 
 .testimonial-source {
   width: 75%;
@@ -932,15 +935,13 @@ object {
     font-size: 0.7rem;
     color: #fff; }
 
-.opposite {
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
-  .opposite div:first-child {
-    -ms-flex-order: 2;
-        order: 2; }
-  .opposite p {
-    text-align: right;
-    margin-right: 10px; }
+.individual-testimonial:nth-child(even) .testimonial-source div:first-child {
+  -ms-flex-order: 2;
+      order: 2; }
+
+.individual-testimonial:nth-child(even) .testimonial-source p {
+  text-align: right;
+  margin-right: 10px; }
 
 .free-trial-button {
   margin: 50px auto;
@@ -991,7 +992,7 @@ object {
     letter-spacing: 2px; }
 
 .btn-inverted {
-  margin: 50px auto;
+  margin: 50px auto 80px;
   font-size: 1.2rem;
   font-family: 'francois-one', sans-serif;
   text-align: center;
@@ -1070,7 +1071,8 @@ object {
   font-size: 20px;
   font-family: 'francois-one', sans-serif;
   text-align: center;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin-bottom: 70px; }
   .request-demo-button a {
     width: auto;
     height: auto;
@@ -1093,7 +1095,7 @@ object {
   width: 100%;
   height: auto;
   margin-top: 50px;
-  padding: 20px;
+  padding: 40px 20px;
   color: #fff;
   text-align: center;
   background-color: #4ab4e9;
@@ -1104,15 +1106,37 @@ object {
     text-transform: uppercase;
     letter-spacing: 2px; }
 
+/* ----------- About Page  -----------*/
+.about-title {
+  width: 100%;
+  padding: 10px;
+  font-family: "francois-one", sans-serif;
+  color: #fff;
+  background-color: #4ab4e9;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px; }
+  .about-title h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal; }
+
+/* --------------------------------------------
+ 		Dreamrider: Custom Styles
+ -------------------------------------------- */
 .footer-container {
   width: 100%;
-  padding: 10px 0 20px;
   color: #fff;
   background: #8c2c8b;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
+.back-to-top {
+  cursor: pointer;
+  text-align: center; }
+
 .footer-nav {
+  padding-bottom: 30px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1121,6 +1145,10 @@ object {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
+  .footer-nav img {
+    width: 40px;
+    height: auto;
+    margin-top: 40px; }
 
 .footer-menu {
   margin: 0 auto;
@@ -1260,3 +1288,44 @@ object {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
+
+.programs-page-wrapper .site-main {
+  text-align: center; }
+
+.programs-page-wrapper h2 {
+  font-family: 'francois-one';
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.programs-page-wrapper .entry-header {
+  margin-top: -3%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: #44b3eb; }
+  .programs-page-wrapper .entry-header h2 {
+    color: #fff; }
+
+.programs-page-wrapper .writeup {
+  margin: 10% 10% 0 10%; }
+
+.programs-page-wrapper .programs-container h2 {
+  margin: 40px 0; }
+
+.programs-page-wrapper .programs-container img {
+  width: 250px;
+  height: 250px; }
+
+.programs-page-wrapper .programs-container p {
+  margin: 5% 15% 0 15%; }
+
+.programs-page-wrapper .image-one {
+  background: #eba704;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+  position: relative; }

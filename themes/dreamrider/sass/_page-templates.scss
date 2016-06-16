@@ -6,7 +6,7 @@
 
 .hero-banner {
   width: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align:center;
   overflow: hidden;
   img {
@@ -82,9 +82,15 @@
 
 .testimonials {
   @include blue-section;
+  padding: 40px 20px 20px;
   h2 {
     @include white-on-blue-heading;
   }
+}
+
+.checkmark-icon {
+  width: 50px;
+  height: auto;
 }
 
 .individual-testimonial {
@@ -102,6 +108,7 @@
   text-align: left;
   p {
     margin: 0;
+    text-overflow: ellipsis;
   }
 }
 
@@ -130,8 +137,8 @@
 }
 
 //Counter-positions the middle testimonial
-.opposite {
-  justify-content: flex-end;
+.individual-testimonial:nth-child(even) .testimonial-source {
+  // justify-content: flex-end;
   div:first-child {
     order: 2;
   }
@@ -228,6 +235,7 @@
 
 .request-demo-button {
   @include cta-button;
+  margin-bottom: 70px;
   h2 {
     font-family: $font_heading-section;
   }
@@ -242,4 +250,11 @@
   h2 {
     @include white-on-blue-heading;
   }
+}
+
+
+
+/* ----------- About Page  -----------*/
+.about-title {
+  @include page-heading;
 }

@@ -22,7 +22,7 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="dreamrider-header">
-					<img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
+					<img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Planet Protector Acadmey Logo">
 					<!-- <img src="<?php echo get_template_directory_uri() ?>/images/hamburger.png"> -->
 					<div class="hamburger-container">
 						<div class="hamburger-lines"></div>

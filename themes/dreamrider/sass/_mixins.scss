@@ -13,9 +13,9 @@
 
 
 
-/* ==============================================
+/* --------------------------------------------
  		Dreamrider: Custom Styles
- ============================================== */
+ -------------------------------------------- */
 
 
  /* ----------- Section Styles  -----------*/
@@ -27,7 +27,7 @@
 	width: 100%;
 	height: auto;
 	margin-top: 50px;
-	padding: 20px;
+	padding: 40px 20px;
   color: $color_text-programs;
   text-align: center;
   background-color: $color_background-programs;
@@ -78,6 +78,22 @@
 	letter-spacing:  2px;
 }
 
+@mixin page-heading {
+	width: 100%;
+  padding: 10px;
+  font-family: $font_page-title;
+  color: $color_text-page-titles;
+  background-color: $color_background-page-titles;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+}
+
 /* Sources of Quotations / Testimonials */
 
 @mixin quote-source {
@@ -122,7 +138,7 @@
 /* Inverted Button */
 
 @mixin inverted-cta-button {
-	margin: 50px auto;
+	margin: 50px auto 80px;
 	font-size: 1.2rem;
 	font-family: 'francois-one', sans-serif;
   text-align: center;

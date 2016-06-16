@@ -1,17 +1,34 @@
+
+/* --------------------------------------------
+ 		Dreamrider: Custom Styles
+ -------------------------------------------- */
+
+
 .footer-container {
 	width: 100%;
-	padding: 10px 0 20px;
 	color: $color_text-footer;
 	background: $color_background-footer;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
+//Style for back to top button in the footer
+.back-to-top {
+	cursor: pointer;
+	text-align: center;
+}
+
 .footer-nav {
+	padding-bottom: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	img {
+		width: 40px;
+		height: auto;
+		margin-top: 40px;
+	}
 }
 
 .footer-menu {
@@ -30,6 +47,8 @@
 		font-weight: bold;
 	}
 }
+
+
 
 //Hide "Powered by Wordpress"
 .site-info {
