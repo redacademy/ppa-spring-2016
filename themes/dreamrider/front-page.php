@@ -80,7 +80,7 @@ get_header(); ?>
 				<section class="testimonials">
 					<?php
 					   $args = array( 'post_type' => 'testimonial',
-					   				  'order' => 'DSC',
+					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>

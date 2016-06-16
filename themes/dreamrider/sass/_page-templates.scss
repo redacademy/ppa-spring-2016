@@ -137,8 +137,8 @@
 }
 
 //Counter-positions the middle testimonial
-.opposite {
-  justify-content: flex-end;
+.individual-testimonial:nth-child(even) .testimonial-source {
+  // justify-content: flex-end;
   div:first-child {
     order: 2;
   }

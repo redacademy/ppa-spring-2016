@@ -935,15 +935,13 @@ object {
     font-size: 0.7rem;
     color: #fff; }
 
-.opposite {
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
-  .opposite div:first-child {
-    -ms-flex-order: 2;
-        order: 2; }
-  .opposite p {
-    text-align: right;
-    margin-right: 10px; }
+.individual-testimonial:nth-child(even) .testimonial-source div:first-child {
+  -ms-flex-order: 2;
+      order: 2; }
+
+.individual-testimonial:nth-child(even) .testimonial-source p {
+  text-align: right;
+  margin-right: 10px; }
 
 .free-trial-button {
   margin: 50px auto;
