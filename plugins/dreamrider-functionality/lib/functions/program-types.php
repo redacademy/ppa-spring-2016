@@ -53,7 +53,7 @@ function dreamrider_program_type() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => true,
+		'has_archive'           => true,		
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
@@ -62,7 +62,4 @@ function dreamrider_program_type() {
 
 }
 add_action( 'init', 'dreamrider_program_type', 0 );
-<<<<<<< HEAD
-=======
 
->>>>>>> d9d3cbc52701baa14816cf9bd2f80eae76a2bf90
