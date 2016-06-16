@@ -1045,6 +1045,11 @@ object {
   letter-spacing: 1px;
   line-height: 1.3; }
 
+.quotation-mark {
+  width: 70px;
+  height: auto;
+  margin-bottom: 20px; }
+
 .quote-source {
   font-size: 0.8rem;
   color: #afafaf;

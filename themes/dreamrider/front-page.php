@@ -174,7 +174,7 @@ get_header(); ?>
 				  </div>
 				  <!--end partners-images-->
 				  <div class="partners-testimonials">
-				    <img src="" alt="">
+				    <img class="quotation-mark" src="<?php echo get_template_directory_uri() ?>/images/quotation-mark.png" alt="Testimonials from Community Partners Icon">
 				    <div class="quotes-container">
 				      <div class="quotes">
 				        <p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>
