@@ -258,3 +258,9 @@
 .about-title {
   @include page-heading;
 }
+
+.logo-container {
+  max-width: none;
+  width: 340px;
+  height: auto;
+}

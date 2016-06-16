@@ -1121,6 +1121,11 @@ object {
     font-size: 1.3rem;
     font-weight: normal; }
 
+.logo-container {
+  max-width: none;
+  width: 340px;
+  height: auto; }
+
 /* --------------------------------------------
  		Dreamrider: Custom Styles
  -------------------------------------------- */
