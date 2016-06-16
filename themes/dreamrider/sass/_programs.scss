@@ -1,4 +1,6 @@
  .programs-page-wrapper {
+
+ 	//Mobile 
  	.site-main {
  		text-align: center;
 	}
@@ -43,5 +45,11 @@
 		height: 270px;
 		margin: 0 auto;
 		position: relative;
+	}
+
+	@media (min-width: 340px) {
+		h2 {
+		font-family: 'montserrat-light';
+		font-size: 36px;
 	}
  } 
