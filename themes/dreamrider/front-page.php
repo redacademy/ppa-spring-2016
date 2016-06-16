@@ -81,27 +81,33 @@ get_header(); ?>
 					<img src="" alt="">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
-						<div class="testimonial-one">
-							<div class="testimonial-bubble"></div>
+						<div class="individual-testimonial">
+							<div class="testimonial-bubble">
+								<p>"I have never heard of behaviour change results anywhere near this good."</p>
+							</div>
 							<div class="testimonial-source">
-								<img src="" alt="">
-								<p>I have never heard of behaviour change results anywhere near this good.</p>
+								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
+								<div><p>Scott Sinclair, Founder of <br>Climate Change Showdown</p></div>
 							</div>
 						</div>
 						<!-- end testimonial one-->
-						<div class="testimonial-two">
-							<div class="testimonial-bubble"></div>
-							<div class="testimonial-source">
-								<img src="" alt="">
+						<div class="individual-testimonial">
+							<div class="testimonial-bubble">
 								<p>"It's brilliant! Incorporates a lot of the curriculum that I have trouble sneaking into my day."</p>
+							</div>
+							<div class="testimonial-source opposite">
+								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_2.png" alt="testimonial-icon"></div>
+								<div><p>Shannon Shinoda, <br>Grade 2-3 Teacher</p></div>
 							</div>
 						</div>
 						<!-- end testimonial two-->
-						<div class="testimonial-three">
-							<div class="testimonial-bubble"></div>
-							<div class="testimonial-source">
-								<img src="" alt="">
-								<p>Students had so much fun. The site is great! We love it and so tangible to our curriculum.</p>
+						<div class="individual-testimonial">
+							<div class="testimonial-bubble">
+								<p>"Students had so much fun. The site is great! We love it and so tangible to our curriculum.""</p>
+							</div>
+							<div class="testimonial-source ">
+								<div><img class="third-icon" src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_3.png" alt="testimonial-icon"></div>
+								<div><p>Shane Hipwell, <br>Grade 4-5 Teacher</p></div>
 							</div>
 						</div>
 						<!-- end testimonial three-->

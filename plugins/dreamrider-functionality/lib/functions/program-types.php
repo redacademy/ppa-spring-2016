@@ -7,7 +7,7 @@
 
 // Add your custom post types here...
 
-		
+
 
 
 // Register Custom Post Type
@@ -64,7 +64,3 @@ function dreamrider_program_type() {
 
 }
 add_action( 'init', 'dreamrider_program_type', 0 );
-<<<<<<< HEAD
-=======
-
->>>>>>> d9d3cbc52701baa14816cf9bd2f80eae76a2bf90

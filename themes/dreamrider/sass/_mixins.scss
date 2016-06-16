@@ -78,6 +78,16 @@
 	letter-spacing:  2px;
 }
 
+/* Sources of Quotations / Testimonials */
+
+@mixin quote-source {
+	font-size: 0.8rem;
+  color: $color_text-partner-testimonial;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+
 /* ----------- Buttons  -----------*/
 
 
