@@ -24,7 +24,7 @@ get_header(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 				<section class="hero-banner" >
-					<img src ="<?php echo CFS()->get('hero_image') ?>">
+					<img src ="<?php echo CFS()->get('hero_image') ?>" alt="Hero Image">
 				</section>
 
 				<section class="main-title">
@@ -84,8 +84,8 @@ get_header(); ?>
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
-					
-					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="checkmark icon" alt="Checkmark Icon">
+
+					<img class="checkmark-icon" src="<?php echo get_template_directory_uri()?>/images/checkmark.png" alt="Checkmark Icon">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
 
