@@ -38,12 +38,12 @@ get_header(); ?>
 				<section class="programs">
 					<h2>Programs</h2>
 					<div class="program-one">
-						<img src="" alt="">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/images/garbage-bag.png" alt="Garbage Bag Icon"></a>
 						<h4>Zero Hero</h4>
 						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 					</div><!-- program-one -->
 					<div class="program-two">
-						<img src="" alt="">
+						<a href="#"><img class="program-icon" src="<?php echo get_template_directory_uri()?>/images/ice-cube.png" alt="Ice Cube Icon"></a>
 						<h4>Keep Cool</h4>
 						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 					</div><!-- program-two -->

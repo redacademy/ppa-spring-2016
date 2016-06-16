@@ -834,9 +834,18 @@ object {
   background-color: #4ab4e9;
   box-shadow: 1px 0px 1px #4a4a4a; }
   .programs h2 {
-    margin-top: 0;
-    text-transform: uppercase; }
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0; }
+  .programs img {
+    margin-bottom: 0; }
+  .programs .program-icon {
+    width: 125px;
+    height: auto;
+    margin-top: 20px; }
   .programs h4 {
+    margin-top: 0px;
     text-transform: uppercase; }
   .programs p {
     width: 240px;
