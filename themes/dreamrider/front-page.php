@@ -38,12 +38,12 @@ get_header(); ?>
 				<section class="programs">
 					<h2>Programs</h2>
 					<div class="program-one">
-						<img src="" alt="">
+						<a href="#"><img src="<?php echo get_template_directory_uri()?>/images/garbage-bag.png" alt="Garbage Bag Icon"></a>
 						<h4>Zero Hero</h4>
 						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 					</div><!-- program-one -->
 					<div class="program-two">
-						<img src="" alt="">
+						<a href="#"><img class="program-icon" src="<?php echo get_template_directory_uri()?>/images/ice-cube.png" alt="Ice Cube Icon"></a>
 						<h4>Keep Cool</h4>
 						<p>Lorem ipsum dolor sit amet, in usu ullum delenit scriptorem,</p>
 					</div><!-- program-two -->
@@ -51,89 +51,111 @@ get_header(); ?>
 
 				<section class="learning-benefits">
 					<h2>Learning Benefits</h2>
-					<div class="content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_1.png" alt="learning icon">
 						<p>Easy to use and Implement</p>
 					</div>
-					<div class="learning-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_2.png" alt="learning icon">
 						<p>Flexible and <br>Adaptable</p>
 					</div>
-					<div class="learning-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_3.png" alt="learning icon">
 						<p>Supports<br>Curriculum</p>
 					</div>
-					<div class="learning-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_4.png" alt="learning icon">
 						<p>Engages and Meets <br>Diverse Learning Needs</p>
 					</div>
-					<div class="learning-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_5.png" alt="learning icon">
 						<p>Helps Bring Tech <br>Into the Classroom</p>
 					</div>
-					<div class="learning-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_6.png" alt="learning icon">
 						<p>Inspires Real Change <br>Beyond the Classroom</p>
 					</div>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
+
+					<?php
+					   $args = array( 'post_type' => 'testimonial', 
+					   				  'order' => 'DSC',
+					   				  'posts_per_page' => 3	 );
+					   $testimonial_posts = get_posts( $args ); // returns an array of posts
+					?>
+
+					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
+					
+					<p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p>
+
+					<?php endforeach; wp_reset_postdata(); ?>
+
 					<img src="" alt="">
-					<h1>testimonials</h1>
+					<h2>Testimonials</h2>
 					<div class="testimonial-container">
-						<div class="testimonial">
+						<div class="individual-testimonial">
 							<div class="testimonial-bubble">
+								<p>"I have never heard of behaviour change results anywhere near this good."</p>
 							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
+							<div class="testimonial-source">
+								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
+								<div><p>Scott Sinclair, Founder of <br>Climate Change Showdown</p></div>
 							</div>
-						</div><!-- testimonial -->
-						<div class="testimonial">
+						</div>
+						<!-- end testimonial one-->
+						<div class="individual-testimonial">
 							<div class="testimonial-bubble">
+								<p>"It's brilliant! Incorporates a lot of the curriculum that I have trouble sneaking into my day."</p>
 							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
+							<div class="testimonial-source opposite">
+								<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_2.png" alt="testimonial-icon"></div>
+								<div><p>Shannon Shinoda, <br>Grade 2-3 Teacher</p></div>
 							</div>
-						</div><!-- testimonial -->
-						<div class="testimonial">
+						</div>
+						<!-- end testimonial two-->
+						<div class="individual-testimonial">
 							<div class="testimonial-bubble">
+								<p>"Students had so much fun. The site is great! We love it and so tangible to our curriculum.""</p>
 							</div>
-							<div class="testimonial-lower">
-							<img src="" alt="">
-							<p></p>
+							<div class="testimonial-source ">
+								<div><img class="third-icon" src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_3.png" alt="testimonial-icon"></div>
+								<div><p>Shane Hipwell, <br>Grade 4-5 Teacher</p></div>
 							</div>
-						</div><!-- testimonial -->
-					</div><!-- testimonial-container -->
-					<div class="btn">
-						<p>start my free trail</p>
+						</div>
+						<!-- end testimonial three-->
 					</div>
-				</section><!-- testimonials -->
+					<!-- end testimonial-container -->
+					<div class="free-trial-button">
+						<a href="#">Start My Free Trial</a>
+					</div>
+				</section>
+				<!-- end testimonials section-->
 
 				<section class="community-impact">
 					<h2>Community Impact</h2>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_1.png" alt="learning icon">
 						<p>Tracks Behaviour <br>Change Data</p>
 					</div>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_2.png" alt="learning icon">
 						<p>Raises Awareness and <br>Influencing Positive Change</p>
 					</div>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_3.png" alt="learning icon">
 						<p>Encourages a Positive Attitude towards <br>Waste Reduction</p>
 					</div>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_4.png" alt="learning icon">
 						<p>Increases Awareness towards <br>Eco-Friendly Methods</p>
 					</div>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_5.png" alt="learning icon">
 						<p>Easy to Scale</p>
 					</div>
-					<div class="community-content-holder">
+					<div>
 						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_6.png" alt="learning icon">
 						<p>Cultivates Creativity <br>and Innovation</p>
 					</div>
@@ -166,7 +188,7 @@ get_header(); ?>
 				  </div>
 				  <!--end partners-images-->
 				  <div class="partners-testimonials">
-				    <img src="" alt="">
+				    <img class="quotation-mark" src="<?php echo get_template_directory_uri() ?>/images/quotation-mark.png" alt="Testimonials from Community Partners Icon">
 				    <div class="quotes-container">
 				      <div class="quotes">
 				        <p>Keep Cool! toured every one of Delta's 26 elementary schools. Almost 1,000 Delta children were inspired by the play to pledge to reduce their carbon footprint by more than 26,000 tonnes.</p>

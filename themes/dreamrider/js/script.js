@@ -1,7 +1,7 @@
 jQuery(document).ready(function( $ ) {
 
 	//Functionality: Back to Top Scroll
-	$('.back-to-top').click(function() {      // On Click of Class 
+	$('.back-to-top').click(function() {      // On Click of Class
 	    $('body,html').animate({ scrollTop : 0}, 1000); // Scroll to top of body
 	});
 
