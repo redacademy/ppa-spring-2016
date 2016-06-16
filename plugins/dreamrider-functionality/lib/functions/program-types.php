@@ -13,8 +13,8 @@ function dreamrider_program_type() {
 	$labels = array(
 		'name'                  => 'Programs',
 		'singular_name'         => 'Program',
-		'menu_name'             => 'Program Types',
-		'name_admin_bar'        => 'Program Type',
+		'menu_name'             => 'Programs',
+		'name_admin_bar'        => 'Program',
 		'archives'              => 'Program Archives',
 		'parent_item_colon'     => 'Parent Program:',
 		'all_items'             => 'All Programs',

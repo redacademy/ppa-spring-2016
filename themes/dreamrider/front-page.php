@@ -37,6 +37,21 @@ get_header(); ?>
 
 				<section class="programs">
 					<h2>Programs</h2>
+
+					<?php
+					   $args = array( 'post_type' => 'programs', 
+					   				  'order' => 'ASC',
+					   				  'posts_per_page' => 3	 );
+					   $testimonial_posts = get_posts( $args ); // returns an array of posts
+					?>
+					
+					<?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?>
+
+						<p><?php echo wp_trim_words(get_the_content(), 36, '...'); ?></p>
+
+					<?php endforeach; wp_reset_postdata(); ?>
+
+
 					<div class="program-one">
 						<a href="#"><img src="<?php echo get_template_directory_uri()?>/images/garbage-bag.png" alt="Garbage Bag Icon"></a>
 						<h4>Zero Hero</h4>
@@ -78,10 +93,11 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
-
+					
+					<!-- Custom Loop Defined for Testimonial -->
 					<?php
 					   $args = array( 'post_type' => 'testimonial', 
-					   				  'order' => 'DSC',
+					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
@@ -91,7 +107,8 @@ get_header(); ?>
 					<img src="" alt="">
 					<h2>Testimonials</h2>
 					<div class="testimonial-container">
-					
+						
+						<!-- Loop Starts -->
 						<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
 						<div class="individual-testimonial">
@@ -104,7 +121,6 @@ get_header(); ?>
 								<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
 							</div>
 						</div>
-						<!-- end testimonial one-->
 					
 					<?php endforeach; wp_reset_postdata(); ?>
 
