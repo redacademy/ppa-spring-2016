@@ -59,12 +59,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* --------------------------------------------
  		Dreamrider: Custom Styles
  -------------------------------------------- */
-/* ----------- Section Styles  -----------*/
+/*
+ I. Section Styles
+ II. Text
+ III. Buttons
+
+
+ /* ----------- Section Styles  -----------*/
 /* Sections with Blue Background */
 /* Sections with Icons */
 /* ----------- Texts  -----------*/
 /* Headings */
-/* Sources of Quotations / Testimonials */
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
@@ -1126,6 +1131,25 @@ object {
   width: 340px;
   height: auto; }
 
+.page-template-about .site-content {
+  font-size: 1.2rem;
+  text-align: center; }
+
+.about-main p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+.about-quote {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #4ab4e9;
+  box-shadow: 1px 0px 1px #4a4a4a; }
+
 /* --------------------------------------------
  		Dreamrider: Custom Styles
  -------------------------------------------- */
@@ -1334,3 +1358,8 @@ object {
   height: 270px;
   margin: 0 auto;
   position: relative; }
+
+@media (min-width: 340px) {
+  .programs-page-wrapper h2 {
+    font-family: 'montserrat-light';
+    font-size: 36px; } }

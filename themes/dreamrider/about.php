@@ -19,7 +19,7 @@ get_header(); ?>
 					<p>
 						Through story, music, interactive media and live theatre, we create inclusive, meaningful, and full-throttle that children adore and that instill positive environmental values in their hearts - and in their actions. Kids feel energized, happy, and eager to put into practice what they have learned! Read more about our Mission and Values!
 					</p>
-					<h5>"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."</h5>
+					<p class="about-quote">"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."</h5>
 					<h5>Christianne Wilhemson, Executive Director, Georgia Straight Alliance</h5>
 				</section><!-- about-main -->
 				<section class="about-story">

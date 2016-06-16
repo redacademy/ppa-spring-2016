@@ -255,6 +255,7 @@
 
 
 /* ----------- About Page  -----------*/
+
 .about-title {
   @include page-heading;
 }
@@ -263,4 +264,19 @@
   max-width: none;
   width: 340px;
   height: auto;
+}
+
+.page-template-about .site-content {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.about-main p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.about-quote {
+  @include blue-section;
 }
