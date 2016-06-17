@@ -600,6 +600,9 @@ a {
 .entry-header {
   margin-top: 100px; }
 
+.menu-toggle .fa-times {
+  display: none; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -1421,8 +1424,14 @@ object {
     margin: 0; }
   .programs-page-wrapper h2 {
     font-family: 'francois-one';
-    font-size: 1.4em;
-    letter-spacing: 5px; } }
+    font-size: 48px;
+    letter-spacing: 5px; }
+  .programs-page-wrapper p {
+    margin: 0px 25%; }
+  .programs-page-wrapper .programs-container p {
+    margin: 0px 25%; }
+  .programs-page-wrapper .entry-title {
+    margin-top: 0; } }
 
 /* Community Partners: Logos */
 .partners-images {
@@ -1435,4 +1444,3 @@ object {
   height: auto;
   margin: 10px;
   display: inline-block; }
-
