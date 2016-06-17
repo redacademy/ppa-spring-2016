@@ -68,3 +68,13 @@ function loadbxslider()
 }
 add_action('init', 'loadbxslider');
 
+//Custom function to change query to display more posts altering main query
+function dreamrider_program_custom_query($query){
+
+	if( is_post_type_archive('archive-program.php') && !is_admin() && $query->is_main_query() ){
+		$query->set('orderby','ASC');
+		$query->set('posts_per_page', 3);
+	}
+
+}
+add_action( 'pre_get_posts', 'dreamrider_program_custom_query' );

@@ -13,15 +13,15 @@ get_header(); ?>
 				<header class="entry-header">
 					<h2>Programs</h2>
 				</header>
-				<?php query_posts($query_string . "&order=ASC"); ?>
 
-				<ul class="bxslider"><!-- List for bxslider  -->
-					
+				<!-- List for bxslider  -->
+				<ul class="bxslider">
+					<!-- loop and create li items -->
 					<?php while ( have_posts() ) : the_post(); ?>
 						<li><?php get_template_part( 'template-parts/content', 'program' ); ?></li>
 					<?php endwhile; // End of the loop. ?>
-
 				</ul>
+
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- programs-page-wrapper -->
