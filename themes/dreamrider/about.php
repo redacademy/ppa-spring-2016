@@ -38,7 +38,7 @@ get_header(); ?>
 
 				</section><!-- about-pictures -->
 				<section class="about-today">
-					<h1>today</h1>
+					<h3>Today</h3>
 					<p>We work with municipal governments, school districts, foundations and companies to reach more than 50,000 K-7 students each year - at no cost to 95% of schools! Read more about our Partners and Supporters!</p>
 				</section><!-- about-today -->
 				<section class="about-community">
