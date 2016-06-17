@@ -1,28 +1,28 @@
  .programs-page-wrapper {
 
-
  	//Mobile
+
  	.site-main {
  		text-align: center;
 	}
+
 	h2 {
 		font-family: 'francois-one';
-		font-size: 20px;
+		font-size: 1.4em;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 	}
-
-
 
 	.entry-header {
 		@include page-heading;
 		margin-top: -3%;
 
+	}
 
-	}
 	.writeup {
-		margin: 10% 10% 0 10%;
+		// margin: 10% 10% 0 10%;
 	}
+
 	.programs-container {
 		h2 {
 			margin: 40px 0;
@@ -36,18 +36,10 @@
 		}
 	}
 
-	.image-one {
-		background: #eba704;
-		width: 270px;
-		height: 270px;
-		margin: 0 auto;
-		position: relative;
-	}
-
 	@media (min-width: 340px) {
 		h1 {
 			font-family: 'montserrat-light';
-			font-size: 66px;
+			font-size: 1.8em;
 			color: #fff;
 			text-transform: uppercase;
 			margin: 0;
@@ -55,8 +47,11 @@
 
 		h2 {
 			font-family: 'francois-one';
-			font-size: 48px;
+			font-size: 1.4em;
 			letter-spacing: 5px;
 		}
 	}
+
+}
+
 }
