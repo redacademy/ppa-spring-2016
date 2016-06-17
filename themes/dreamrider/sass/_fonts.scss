@@ -21,6 +21,19 @@
 /* ----------- Monsterrat -----------*/
 
 @font-face {
+    font-family: 'montserrat-ultra-light';
+    src: url('../../fonts/montserrat-ultralight-webfont.eot');
+    src: url('../../fonts/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('../../fonts/montserrat-ultralight-webfont.woff') format('woff'),
+         url('../../fonts/montserrat-ultralight-webfont.ttf') format('truetype'),
+         url('../../fonts/montserrat-ultralight-webfont.svg#montserratultra_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'montserrat-light';
     src: url('../../fonts/montserrat-light-webfont.eot');
     src: url('../../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
