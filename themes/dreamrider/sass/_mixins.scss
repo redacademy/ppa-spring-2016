@@ -26,7 +26,7 @@
 
 
  /* Sections with Blue Background */
- //Note: For the style of the heading of the blue section, refer to
+ //Note: For the style of the HEADING of the blue section, refer to
  //separate mixin below.
 
 @mixin blue-section {
@@ -70,7 +70,25 @@
 
  /* Headings */
 
-//For headings on the WHITE sections of the frontpage.php
+//For main headings of static pages (white text on blue background)
+@mixin page-heading {
+	width: 100%;
+	padding: 10px;
+  font-family: $font_page-title;
+  color: $color_text-page-titles;
+  background-color: $color_background-page-titles;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  h1 {
+  	margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+}
+
+//For black headings on the white sections of a page
+//Mainly used front-page.php
 @mixin black-on-white-heading {
 	margin: 50px auto;
 	color: $color_text-heading;
@@ -80,28 +98,20 @@
 	letter-spacing: 2px;
  }
 
-//For headings on the BLUE sections of the frontpage.php
+//For white headings on the blue sections of a page
+//Mainly used front-page.php
 @mixin white-on-blue-heading {
 	font-family: $font_heading-section;
 	text-transform: uppercase;
 	letter-spacing:  2px;
 }
 
-//For Headings of Static Pages. White Text on Blue Background
-@mixin page-heading {
-	width: 100%;
-  padding: 10px;
-  font-family: $font_page-title;
-  color: $color_text-page-titles;
-  background-color: $color_background-page-titles;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 4px;
-  h1 {
-    margin: 0;
-    font-size: 1.3rem;
-    font-weight: normal;
-  }
+//For black headings on the white sections of about.php
+@mixin about-black-heading {
+	color: $color_text-heading;
+	font-family: $font_heading-section;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 //General style for sections using quotations

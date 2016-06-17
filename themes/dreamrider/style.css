@@ -1040,17 +1040,6 @@ object {
     letter-spacing: 2px;
     margin-bottom: 5px; }
 
-.partners-images {
-  width: 100%;
-  padding: 0px 20px;
-  display: inline-block; }
-
-.partner-image {
-  width: 40%;
-  height: auto;
-  margin: 10px;
-  display: inline-block; }
-
 /* Community Partners: Testimonials */
 .partners-testimonials {
   width: 80%;
@@ -1120,6 +1109,10 @@ object {
     letter-spacing: 2px; }
 
 /* ----------- About Page  -----------*/
+.page-template-about .site-content {
+  font-size: 1.2rem;
+  text-align: center; }
+
 .about-title {
   width: 100%;
   padding: 10px;
@@ -1135,18 +1128,20 @@ object {
     font-weight: normal; }
 
 .logo-container {
-  max-width: none;
-  width: 340px;
-  height: auto; }
-
-.page-template-about .site-content {
-  font-size: 1.2rem;
-  text-align: center; }
+  max-width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .logo-container img {
+    max-width: none;
+    width: auto;
+    height: 120px;
+    margin-top: 30px;
+    transform: translateX(-45%); }
 
 .about-intro, .about-story {
   width: 90%;
   margin: 0 auto;
-  padding: 20px 0; }
+  padding: 35px 0; }
 
 .about-quote {
   width: 100%;
@@ -1188,6 +1183,37 @@ object {
     letter-spacing: 3px; }
   .about-today p {
     font-family: 'montserrat-ultra-light', sans-serif; }
+
+.about-community {
+  padding: 20px 20px 5px; }
+  .about-community h3 {
+    color: #000;
+    font-family: "francois-one", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .about-community p {
+    text-align: center; }
+
+.donate-button {
+  margin: 50px auto;
+  font-size: 20px;
+  font-family: 'francois-one', sans-serif;
+  text-align: center;
+  letter-spacing: 2px; }
+  .donate-button a {
+    width: auto;
+    height: auto;
+    padding: 13px 50px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f3a536;
+    border-radius: 2rem; }
+    .donate-button a:hover {
+      background-color: #f29a1e; }
+    .donate-button a:visited {
+      color: #fff; }
 
 /* --------------------------------------------
  		Dreamrider: Custom Styles
@@ -1402,3 +1428,15 @@ object {
     font-family: 'francois-one';
     font-size: 1.4em;
     letter-spacing: 5px; } }
+
+/* Community Partners: Logos */
+.partners-images {
+  width: 100%;
+  padding: 0px 20px;
+  display: inline-block; }
+
+.partner-image {
+  width: 40%;
+  height: auto;
+  margin: 10px;
+  display: inline-block; }

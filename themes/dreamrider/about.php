@@ -42,27 +42,17 @@ get_header(); ?>
 					<p>We work with municipal governments, school districts, foundations and companies to reach more than 50,000 K-7 students each year - at no cost to 95% of schools! Read more about our Partners and Supporters!</p>
 				</section><!-- about-today -->
 				<section class="about-community">
-					<h1>2016 Community Partners</h1>
-					<div class="partners-images-container">
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-						<div class="partner-container">
-							<img src="" alt="">
-						</div>
-					</div><!-- partners-images-container -->
+					<h3>2016 Community Partners</h3>
+					<?php get_template_part('template-parts/community-partners') ?>
+					<p>
+						Help us to continue spreading the DreamRider magic by donating online through CanadaHelps.
+					</p>
+					<p>
+						We are a Canadian registered charity #85480-1289-RR0001.
+					</p>
+					<div class="donate-button">
+						<a href="#">Donate Now</a>
+					</div>
 				</section><!-- about-community -->
 
 
