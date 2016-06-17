@@ -1323,7 +1323,7 @@ object {
 
 .programs-page-wrapper h2 {
   font-family: 'francois-one';
-  font-size: 20px;
+  font-size: 1.4em;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -1352,27 +1352,14 @@ object {
 .programs-page-wrapper .programs-container p {
   margin: 5% 15% 0 15%; }
 
-.programs-page-wrapper .image-one {
-  background: #eba704;
-  width: 270px;
-  height: 270px;
-  margin: 0 auto;
-  position: relative; }
-
 @media (min-width: 340px) {
-<<<<<<< HEAD
-  .programs-page-wrapper h2 {
-    font-family: 'montserrat-light';
-    font-size: 36px; } }
-=======
   .programs-page-wrapper h1 {
     font-family: 'montserrat-light';
-    font-size: 66px;
+    font-size: 1.8em;
     color: #fff;
     text-transform: uppercase;
     margin: 0; }
   .programs-page-wrapper h2 {
     font-family: 'francois-one';
-    font-size: 48px;
+    font-size: 1.4em;
     letter-spacing: 5px; } }
->>>>>>> d156e0942af394fcd33cb6919932cf3682bba991
