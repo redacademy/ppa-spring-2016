@@ -4,7 +4,7 @@
  * Template Name: Contact
  * @package RED_Starter_Theme
  */ 
-
+ 
 get_header(); ?>
 	<div class="contact-page-wrapper">
 		<div id="primary" class="content-area">

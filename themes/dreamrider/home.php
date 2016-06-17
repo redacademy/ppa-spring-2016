@@ -4,7 +4,6 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); ?>
 	<div class="blog-page-wrapper">
 		<div id="primary" class="content-area">
