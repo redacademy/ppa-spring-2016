@@ -10,12 +10,16 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 				<div class="about-title">
-					<h1>about us</h1>
+					<h1>About Us</h1>
 				</div>
 				<section class="about-main">
-					<img src="" alt="">
-					<p>Through story, music, interactive media and live theatre, we create inclusive, meaningful, and full-throttle that children adore and that instill positive environmental values in their hearts - and in their actions. Kids feel energized, happy, and eager to put into practice what they have learned! Read more about our Mission and Values!</p>
-					<h5>"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."</h5>
+					<div class="logo-container">
+						<img src="<?php echo get_template_directory_uri()?>/images/logos/logo-text-with-human.png" alt="DreamRider Logo">
+					</div>
+					<p>
+						Through story, music, interactive media and live theatre, we create inclusive, meaningful, and full-throttle that children adore and that instill positive environmental values in their hearts - and in their actions. Kids feel energized, happy, and eager to put into practice what they have learned! Read more about our Mission and Values!
+					</p>
+					<p class="about-quote">"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."</h5>
 					<h5>Christianne Wilhemson, Executive Director, Georgia Straight Alliance</h5>
 				</section><!-- about-main -->
 				<section class="about-story">
@@ -23,7 +27,7 @@ get_header(); ?>
 					<p>Following the succes of our award-winning live theatre shows, we wanted to scale our reach and impact beyond Metro Vancouver to inspire a whole generation of environmental superheroes. The result is the Planet Protector Academy, a unique digital-led class-room based program in which kids become 'apprentice' Planet Protectors' and go home on superhero missions to change their families' behaviours!</p>
 				</section><!-- about-story -->
 				<section class="about-pictures">
-					
+
 				</section><!-- about-pictures -->
 				<section class="about-today">
 					<h1>today</h1>
@@ -53,7 +57,7 @@ get_header(); ?>
 					</div><!-- partners-images-container -->
 				</section><!-- about-community -->
 
-				
+
 
 			</main><!-- #main -->
 		</div><!-- #primary -->

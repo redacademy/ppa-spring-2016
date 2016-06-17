@@ -16,17 +16,23 @@
 /* --------------------------------------------
  		Dreamrider: Custom Styles
  -------------------------------------------- */
+ /*
+ I. Section Styles
+ II. Text
+ III. Buttons
 
 
  /* ----------- Section Styles  -----------*/
 
 
  /* Sections with Blue Background */
+ //Note: For the style of the heading of the blue section, refer to
+ //separate mixin below.
 
 @mixin blue-section {
 	width: 100%;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 50px; 
 	padding: 40px 20px;
   color: $color_text-programs;
   text-align: center;
@@ -35,6 +41,7 @@
  }
 
  /* Sections with Icons */
+//Mainly used on the frontpage.php (mobile view)
 
 @mixin iconography{
 	width: 100%;
@@ -52,7 +59,7 @@
 		margin: 5px auto 50px;
    }
 	 img {
-		width: 20%;
+		width: 2	0%;
 		height: auto;
 	}
  }
@@ -63,6 +70,7 @@
 
  /* Headings */
 
+//For headings on the WHITE sections of the frontpage.php
 @mixin black-on-white-heading {
 	margin: 50px auto;
 	color: $color_text-heading;
@@ -72,12 +80,14 @@
 	letter-spacing: 2px;
  }
 
+//For headings on the BLUE sections of the frontpage.php
 @mixin white-on-blue-heading {
 	font-family: $font_heading-section;
 	text-transform: uppercase;
 	letter-spacing:  2px;
 }
 
+//For Headings of Static Pages. White Text on Blue Background
 @mixin page-heading {
 	width: 100%;
   padding: 10px;
@@ -94,8 +104,7 @@
   }
 }
 
-/* Sources of Quotations / Testimonials */
-
+//General style for sections using quotations
 @mixin quote-source {
 	font-size: 0.8rem;
   color: $color_text-partner-testimonial;
@@ -108,6 +117,7 @@
 
 
 /* Main Call-to-Action Button */
+//Orange rounded button with white text
 
 @mixin cta-button {
 	margin: 50px auto;
@@ -136,6 +146,7 @@
 
 
 /* Inverted Button */
+//White rounded button with orange text
 
 @mixin inverted-cta-button {
 	margin: 50px auto 80px;
