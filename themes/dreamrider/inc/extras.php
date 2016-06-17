@@ -60,13 +60,15 @@ function dreamrider_enqueued_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'dreamrider_enqueued_scripts' );
 
+
 //Include jquery and Css for bxslider 
 function loadbxslider()
 {
     wp_enqueue_style('bxstyle', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxslider.css');
-    wp_enqueue_script('bxscript', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxSlider.min.js', array('jquery'));
+    wp_enqueue_script('bxscript', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxslider.min.js', array('jquery'));
 }
 add_action('init', 'loadbxslider');
+
 
 //Custom function to change query to display more posts altering main query
 function dreamrider_program_custom_query($query){
