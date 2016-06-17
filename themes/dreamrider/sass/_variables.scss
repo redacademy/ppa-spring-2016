@@ -53,27 +53,31 @@ $gray: #4a4a4a;
 /* ----------- Variables: Functional  -----------*/
 
 /* Fonts: Heading */
-$font_heading-section: $secondary-text;
-$font_page-title: $secondary-text;
+$font_heading-section: $secondary-text; //Headings of sections
+$font_page-title: $secondary-text; //Main heading of pages
 
 
 /* Color: Text Links */
 $color_text-testimonials: $white;
-$color_text-link-footer: $white;
+$color_text-link-footer: $white; //Nav on Footer
 
 
 /* Color: Plain Text */
-$color-text-default: $gray;
-$color_text-programs: $white;
-$color_text-heading: $black;
+$color-text-default: $gray; //Default Text
+$color_text-programs: $white; //Alternative Text Color
+$color_text-heading: $black; //Alternative Heading of sections
 $color_text-testimonial-main: $gray;
 $color_text-partner-testimonial: $light-gray;
-$color_text-page-titles: $white;
-$color_text-footer: $white;
+$color_text-page-titles: $white; //Main Page Headings
+$color_text-footer: $white; //"Back to Top" text on Footer
 
 /* Color: Buttons */
+
+//Main orange button
 $color_button-text-default: $white;
 $color_button-background-default: $orange;
+
+//Inverted main button
 $color_button-text-inverted: $orange;
 $color_button-text-inverted-hover: $white;
 $color_button-background-inverted: $white;
@@ -81,9 +85,9 @@ $color_button-background-inverted-hover: $orange;
 $color_button-border-inverted: $orange;
 
 /* Color: Backgrounds */
-$color_background-programs: $blue;
-$color_background-page-titles: $blue;
-$color_background-footer: $violet;
+$color_background-programs: $blue; //Programs section of front-page.php
+$color_background-page-titles: $blue; //Page headings
+$color_background-footer: $violet; //Footer
 
 /* Color: Borders / Separators */
 $color_separator-partner-testimonial: $light-gray;
