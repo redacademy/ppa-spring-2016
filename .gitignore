@@ -59,3 +59,7 @@ themes/dreamrider/build/*
 # Ignore gulpfile #
 # ================== #
 themes/dreamrider/gulpfile.js
+
+# Ignore style.css #
+# ================== #
+themes/dreamrider/style.css
