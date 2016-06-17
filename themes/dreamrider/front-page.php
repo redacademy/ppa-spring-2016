@@ -39,12 +39,12 @@ get_header(); ?>
 					<h2>Programs</h2>
 
 					<?php
-					   $args = array( 'post_type' => 'program', 
+					   $args = array( 'post_type' => 'program',
 					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
 					   $programs_posts = get_posts( $args ); // returns an array of posts
 					?>
-					
+
 					<?php foreach ( $programs_posts as $post ) : setup_postdata( $post ); ?>
 
 						<div class="individual-program">
@@ -87,10 +87,10 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
-					
+
 					<!-- Custom Loop Defined for Testimonial -->
 					<?php
-					   $args = array( 'post_type' => 'testimonial', 
+					   $args = array( 'post_type' => 'testimonial',
 					   				  'order' => 'ASC',
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
@@ -108,7 +108,7 @@ get_header(); ?>
 							<div><p><?php echo CFS()->get('testimonial_name') ?>, <?php echo CFS()->get('testimonial_title') ?></p></div>
 						</div>
 					</div>
-					
+
 					<?php endforeach; wp_reset_postdata(); ?>
 
 					</div>
@@ -152,27 +152,7 @@ get_header(); ?>
 
 				<section class="community-partners-container">
 				  <h2>Community Partners</h2>
-				  <div class="partners-images">
-				    <div class="partner-image">
-				      <a href="http://www.brandon.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/brandon.png" alt="City of Brandon Logo"></a>
-				    </div>
-				    <div class="partner-image">
-				      <a href="http://www.edmonton.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/edmonton.png" alt="City of Edmonton Logo"></a>
-				    </div>
-				    <div class="partner-image">
-				      <a href="http://www.city.peterborough.on.ca" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/peterborough.png" alt="City of Peterborough Logo"></a>
-				    </div>
-				    <div class="partner-image">
-				      <a href="http://www.guelph.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/guelph.png" alt="City of Guelph Logo"></a>
-				    </div>
-				    <div class="partner-image">
-				      <a href="http://www.vernon.ca" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/images/community-partners/vernon.png" alt=""></a>
-				    </div>
-				    <div class="partner-image">
-				      <a href="http://www.westvancouver.ca" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/community-partners/west-vancouver.png" alt="West Vancouver School District Logo"></a>
-				    </div>
-				  </div>
-				  <!--end partners-images-->
+				  <?php get_template_part('template-parts/community-partners') ?>
 				  <div class="partners-testimonials">
 				    <img class="quotation-mark" src="<?php echo get_template_directory_uri() ?>/images/quotation-mark.png" alt="Testimonials from Community Partners Icon">
 				    <div class="quotes-container">

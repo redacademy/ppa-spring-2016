@@ -172,6 +172,8 @@
 
 /* Community Partners: Logos */
 
+//Styles for actual logos is in a separate partial.
+
 .community-partners-container {
   width: 100%;
   margin-top: 50px;
@@ -181,19 +183,6 @@
     @include black-on-white-heading;
     margin-bottom: 5px;
   }
-}
-
-.partners-images{
-  width: 100%;
-  padding: 0px 20px;
-  display: inline-block;
-}
-
-.partner-image{
-  width: 40%;
-  height: auto;
-  margin: 10px;
-  display: inline-block;
 }
 
 
@@ -291,10 +280,7 @@
   @extend .about-intro;
   margin-bottom: 0px;
   h3 {
-    color: $color_text-heading;
-    font-family: $font_heading-section;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    @include about-black-heading;
   }
 }
 
@@ -310,4 +296,18 @@
   p {
     font-family: 'montserrat-ultra-light', sans-serif;
   }
+}
+
+.about-community {
+  padding: 20px 20px 5px;
+  h3 {
+    @include about-black-heading;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+.donate-button {
+  @include cta-button;
 }
