@@ -24,11 +24,7 @@
 				<div class="dreamrider-header">
 					<img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Planet Protector Acadmey Logo">
 					<!-- <img src="<?php echo get_template_directory_uri() ?>/images/hamburger.png"> -->
-					<div class="hamburger-container">
-						<div class="hamburger-lines"></div>
-						<div class="hamburger-lines"></div>
-						<div class="hamburger-lines"></div>
-					</div>
+					
 				</div>
 				<div class="site-branding">
 					<!-- <h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
@@ -36,9 +32,12 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
+						<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-times fa-2x" aria-hidden="true"></i>
+					</button>
+					
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
-
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			<div id="content" class="site-content">
