@@ -271,12 +271,32 @@
   text-align: center;
 }
 
-.about-main p {
+.about-intro {
   width: 90%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 35px 0;
 }
 
 .about-quote {
+  @include blue-section;
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 0;
+  .quote-source {
+    color: #fff;
+  }
+}
+
+.about-story {
+  @extend .about-intro;
+  h3 {
+    color: $color_text-heading;
+    font-family: $font_heading-section;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.about-today {
   @include blue-section;
 }
