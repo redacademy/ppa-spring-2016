@@ -102,9 +102,7 @@ a {
 }
 
 @media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
+	
 	.main-navigation ul {
 		display: block;
 	}
@@ -152,21 +150,21 @@ a {
 	justify-content: space-between;
 }
 
-.hamburger-container {
-	align-self: center;
-}
+// .hamburger-container {
+// 	align-self: center;
+// }
 
-.hamburger-lines {
-	width: 40px;
-	height: 4px;
-	background-color: grey;
-}
+// .hamburger-lines {
+// 	width: 40px;
+// 	height: 4px;
+// 	background-color: grey;
+// }
 
-.hamburger-lines {
-	&:nth-child(even) {
-		margin: 5px 0;
-	}
-}
+// .hamburger-lines {
+// 	&:nth-child(even) {
+// 		margin: 5px 0;
+// 	}
+// }
 
 .screen-rider-text {
 	display: none;
@@ -174,10 +172,6 @@ a {
 
 //Hides page links
 .menu {
-	display: none;
-}
-
-.menu-toggle{
 	display: none;
 }
 
