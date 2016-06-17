@@ -1109,6 +1109,10 @@ object {
     letter-spacing: 2px; }
 
 /* ----------- About Page  -----------*/
+.page-template-about .site-content {
+  font-size: 1.2rem;
+  text-align: center; }
+
 .about-title {
   width: 100%;
   padding: 10px;
@@ -1124,18 +1128,20 @@ object {
     font-weight: normal; }
 
 .logo-container {
-  max-width: none;
-  width: 340px;
-  height: auto; }
-
-.page-template-about .site-content {
-  font-size: 1.2rem;
-  text-align: center; }
+  max-width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .logo-container img {
+    max-width: none;
+    width: auto;
+    height: 120px;
+    margin-top: 30px;
+    transform: translateX(-45%); }
 
 .about-intro, .about-story {
   width: 90%;
   margin: 0 auto;
-  padding: 20px 0; }
+  padding: 35px 0; }
 
 .about-quote {
   width: 100%;
