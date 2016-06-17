@@ -14,12 +14,14 @@ get_header(); ?>
 					<h2>Programs</h2>
 				</header>
 				<?php query_posts($query_string . "&order=ASC"); ?>
-				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'template-parts/content', 'program' ); ?>
+				<ul class="bxslider"><!-- List for bxslider  -->
+					
+					<?php while ( have_posts() ) : the_post(); ?>
+						<li><?php get_template_part( 'template-parts/content', 'program' ); ?></li>
+					<?php endwhile; // End of the loop. ?>
 
-				<?php endwhile; // End of the loop. ?>
-
+				</ul>
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- programs-page-wrapper -->
