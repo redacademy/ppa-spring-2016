@@ -512,9 +512,7 @@ a {
 /* Menus */
 .main-navigation {
   clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
+  display: block; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -580,25 +578,26 @@ a {
   width: 100%;
   padding: 10px 15px;
   background-color: #fff;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #eee;
   position: fixed;
   top: 0;
-  z-index: 3; }
-
-.dreamrider-header {
+  z-index: 999;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .site-header .main-navigation button {
+    background-color: none; }
 
 .screen-rider-text {
   display: none; }
 
 .menu {
   display: none; }
-
-.entry-header {
-  margin-top: 100px; }
 
 .menu-toggle .fa-times {
   display: none; }
@@ -1383,7 +1382,7 @@ object {
 
 .programs-page-wrapper h2 {
   font-family: 'francois-one';
-  font-size: 20px;
+  font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -1395,29 +1394,14 @@ object {
   background-color: #4ab4e9;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 4px;
-  margin-top: -3%; }
+  letter-spacing: 4px; }
   .programs-page-wrapper .entry-header h1 {
     margin: 0;
     font-size: 1.3rem;
     font-weight: normal; }
 
-.programs-page-wrapper .programs-container h2 {
-  margin: 40px 0; }
-
-.programs-page-wrapper .programs-container img {
-  width: auto;
-  height: 250px; }
-
-.programs-page-wrapper .programs-container p {
-  margin: 5% 15% 0 15%; }
-
-.programs-page-wrapper .image-one {
-  background: #eba704;
-  width: 270px;
-  height: 270px;
-  margin: 0 auto;
-  position: relative; }
+.programs-page-wrapper .image-container img {
+  margin: 0 auto; }
 
 @media (min-width: 340px) {
   .programs-page-wrapper h1 {
@@ -1428,7 +1412,7 @@ object {
     margin: 0; }
   .programs-page-wrapper h2 {
     font-family: 'francois-one';
-    font-size: 48px;
+    font-size: 1.5em;
     letter-spacing: 5px; }
   .programs-page-wrapper p {
     margin: 0px 25%; }
