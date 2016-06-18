@@ -57,7 +57,7 @@ function dreamrider_program_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'Program', $args );
+	register_post_type( 'program', $args );
 
 }
 add_action( 'init', 'dreamrider_program_type', 0 );
