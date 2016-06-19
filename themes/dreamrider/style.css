@@ -1295,81 +1295,95 @@ object {
     text-align: center;
     margin: 2% 5%; }
 
-.contact-page-wrapper .contact-header-section {
-  color: #44b3eb;
-  text-align: center; }
-  .contact-page-wrapper .contact-header-section h3 {
+.contact-page-wrapper,
+#eModal-1 {
+  background-color: #fff !important;
+  box-shadow: none !important; }
+  .contact-page-wrapper .emodal-close,
+  #eModal-1 .emodal-close {
+    visibility: hidden; }
+  .contact-page-wrapper .contact-header-section,
+  #eModal-1 .contact-header-section {
+    color: #44b3eb;
+    text-align: center;
+    font-family: 'montserrat-light' !important; }
+    .contact-page-wrapper .contact-header-section h3,
+    #eModal-1 .contact-header-section h3 {
+      margin: 0; }
+    .contact-page-wrapper .contact-header-section .middle,
+    #eModal-1 .contact-header-section .middle {
+      margin-top: 4px; }
+    .contact-page-wrapper .contact-header-section p,
+    #eModal-1 .contact-header-section p {
+      margin: 0; }
+  .contact-page-wrapper .wpcf7 input.wpcf7-text,
+  #eModal-1 .wpcf7 input.wpcf7-text {
+    width: 90%; }
+  .contact-page-wrapper .wpcf7 textarea.wpcf7-textarea,
+  #eModal-1 .wpcf7 textarea.wpcf7-textarea {
+    width: 90%; }
+  .contact-page-wrapper .entry-title,
+  #eModal-1 .entry-title {
+    display: none; }
+  .contact-page-wrapper .entry-header,
+  #eModal-1 .entry-header {
     margin: 0; }
-  .contact-page-wrapper .contact-header-section .middle {
-    margin-top: 4px; }
-  .contact-page-wrapper .contact-header-section p {
-    margin: 0; }
-
-.contact-page-wrapper .wpcf7 input.wpcf7-text {
-  width: 90%; }
-
-.contact-page-wrapper .wpcf7 textarea.wpcf7-textarea {
-  width: 90%; }
-
-.contact-page-wrapper .entry-title {
-  display: none; }
-
-.contact-page-wrapper .entry-header {
-  margin: 0; }
-
-.contact-page-wrapper form {
-  padding: 20px;
-  border-left: 3px solid #44b3eb;
-  border-right: 3px solid #44b3eb;
-  border-radius: 5%;
-  margin: 10px; }
-
-.contact-page-wrapper input {
-  border: none;
-  border-bottom: 2px solid #ccc; }
-
-.contact-page-wrapper textarea {
-  border: none;
-  border-bottom: 2px solid #ccc;
-  height: 2rem; }
-
-.contact-page-wrapper ::-webkit-input-placeholder {
-  color: #44b3eb; }
-
-.contact-page-wrapper :-moz-placeholder {
-  /* Firefox 18- */
-  color: #44b3eb; }
-
-.contact-page-wrapper ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #44b3eb; }
-
-.contact-page-wrapper :-ms-input-placeholder {
-  color: #44b3eb; }
-
-.contact-page-wrapper .wpcf7-submit {
-  background: #eba704;
-  padding: 13px 50px;
-  color: #fff;
-  font-size: 20px;
-  font-family: 'francois-one', sans-serif;
-  background-color: #f3a536;
-  border-radius: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  box-shadow: none;
-  text-shadow: none; }
-  .contact-page-wrapper .wpcf7-submit:hover {
-    background-color: #f29a1e; }
-  .contact-page-wrapper .wpcf7-submit:visited {
-    color: #fff; }
-
-.contact-page-wrapper .ajax-loader {
-  display: none; }
-
-@media (min-width: 340px) {
-  .contact-page-wrapper form {
-    width: 550px; } }
+  .contact-page-wrapper form,
+  #eModal-1 form {
+    padding: 20px;
+    border-left: 3px solid #44b3eb;
+    border-right: 3px solid #44b3eb;
+    border-radius: 5%;
+    margin: 10px auto 0; }
+  .contact-page-wrapper input,
+  #eModal-1 input {
+    border: none;
+    border-bottom: 2px solid #ccc; }
+  .contact-page-wrapper textarea,
+  #eModal-1 textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    height: 2rem; }
+  .contact-page-wrapper ::-webkit-input-placeholder,
+  #eModal-1 ::-webkit-input-placeholder {
+    color: #44b3eb; }
+  .contact-page-wrapper :-moz-placeholder,
+  #eModal-1 :-moz-placeholder {
+    /* Firefox 18- */
+    color: #44b3eb; }
+  .contact-page-wrapper ::-moz-placeholder,
+  #eModal-1 ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #44b3eb; }
+  .contact-page-wrapper :-ms-input-placeholder,
+  #eModal-1 :-ms-input-placeholder {
+    color: #44b3eb; }
+  .contact-page-wrapper .wpcf7-submit,
+  #eModal-1 .wpcf7-submit {
+    background: #eba704;
+    padding: 13px 50px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'francois-one', sans-serif;
+    background-color: #f3a536;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: none;
+    text-shadow: none; }
+    .contact-page-wrapper .wpcf7-submit:hover,
+    #eModal-1 .wpcf7-submit:hover {
+      background-color: #f29a1e; }
+    .contact-page-wrapper .wpcf7-submit:visited,
+    #eModal-1 .wpcf7-submit:visited {
+      color: #fff; }
+  .contact-page-wrapper .ajax-loader,
+  #eModal-1 .ajax-loader {
+    display: none; }
+  @media (min-width: 340px) {
+    .contact-page-wrapper form,
+    #eModal-1 form {
+      width: 550px; } }
 
 .contact-main {
   display: -ms-flexbox;
