@@ -17,6 +17,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+<<<<<<< HEAD
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -594,16 +595,57 @@ a {
   -ms-flex-align: center;
       align-items: center; }
   .site-header .main-navigation button {
-    background-color: none; }
+    background: none; }
 
 .screen-rider-text {
   display: none; }
 
-.menu {
+.menu-menu-1-container {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0; }
+  .menu-menu-1-container ul {
+    background: #44b3eb;
+    height: 60vh;
+    width: 75vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .menu-menu-1-container ul li {
+      margin-top: 10px; }
+      .menu-menu-1-container ul li a {
+        text-decoration: none;
+        color: #fff; }
+
+.menu-toggle {
+  background: #fff;
+  border: none;
+  box-shadow: none; }
+  .menu-toggle:visited {
+    border: none; }
+  .menu-toggle:active {
+    border: none; }
+  .menu-toggle .dark-bar {
+    color: #C0C0C0; }
+  .menu-toggle .light-bar {
+    display: none;
+    color: #fff; }
+
+.light-bar {
+  color: red;
   display: none; }
 
-.menu-toggle .fa-times {
-  display: none; }
+.opacity {
+  background: rgba(68, 179, 235, 0.3);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1; }
 
 /*--------------------------------------------------------------
 # Accessibility
