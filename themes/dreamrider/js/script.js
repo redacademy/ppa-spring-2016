@@ -6,9 +6,9 @@ jQuery(document).ready(function($) {
 	});
 
 	//Functionality: Back Button
-	// $('.back-btn').click(function(){	// On Click of Class
-	// 	window.history.back(); //links back to the previous page of the browser
-	// });
+	$('.back-btn').click(function(){	// On Click of Class
+		window.history.back(); //links back to the previous page of the browser
+	});
 
 	//initialize bxslider for Program Page
 	$('.bxslider').bxSlider({
