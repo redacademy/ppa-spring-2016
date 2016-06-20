@@ -1,14 +1,14 @@
  .contact-page-wrapper,
  #eModal-1 {
-	
+
 	//!important is required to overwrite Easy Modal plugin's styles
  	background-color:#fff !important;
- 	box-shadow:none !important;	
+ 	box-shadow:none !important;
 
  	.emodal-close{
  		visibility:hidden;
  	}
-		
+
  	.contact-header-section {
 		color: #44b3eb;
 		text-align: center;
@@ -25,11 +25,11 @@
 		}
  	}
  	.wpcf7 input.wpcf7-text {
- 		width: 90%; 
+ 		width: 90%;
  	}
-	.wpcf7 textarea.wpcf7-textarea { 
-		width: 90%; 
-	} 
+	.wpcf7 textarea.wpcf7-textarea {
+		width: 90%;
+	}
 	.entry-title {
 		display: none;
 	}
@@ -39,7 +39,7 @@
 	form {
 		padding: 20px;
 	    border-left: 3px solid #44b3eb;
-	    border-right: 3px solid #44b3eb; 
+	    border-right: 3px solid #44b3eb;
 	    border-radius: 5%;
 	    margin: 10px auto 0;
 	}
@@ -55,17 +55,17 @@
 	::-webkit-input-placeholder {
 	   color:#44b3eb;
 	}
- 
+
 	:-moz-placeholder { /* Firefox 18- */
-	   color: #44b3eb;  
+	   color: #44b3eb;
 	}
 
 	::-moz-placeholder {  /* Firefox 19+ */
-	   color: #44b3eb;  
+	   color: #44b3eb;
 	}
 
-	:-ms-input-placeholder {  
-	   color: #44b3eb;  
+	:-ms-input-placeholder {
+	   color: #44b3eb;
 	}
 	.wpcf7-submit {
 		background: #eba704;
@@ -90,13 +90,13 @@
 		display: none;
 	}
 
-	@media (min-width: 340px) {
+	@media #{$mobile} {
 		form {
 			width: 550px;
 		}
 	}
  }
- 
+
  .contact-main {
  	display: flex;
     flex-direction: column;
@@ -105,5 +105,3 @@
 .wpcf7-form p {
 	text-align: center;
 }
-
- 

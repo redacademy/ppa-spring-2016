@@ -73,6 +73,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
+/* ----------- Media Queries  -----------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1398,7 +1399,7 @@ object {
   .contact-page-wrapper .ajax-loader,
   #eModal-1 .ajax-loader {
     display: none; }
-  @media (min-width: 340px) {
+  @media (width: 340px) {
     .contact-page-wrapper form,
     #eModal-1 form {
       width: 550px; } }
