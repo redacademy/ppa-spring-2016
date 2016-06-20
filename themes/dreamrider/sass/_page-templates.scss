@@ -237,12 +237,6 @@
   background-color: $color_separator-partner-testimonial;
 }
 
-.quotes:last-child {
-  .quote-separator {
-    display: none;
-  }
-}
-
 .request-demo-button {
   @include cta-button;
   margin-bottom: 70px;

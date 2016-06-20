@@ -888,7 +888,7 @@ object {
     letter-spacing: 2px; }
 
 .checkmark-icon {
-  width: 50px;
+  width: 65px;
   height: auto; }
 
 .testimonial-bubble {
@@ -1070,9 +1070,6 @@ object {
   height: 2px;
   margin: 50px auto;
   background-color: #afafaf; }
-
-.quotes:last-child .quote-separator {
-  display: none; }
 
 .request-demo-button {
   margin: 50px auto;
@@ -1492,4 +1489,46 @@ object {
     padding: 30px 0 0; }
   .home .individual-program {
     margin: 0 20px;
-    display: inline-block; } }
+    display: inline-block; }
+    .home .individual-program img {
+      width: auto;
+      max-height: 200px; }
+  .home .learning-benefits-container,
+  .home .community-impact-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .home .learning-benefits-container div,
+    .home .community-impact-container div {
+      width: 33.3%; }
+  .home .quotes-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start; }
+  .home .quotes {
+    width: 50%;
+    min-height: 320px;
+    padding: 0 12px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; }
+  .home p.quote-source {
+    width: 75%; }
+  .home .quote-separator {
+    display: none; } }
+
+/* Community Partners: Logos (Partial)*/
+.partners-images {
+  width: 75%;
+  margin-top: 40px; }
+
+.partner-image img {
+  width: 240px;
+  height: auto; }
