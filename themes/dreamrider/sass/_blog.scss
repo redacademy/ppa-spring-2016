@@ -1,5 +1,14 @@
 .blog{
-	h1{
-		@include page-heading;
+	
+	//Page title Style
+	h1{	@include page-heading;}
+
+	article{
+		margin: 50px auto;
+		max-width:$desktop-width;
+		text-align:center;
 	}
+
+	
+
 }
