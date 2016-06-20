@@ -93,3 +93,8 @@ $color_background-footer: $violet; //Footer
 
 /* Color: Borders / Separators */
 $color_separator-partner-testimonial: $light-gray;
+
+
+/* ----------- Media Queries  -----------*/
+$mobile: (min-width: 340px);
+$desktop: (min-width: 1440px);

@@ -85,6 +85,9 @@
     font-size: 1.3rem;
     font-weight: normal;
   }
+	@media #{$desktop} {
+	  color: red;
+	}
 }
 
 //For black headings on the white sections of a page
@@ -181,8 +184,3 @@
 		}
 	}
 }
-
-
-/* ----------- Media Queries  -----------*/
-$mobile: (width: 340px);
-$desktop: (width: 1440px);

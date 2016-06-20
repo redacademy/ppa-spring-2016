@@ -56,6 +56,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Color: Buttons */
 /* Color: Backgrounds */
 /* Color: Borders / Separators */
+/* ----------- Media Queries  -----------*/
 /* --------------------------------------------
  		Dreamrider: Custom Styles
  -------------------------------------------- */
@@ -73,7 +74,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ----------- Buttons  -----------*/
 /* Main Call-to-Action Button */
 /* Inverted Button */
-/* ----------- Media Queries  -----------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1134,6 +1134,9 @@ object {
     margin: 0;
     font-size: 1.3rem;
     font-weight: normal; }
+  @media (min-width: 1440px) {
+    .about-title {
+      color: red; } }
 
 .logo-container {
   max-width: 100%;
@@ -1399,7 +1402,7 @@ object {
   .contact-page-wrapper .ajax-loader,
   #eModal-1 .ajax-loader {
     display: none; }
-  @media (width: 340px) {
+  @media (min-width: 340px) {
     .contact-page-wrapper form,
     #eModal-1 form {
       width: 550px; } }
@@ -1437,6 +1440,9 @@ object {
     margin: 0;
     font-size: 1.3rem;
     font-weight: normal; }
+  @media (min-width: 1440px) {
+    .programs-page-wrapper .entry-header {
+      color: red; } }
 
 .programs-page-wrapper .image-container img {
   margin: 0 auto; }
@@ -1472,6 +1478,9 @@ object {
     margin: 0;
     font-size: 1.3rem;
     font-weight: normal; }
+  @media (min-width: 1440px) {
+    .blog h1 {
+      color: red; } }
 
 /* Community Partners: Logos */
 .partners-images {
