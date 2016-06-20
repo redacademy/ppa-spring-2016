@@ -5,10 +5,17 @@
 /* ----------- Front Page  -----------*/
 
 .home {
-  .main-title {
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    padding: 30px 0 0;
+  @include desktop {
+    .main-title {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 30px 0 0;
+    }
+
+    .individual-program {
+      margin: 0 20px;
+      display: inline-block;
+    }
   }
 }
