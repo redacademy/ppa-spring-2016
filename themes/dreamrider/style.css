@@ -594,16 +594,26 @@ a {
   -ms-flex-align: center;
       align-items: center; }
   .site-header .main-navigation button {
-    background-color: none; }
+    background: none; }
 
 .screen-rider-text {
   display: none; }
 
 .menu {
   display: none; }
+  .menu ul {
+    background: blue; }
 
-.menu-toggle .fa-times {
-  display: none; }
+.menu-toggle {
+  background: #fff;
+  border: none;
+  box-shadow: none; }
+  .menu-toggle:visited {
+    border: none; }
+  .menu-toggle:active {
+    border: none; }
+  .menu-toggle .fa-times {
+    display: none; }
 
 /*--------------------------------------------------------------
 # Accessibility

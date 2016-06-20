@@ -150,7 +150,7 @@ a {
 	align-items:center;
 
 	.main-navigation button{
-		background-color:none;
+		background: none;
 	}
 }
 
@@ -170,16 +170,28 @@ a {
 // 	}
 // }
 
-.screen-rider-text {
+.screen-rider-text { 
 	display: none;
 }
 
 //Hides page links
 .menu {
 	display: none;
+	ul {
+		background: blue;
+	}
 }
 
 .menu-toggle {
+	background: #fff;
+    border: none;
+    box-shadow: none;
+    &:visited {
+    	border: none;
+    }
+    &:active {
+    	border: none;
+    }
 	.fa-times {
 		display: none;
 	}
