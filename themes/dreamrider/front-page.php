@@ -60,30 +60,33 @@ get_header(); ?>
 
 				<section class="learning-benefits">
 					<h2>Learning Benefits</h2>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_1.png" alt="learning icon">
-						<p>Easy to use and Implement</p>
+					<div class="learning-benefits-container">
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_1.png" alt="learning icon">
+							<p>Easy to use and Implement</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_2.png" alt="learning icon">
+							<p>Flexible and <br>Adaptable</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_3.png" alt="learning icon">
+							<p>Supports<br>Curriculum</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_4.png" alt="learning icon">
+							<p>Engages and Meets <br>Diverse Learning Needs</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_5.png" alt="learning icon">
+							<p>Helps Bring Tech <br>Into the Classroom</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_6.png" alt="learning icon">
+							<p>Inspires Real Change <br>Beyond the Classroom</p>
+						</div>
 					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_2.png" alt="learning icon">
-						<p>Flexible and <br>Adaptable</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_3.png" alt="learning icon">
-						<p>Supports<br>Curriculum</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_4.png" alt="learning icon">
-						<p>Engages and Meets <br>Diverse Learning Needs</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_5.png" alt="learning icon">
-						<p>Helps Bring Tech <br>Into the Classroom</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Learning_6.png" alt="learning icon">
-						<p>Inspires Real Change <br>Beyond the Classroom</p>
-					</div>
+					<!--end learning-benefits-container-->
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
@@ -121,30 +124,34 @@ get_header(); ?>
 
 				<section class="community-impact">
 					<h2>Community Impact</h2>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_1.png" alt="learning icon">
-						<p>Tracks Behaviour <br>Change Data</p>
+					<div class="community-impact-container">
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_1.png" alt="learning icon">
+							<p>Tracks Behaviour <br>Change Data</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_2.png" alt="learning icon">
+							<p>Raises Awareness and <br>Influencing Positive Change</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_3.png" alt="learning icon">
+							<p>Encourages a Positive Attitude towards <br>Waste Reduction</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_4.png" alt="learning icon">
+							<p>Increases Awareness towards <br>Eco-Friendly Methods</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_5.png" alt="learning icon">
+							<p>Easy to Scale</p>
+						</div>
+						<div>
+							<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_6.png" alt="learning icon">
+							<p>Cultivates Creativity <br>and Innovation</p>
+						</div>
 					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_2.png" alt="learning icon">
-						<p>Raises Awareness and <br>Influencing Positive Change</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_3.png" alt="learning icon">
-						<p>Encourages a Positive Attitude towards <br>Waste Reduction</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_4.png" alt="learning icon">
-						<p>Increases Awareness towards <br>Eco-Friendly Methods</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_5.png" alt="learning icon">
-						<p>Easy to Scale</p>
-					</div>
-					<div>
-						<img src="<?php echo get_template_directory_uri()?>/images/icons/Impact_6.png" alt="learning icon">
-						<p>Cultivates Creativity <br>and Innovation</p>
-					</div>
+					<!--end community-impact-container-->
+
 					<div class="btn-inverted">
 						<a href="#">Read Case Studies</a>
 					</div>
