@@ -44,22 +44,31 @@
     @include white-on-blue-heading;
     margin-top: 0;
   }
+}
 
+.individual-program {
+  margin: 0 20px;
+  display: inline-block;
   img {
+    width: auto;
+    max-height: 200px;
     margin-bottom: 0;
   }
-
   h4 {
     margin-top: 0px;
     text-transform: uppercase;
   }
+  img {
+    margin: 20px 0 5px;
+  }
 
   p {
     width: 240px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     font-size: 1.1rem;
   }
 }
+
 
 
 /* Learning Benefits */
