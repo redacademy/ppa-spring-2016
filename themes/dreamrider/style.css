@@ -1440,6 +1440,20 @@ object {
   .programs-page-wrapper .entry-title {
     margin-top: 0; } }
 
+.blog h1 {
+  width: 100%;
+  padding: 10px;
+  font-family: "francois-one", sans-serif;
+  color: #fff;
+  background-color: #4ab4e9;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px; }
+  .blog h1 h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal; }
+
 /* Community Partners: Logos */
 .partners-images {
   width: 100%;
