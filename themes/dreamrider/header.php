@@ -18,7 +18,7 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
-			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
+			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a> 
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="dreamrider-header">
@@ -33,8 +33,8 @@
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
-						<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-						<i class="fa fa-times fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-bars dark-bar fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-bars light-bar fa-2x" aria-hidden="true"></i>
 					</button>
 					
 				</nav><!-- #site-navigation -->

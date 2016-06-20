@@ -86,7 +86,6 @@
     font-size: 1.3rem;
     font-weight: normal;
   }
-
 }
 
 //For black headings on the white sections of a page
@@ -186,13 +185,13 @@
 
 /* ----------- Media Queries  -----------*/
 @mixin mobile {
-	@media (min-width: #{mobile-width} ) {
+	@media (min-width: $mobile-width ) {
 		@content;
 	}
 }
 
-@mixin desktop-width {
-	@media (min-width: #{desktop-width}) {
+@mixin desktop {
+	@media (min-width: $desktop-width) {
 		@content;
 	}
 }

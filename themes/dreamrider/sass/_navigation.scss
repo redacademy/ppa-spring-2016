@@ -174,11 +174,28 @@ a {
 	display: none;
 }
 
-//Hides page links
-.menu {
-	display: none;
+//Hides page links 
+.menu-menu-1-container {
+	display: flex;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 0;
 	ul {
-		background: blue;
+		background: #44b3eb;
+		height: 60vh;
+		width: 75vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		li {
+			margin-top: 10px;
+			a {
+				text-decoration: none;	
+				color: #fff;
+			}
+			
+		}
 	}
 }
 
@@ -192,7 +209,25 @@ a {
     &:active {
     	border: none;
     }
-	.fa-times {
+
+    .dark-bar {
+		color: #C0C0C0;
+    }
+	.light-bar {
 		display: none;
+		color: #fff;
 	}
+}
+
+
+.light-bar {
+	color: red;
+	display: none;
+}
+
+.opacity {
+	background: rgba(68, 179, 235, 0.3);
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
 }
