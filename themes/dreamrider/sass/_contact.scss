@@ -90,7 +90,7 @@
 		display: none;
 	}
 
-	@media #{$mobile} {
+	@include mobile {
 		form {
 			width: 550px;
 		}

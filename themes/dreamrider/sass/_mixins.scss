@@ -20,6 +20,7 @@
  I. Section Styles
  II. Text
  III. Buttons
+ IV. Media Queries
 
 
  /* ----------- Section Styles  -----------*/
@@ -85,9 +86,7 @@
     font-size: 1.3rem;
     font-weight: normal;
   }
-	@media #{$desktop} {
-	  color: red;
-	}
+
 }
 
 //For black headings on the white sections of a page
@@ -182,5 +181,18 @@
 			color: $color_button-text-inverted-hover;
 			background-color: $color_button-background-inverted-hover;
 		}
+	}
+}
+
+/* ----------- Media Queries  -----------*/
+@mixin mobile {
+	@media (min-width: #{mobile-width} ) {
+		@content;
+	}
+}
+
+@mixin desktop-width {
+	@media (min-width: #{desktop-width}) {
+		@content;
 	}
 }
