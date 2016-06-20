@@ -894,27 +894,49 @@ object {
 
 .individual-testimonial {
   margin-bottom: 20px; }
+  .individual-testimonial:nth-child(2) .testimonial-bubble {
+    width: 80%;
+    height: 185px;
+    background: none;
+    position: relative; }
+    .individual-testimonial:nth-child(2) .testimonial-bubble p {
+      margin-top: 10px; }
+    .individual-testimonial:nth-child(2) .testimonial-bubble:before {
+      width: 100%;
+      height: 185px;
+      background: url("../../images/quote-bubble.png") no-repeat;
+      background-size: cover;
+      content: "";
+      position: absolute;
+      left: 0;
+      transform: scaleX(-1); }
 
-.testimonial-bubble {
-  width: 85%;
-  height: 150px;
+.testimonial-bubble:first-child {
+  width: 80%;
+  height: 185px;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 12px 20px;
   color: #4a4a4a;
-  background: url("../../images/quote-bubble.png") no-repeat;
-  background-size: 100%;
-  line-height: 1.2;
   text-align: left;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-  .testimonial-bubble p {
-    margin: 0;
+  line-height: 1.2;
+  background: url("../../images/quote-bubble.png") no-repeat;
+  background-size: 100%; }
+  .testimonial-bubble:first-child p {
+    height: 105px;
+    margin-top: 0px;
     overflow: hidden;
-    text-overflow: ellipsis; }
+    position: relative; }
+    .testimonial-bubble:first-child p:after {
+      width: 25px;
+      height: 20px;
+      content: "...";
+      position: absolute;
+      bottom: 0;
+      right: 0; }
 
 .testimonial-source {
   width: 75%;
-  margin: 15px auto 30px;
+  margin: 0 auto 30px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
@@ -922,13 +944,11 @@ object {
   -ms-flex-align: center;
       align-items: center; }
   .testimonial-source div:first-child {
-    padding-right: 10px; }
+    padding-right: 8px; }
   .testimonial-source img {
     width: 50px;
-    height: auto; }
-  .testimonial-source .third-icon {
-    width: 45px;
-    height: auto; }
+    height: auto;
+    margin-top: 0; }
   .testimonial-source p {
     font-size: 0.8rem;
     color: #afafaf;
