@@ -90,7 +90,8 @@ get_header(); ?>
 				</section><!-- learning-benefits -->
 
 				<section class="testimonials">
-
+					<img class="checkmark-icon" src="<?php echo get_template_directory_uri() ?>/images/checkmark.png">
+					<h2>Testimonials</h2>
 					<!-- Custom Loop Defined for Testimonial -->
 					<?php
 					   $args = array( 'post_type' => 'testimonial',
@@ -114,8 +115,6 @@ get_header(); ?>
 
 					<?php endforeach; wp_reset_postdata(); ?>
 
-					</div>
-					<!-- end testimonial-container -->
 					<div class="free-trial-button">
 						<a href="#">Start My Free Trial</a>
 					</div>
