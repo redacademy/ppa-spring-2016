@@ -1,4 +1,4 @@
-(function($){
+jQuery(document).ready(function( $ ) {
 
 	//Functionality: Back to Top Scroll
 	$('.back-to-top').click(function() {      // On Click of Class
@@ -18,4 +18,5 @@
 	//Adds Modals class to the menu for Contact Pop up
 	$("#menu-footer-menu li:last-child a").addClass("eModal-1");
 
-})(jQuery)
+
+});
