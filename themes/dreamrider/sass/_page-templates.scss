@@ -54,6 +54,16 @@
     max-height: 200px;
     margin-bottom: 0;
   }
+<<<<<<< HEAD
+=======
+
+  .program-icon { //Resizes ice cube icon link
+    width: 125px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+>>>>>>> 7adaf2c8e66b6fc06bb72dd6cf689a6be6cb5c27
   h4 {
     margin-top: 0px;
     text-transform: uppercase;
@@ -86,94 +96,92 @@
 .testimonials {
   @include blue-section;
   padding: 40px 20px 20px;
+
   h2 {
     @include white-on-blue-heading;
   }
-
 }
 
 .checkmark-icon {
-  width: 65px;
+  width: 50px;
   height: auto;
 }
 
+.individual-testimonial {
+  margin-bottom: 20px;
+}
+
 .testimonial-bubble {
-  width: 80%;
-  height: 185px;
+  width: 85%;
+  height: 150px;
   margin: 0 auto;
-  padding: 12px 20px;
+  padding: 15px 20px;
   color: $color_text-testimonial-main;
-  text-align: left;
-  line-height: 1.2;
   background: url('../../images/quote-bubble.png') no-repeat;
   background-size: 100% ;
+  line-height: 1.2;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
   p {
-    height: 105px;
-    margin-top: 0px;
+    margin: 0;
     overflow: hidden;
-    position: relative;
-    &:after {          //Adds ellipsis after clipping the text
-      width: 10%;
-      height: 20px;
-      content: "...";
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
+    text-overflow: ellipsis;
+
   }
 }
 
+// .testimonial-bubble {
+//   width: 70%;
+//   margin: 0 auto;
+//   padding: 15px 20px;
+//   color: $color_text-testimonial-main;
+//   background-color: #fff; //temporary
+//   border-radius: 1rem;
+//   line-height: 1.2;
+//   text-align: left;
+//   p {
+//     margin: 0;
+//     text-overflow: ellipsis;
+//   }
+//   &:after {
+//     content: url('../../images/quote-bubble-pointer.png');
+//   }
+// }
+
 .testimonial-source {
-  width: 100%;
-  margin: 0 auto 30px;
+  width: 75%;
+  margin: 15px auto 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   div:first-child {
-    width: 20%;
+    padding-right: 10px;
   }
   img {
     width: 50px;
     height: auto;
-    margin-top: 0;
-;
+  }
+  .third-icon { //Resizes third human icon so that dimensions are same as the other two
+    width: 45px;
+    height: auto;
   }
   p {
     @include quote-source;
-    width: 75%;
     font-size: 0.7rem;
     color: $color_text-testimonials;
   }
 }
 
-.individual-testimonial {
-  margin-bottom: 20px;
-  &:nth-child(2) .testimonial-bubble { //Middle speech bubble
-    width: 80%;
-    min-height: 190px;
-    background: none;
-    position: relative;
-    p {
-      margin-top: 10px;
-    }
-    &:before { //Background hack for the style of middle speech bubble
-      width: 100%;
-      height: 185px;
-      background: url('../../images/quote-bubble.png') no-repeat;
-      background-size: 100%;
-      content: "";
-      position: absolute;
-      left: 0;
-      transform: scaleX(-1);
-    }
+//Counter-positions the middle testimonial
+.individual-testimonial:nth-child(even) .testimonial-source {
+  // justify-content: flex-end;
+  div:first-child {
+    order: 2;
   }
-  &:nth-child(2) .testimonial-source { //Counter-positions the source section of the middle testimonial
-    div:first-child {
-      order: 2;
-    }
-    p {
-      text-align: right;
-    }
+  p {
+    text-align: right;
+    margin-right: 10px;
   }
 }
 
@@ -243,6 +251,12 @@
   height: 2px;
   margin: 50px auto;
   background-color: $color_separator-partner-testimonial;
+}
+
+.quotes:last-child {
+  .quote-separator {
+    display: none;
+  }
 }
 
 .request-demo-button {
