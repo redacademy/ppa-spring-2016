@@ -53,7 +53,7 @@
   } //end desktop media query
 } //end home page
 
-/* Community Partners: Logos (Partial)*/
+/* ----------- Community Partners' Logos (Template Part)  -----------*/
 @include desktop {
   .partners-images {
     width: 75%;
@@ -62,5 +62,13 @@
   .partner-image img {
     width: 240px;
     height: auto;
+  }
+}
+
+/* ----------- Footer  -----------*/
+@include desktop {
+  .footer-menu li{
+    display: inline;
+    padding: 0 20px;
   }
 }
