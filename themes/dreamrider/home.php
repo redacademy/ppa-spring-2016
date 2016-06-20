@@ -10,11 +10,6 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 			<section class="blog-header-section">
 				<h1>blog</h1>
-				<div class="blog-filter-container">
-					<p>filter by:</p>
-					<div class="blog-case-study-dropdown">
-					</div>
-				</div>
 			</section><!-- blog-header-section -->
 
 			<?php if ( have_posts() ) : ?>
@@ -39,8 +34,8 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 			<?php endif; ?>
-			<div class="btn">
-				<a class="cta-button" href="#">Get started now</a>
+			<div class="cta-button">
+				<a href="#">Get started now</a>
 			</div>
 			</main><!-- #main -->
 		</div><!-- #primary -->

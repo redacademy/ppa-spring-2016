@@ -17,6 +17,12 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		<div class="opacity">
+		</div>
+		<button class="menu-toggle menu-open" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
+			<i class="fa fa-bars dark-bar fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-bars light-bar fa-2x" aria-hidden="true"></i>
+		</button>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a> 
 
