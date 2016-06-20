@@ -190,9 +190,12 @@ a {
 		justify-content: center;
 		li {
 			margin-top: 10px;
+			text-align: left;
+			padding-left: 10%;
 			a {
 				text-decoration: none;	
 				color: #fff;
+				text-transform: capitalize;
 			}
 			
 		}
@@ -219,12 +222,18 @@ a {
 .menu-open {
 	z-index: 10;
 	position: fixed;
-	top: 15px;
-	right: 0;
+	top: 20px;
+	right: 16px;
+	background: #44b3eb;
+	display: none;
+	&:hover {
+		box-shadow: none;
+	}
+
 	.light-bar {
 		display: none;
 		color: #fff;
-		background: #44b3eb;
+		
 	}
 }
 
