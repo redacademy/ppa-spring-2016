@@ -2,6 +2,7 @@
      Dreamrider: Custom Styles
  ============================================== */
 
+
 /* ----------- Front Page  -----------*/
 
 .home {
@@ -30,8 +31,27 @@
         width: 33.3%;
       }
     }
-  }
-}
+    .quotes-container {
+      display: flex;
+      align-items: flex-start;
+    }
+    .quotes {
+      width: 50%;
+      min-height: 320px;
+      padding: 0 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    p.quote-source {
+      width: 75%;
+    }
+    .quote-separator {
+      display: none;
+    }
+  } //end desktop media query
+} //end home page
 
 /* Community Partners: Logos (Partial)*/
 

@@ -6,11 +6,10 @@
  */
 
 get_header(); ?>
-
+	
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<div>
-		is it working?????
 		</div>
 		<?php if ( have_posts() ) : ?>
 
@@ -37,6 +36,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<div class="opacity">
+	</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
