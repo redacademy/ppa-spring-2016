@@ -892,26 +892,7 @@ object {
   width: 50px;
   height: auto; }
 
-.individual-testimonial {
-  margin-bottom: 20px; }
-  .individual-testimonial:nth-child(2) .testimonial-bubble {
-    width: 80%;
-    height: 185px;
-    background: none;
-    position: relative; }
-    .individual-testimonial:nth-child(2) .testimonial-bubble p {
-      margin-top: 10px; }
-    .individual-testimonial:nth-child(2) .testimonial-bubble:before {
-      width: 100%;
-      height: 185px;
-      background: url("../../images/quote-bubble.png") no-repeat;
-      background-size: cover;
-      content: "";
-      position: absolute;
-      left: 0;
-      transform: scaleX(-1); }
-
-.testimonial-bubble:first-child {
+.testimonial-bubble {
   width: 80%;
   height: 185px;
   margin: 0 auto;
@@ -921,13 +902,13 @@ object {
   line-height: 1.2;
   background: url("../../images/quote-bubble.png") no-repeat;
   background-size: 100%; }
-  .testimonial-bubble:first-child p {
+  .testimonial-bubble p {
     height: 105px;
     margin-top: 0px;
     overflow: hidden;
     position: relative; }
-    .testimonial-bubble:first-child p:after {
-      width: 25px;
+    .testimonial-bubble p:after {
+      width: 10%;
       height: 20px;
       content: "...";
       position: absolute;
@@ -935,7 +916,7 @@ object {
       right: 0; }
 
 .testimonial-source {
-  width: 75%;
+  width: 100%;
   margin: 0 auto 30px;
   display: -ms-flexbox;
   display: flex;
@@ -944,7 +925,7 @@ object {
   -ms-flex-align: center;
       align-items: center; }
   .testimonial-source div:first-child {
-    padding-right: 8px; }
+    width: 20%; }
   .testimonial-source img {
     width: 50px;
     height: auto;
@@ -954,16 +935,33 @@ object {
     color: #afafaf;
     letter-spacing: 2px;
     line-height: 2;
+    width: 75%;
     font-size: 0.7rem;
     color: #fff; }
 
-.individual-testimonial:nth-child(even) .testimonial-source div:first-child {
-  -ms-flex-order: 2;
-      order: 2; }
-
-.individual-testimonial:nth-child(even) .testimonial-source p {
-  text-align: right;
-  margin-right: 10px; }
+.individual-testimonial {
+  margin-bottom: 20px; }
+  .individual-testimonial:nth-child(2) .testimonial-bubble {
+    width: 80%;
+    min-height: 190px;
+    background: none;
+    position: relative; }
+    .individual-testimonial:nth-child(2) .testimonial-bubble p {
+      margin-top: 10px; }
+    .individual-testimonial:nth-child(2) .testimonial-bubble:before {
+      width: 100%;
+      height: 185px;
+      background: url("../../images/quote-bubble.png") no-repeat;
+      background-size: 100%;
+      content: "";
+      position: absolute;
+      left: 0;
+      transform: scaleX(-1); }
+  .individual-testimonial:nth-child(2) .testimonial-source div:first-child {
+    -ms-flex-order: 2;
+        order: 2; }
+  .individual-testimonial:nth-child(2) .testimonial-source p {
+    text-align: right; }
 
 .free-trial-button {
   margin: 50px auto;
