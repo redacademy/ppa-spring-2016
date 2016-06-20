@@ -1398,7 +1398,7 @@ object {
   .contact-page-wrapper .ajax-loader,
   #eModal-1 .ajax-loader {
     display: none; }
-  @media (min-width: mobile-width) {
+  @media (min-width: 340px) {
     .contact-page-wrapper form,
     #eModal-1 form {
       width: 550px; } }
@@ -1483,3 +1483,13 @@ object {
   height: auto;
   margin: 10px;
   display: inline-block; }
+
+/* ==============================================
+     Dreamrider: Custom Styles
+ ============================================== */
+/* ----------- Front Page  -----------*/
+.home .main-title {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 0 0; }
