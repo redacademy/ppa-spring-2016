@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function( $ ) {
 
 	//Functionality: Back to Top Scroll
 	$('.back-to-top').click(function() {      // On Click of Class
