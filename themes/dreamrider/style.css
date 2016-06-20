@@ -1319,9 +1319,6 @@ object {
 #eModal-1 {
   background-color: #fff !important;
   box-shadow: none !important; }
-  .contact-page-wrapper .emodal-close,
-  #eModal-1 .emodal-close {
-    visibility: hidden; }
   .contact-page-wrapper .contact-header-section,
   #eModal-1 .contact-header-section {
     color: #44b3eb;
