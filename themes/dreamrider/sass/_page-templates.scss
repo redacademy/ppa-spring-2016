@@ -49,12 +49,6 @@
     margin-bottom: 0;
   }
 
-  .program-icon { //Resizes ice cube icon link
-    width: 125px;
-    height: auto;
-    margin-top: 20px;
-  }
-
   h4 {
     margin-top: 0px;
     text-transform: uppercase;
@@ -83,14 +77,14 @@
 .testimonials {
   @include blue-section;
   padding: 40px 20px 20px;
-
   h2 {
     @include white-on-blue-heading;
   }
+
 }
 
 .checkmark-icon {
-  width: 50px;
+  width: 65px;
   height: auto;
 }
 

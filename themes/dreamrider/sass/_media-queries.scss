@@ -5,10 +5,41 @@
 /* ----------- Front Page  -----------*/
 
 .home {
-  .main-title {
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    padding: 30px 0 0;
+  @include desktop {
+    .main-title {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 30px 0 0;
+    }
+
+    .individual-program {
+      margin: 0 20px;
+      display: inline-block;
+      img {
+        width: auto;
+        max-height: 200px;
+      }
+    }
+
+    .learning-benefits-container,
+    .community-impact-container {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        width: 33.3%;
+      }
+    }
   }
+}
+
+/* Community Partners: Logos (Partial)*/
+
+.partners-images {
+  width: 75%;
+  margin-top: 40px;
+}
+.partner-image img {
+  width: 240px;
+  height: auto;
 }
