@@ -35,6 +35,7 @@
 		responsive: true,
 		slideZIndex: 50,
 		wrapperClass: 'bx-wrapper',
+	
 
 		// TOUCH
 		touchEnabled: true,
