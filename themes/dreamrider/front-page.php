@@ -175,7 +175,6 @@ get_header(); ?>
 				      <div class="quotes">
 				        <p>DreamRider has a unique ablility to educate and inspire children on environmental issues through song and theatre... These productions really hit home!</p>
 				        <p class="quote-source">Madeleine Lemaire, City of Coquitlam, BC</p>
-				        <div class="quote-separator"></div>
 				      </div>
 				    </div>
 				    <!--end quotes-container-->
