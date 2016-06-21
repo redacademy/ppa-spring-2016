@@ -56,6 +56,23 @@
       }
     }
 
+    .individual-testimonial { //container for both speech bubble and source
+      display: inline-block;
+      &:nth-child(even) .testimonial-bubble { //Middle speech bubble
+        &:before { //Background hack for the style of middle speech bubble
+          transform: scaleX(1);
+        }
+      }
+      &:nth-child(even) .testimonial-source { //Return middle testimonial to document order
+        div:first-child {
+          order: initial;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+
     .quotes-container {
       display: flex;
       align-items: flex-start;
