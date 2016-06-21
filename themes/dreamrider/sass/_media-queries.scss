@@ -120,6 +120,24 @@
       transform: translateX(0);
     }
 
+    .about-intro {
+      width: 60%;
+    }
+
+    .about-quote {
+      padding: 15px 50px;
+      font-size: 1.3rem;
+    }
+
+    .about-story h3,
+    .about-today h3 {
+      font-size: 2rem;
+    }
+
+    .about-today p {
+      padding: 0 200px;
+    }
+
   } //end page-template-about
 
 
