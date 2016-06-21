@@ -29,7 +29,7 @@ get_header(); ?>
 
 				<section class="main-title">
 					<h1><?php echo esc_html(CFS()->get('title')) ?></h1>
-					<p class="more-info">The Planet Protector Academy is an innovative digital-led classroom experience that teaches kids about important environmental issues and empowers them to lead change in their families.</p>
+					<p class="more-info"><?php the_content(); ?></p>
 				</section><!-- main-title -->
 				<div class="cta-button">
 					<a href="#">Get started now</a>
