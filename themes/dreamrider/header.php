@@ -20,7 +20,6 @@
 		<div class="opacity">
 		</div>
 		<button class="menu-toggle menu-open" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
-			
 			<i class="fa fa-bars light-bar fa-2x" aria-hidden="true"></i>
 		</button>
 		<div id="page" class="hfeed site">
@@ -30,11 +29,20 @@
 				<div class="site-branding">
 					<img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Planet Protector Acadmey Logo">
 				</div><!-- .site-branding -->
+				
+				<div class="desktop-nav">
+					<a href="">About Us</a>
+					<a href="">Community</a>
+					<a href="">Learning</a>
+					<a href="">Blog</a>
+					<a id="btn-a" href="">Contact</a>
+				</div><!-- desktop-nav -->
 
+
+							
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
 						<i class="fa fa-bars dark-bar fa-2x" aria-hidden="true"></i>
-						
 					</button>
 					
 				</nav><!-- #site-navigation -->
