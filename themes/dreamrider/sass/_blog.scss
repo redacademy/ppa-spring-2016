@@ -5,10 +5,19 @@
 
 	article{
 		margin: 50px auto;
-		max-width:$desktop-width;
+		max-width:$mobile-width;
 		text-align:center;
+
+		h2 a{
+			color:$black;
+			text-decoration:none;
+		}
 	}
 
-	
+	@include desktop{
+		article{
+			max-width:$desktop-width;
+		}
+	}	
 
 }
