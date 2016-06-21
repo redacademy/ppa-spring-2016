@@ -38,20 +38,20 @@
 .footer-menu {
 	margin: 0 auto;
 	padding: 5px 0 20px;
-}
-.menu-item {
-	padding: 5px;
-	text-align: center;
-	list-style-type: none;
-	a, a:visited {
-		color: $color_text-link-footer;
-		text-decoration: none;
-	}
-	&:hover {
-		font-weight: bold;
-	}
-}
 
+	.menu-item {
+		padding: 5px;
+		text-align: center;
+		list-style-type: none;
+		a, a:visited {
+			color: $color_text-link-footer;
+			text-decoration: none;
+		}
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}
 
 
 //Hide "Powered by Wordpress"
