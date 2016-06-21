@@ -32,15 +32,8 @@
 				</div><!-- .site-branding -->
 				
 				<div class="desktop-nav">
-					<a href="">Learning</a>
-					<a href="">Community</a>
-					<a href="">About Us</a>
-					<a href="">Programs</a>
-					<a href="">Blog</a>
-					<a id="btn-a" href="">Contact</a>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</div><!-- desktop-nav -->
-
-
 							
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
@@ -49,5 +42,10 @@
 					
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
+			
+			<!-- Mobile Menu location -->
+			<div class="mobile-nav">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			</div>
+			
 			<div id="content" class="site-content">
