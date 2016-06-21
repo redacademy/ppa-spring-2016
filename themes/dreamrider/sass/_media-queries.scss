@@ -3,10 +3,11 @@
  ============================================== */
 
 
+@include desktop {
+
 /* ----------- Front Page  -----------*/
 
-.home {
-  @include desktop {
+  .home {
     .main-title {
       width: 50%;
       height: auto;
@@ -22,10 +23,12 @@
         width: 33.3%;
       }
     }
+
     .quotes-container {
       display: flex;
       align-items: flex-start;
     }
+
     .quotes {
       width: 50%;
       min-height: 340px;
@@ -35,34 +38,53 @@
       justify-content: space-between;
       align-items: center;
     }
+
     .quote-source {
       width: 80%;
     }
+
     .quote-separator {
       display: none;
     }
-  } //end desktop media query
-} //end home page
+  } //end home page
+
 
 /* ----------- Community Partners' Logos (Template Part)  -----------*/
-@include desktop {
+
   .partners-images {
     width: 75%;
     margin-top: 40px;
   }
+
   .partner-image img {
     width: 240px;
     height: auto;
   }
-}
+
+
+/* ----------- About  -----------*/
+
+  .page-template-about {
+    .site-content {
+      margin-top: 4.8rem;
+    }
+
+    .about-title {
+      padding: 10px;
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  } //end page-template-about
+
 
 /* ----------- Footer  -----------*/
-@include desktop {
-  .footer-menu li{
+
+  .footer-menu li {
     display: inline;
     padding: 0 20px;
   }
-}
+
 
 /* ----------- Header Navigation  -----------*/
 
@@ -76,8 +98,8 @@
 //display desktop navigation
 @include desktop {
   .site-header {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
   }
   .desktop-nav {
     width: 50%;
@@ -101,3 +123,4 @@
     color: #fff;
   }
 }
+} 
