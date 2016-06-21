@@ -104,7 +104,7 @@
 
   .page-template-about {
     .site-content {
-      margin-top: 4.8rem;
+      margin-top: 5.5rem;
     }
 
     .about-title {
@@ -113,6 +113,13 @@
         font-size: 3rem;
       }
     }
+
+    .logo-container img{
+      margin: 30px auto 0;
+      height: auto;
+      transform: translateX(0);
+    }
+
   } //end page-template-about
 
 
