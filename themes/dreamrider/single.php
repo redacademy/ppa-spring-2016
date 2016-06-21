@@ -14,8 +14,6 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single-blog' ); ?>
 
-			<?php next_post_link('Next Post', 0); ?>
-
 		<?php endwhile; // End of the loop. ?>
 
 		<div class="cta-button">

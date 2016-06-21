@@ -19,7 +19,7 @@
 
 	<div class="entry-content">	
 		<?php the_content(); ?>
-
+		<?php next_post_link('%link','Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i>',true); ?>
 	</div><!-- .entry-content -->
 
 </article><!-- #post-## -->
