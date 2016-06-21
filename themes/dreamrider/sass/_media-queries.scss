@@ -5,6 +5,44 @@
 
 @include desktop {
 
+/* ----------- Header Navigation  -----------*/
+
+  //hide mobile navigation
+  .main-navigation {
+    display: none;
+  }
+
+  //display desktop navigation
+
+  .site-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      &:visited {
+        color: black;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  #btn-a {
+    padding: 10px 15px;
+    background: $orange;
+    color: #fff;
+  }
+
+
 /* ----------- Front Page  -----------*/
 
   .home {
@@ -86,41 +124,4 @@
   }
 
 
-/* ----------- Header Navigation  -----------*/
-
-//hide mobile navigation
-@include desktop {
-  .main-navigation {
-    display: none;
-  }
-}
-
-//display desktop navigation
-@include desktop {
-  .site-header {
-    display: flex;
-    align-items: center;
-  }
-  .desktop-nav {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      &:visited {
-        color: black;
-      }
-      &:hover {
-        color: black;
-      }
-    }
-  }
-  #btn-a {
-    padding: 10px 15px;
-    background: $orange;
-    color: #fff;
-  }
-}
-} 
+} //end desktop media query
