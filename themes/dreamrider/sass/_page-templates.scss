@@ -44,10 +44,18 @@
     @include white-on-blue-heading;
     margin-top: 0;
   }
+}
 
+.individual-program {
+  margin: 0 20px;
+  display: inline-block;
   img {
+    width: auto;
+    max-height: 200px;
     margin-bottom: 0;
   }
+<<<<<<< HEAD
+=======
 
   .program-icon { //Resizes ice cube icon link
     width: 125px;
@@ -55,17 +63,22 @@
     margin-top: 20px;
   }
 
+>>>>>>> 7adaf2c8e66b6fc06bb72dd6cf689a6be6cb5c27
   h4 {
     margin-top: 0px;
     text-transform: uppercase;
   }
+  img {
+    margin: 20px 0 5px;
+  }
 
   p {
     width: 240px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     font-size: 1.1rem;
   }
 }
+
 
 
 /* Learning Benefits */
