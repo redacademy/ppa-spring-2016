@@ -3,83 +3,22 @@
  ============================================== */
 
 
-/* ----------- Front Page  -----------*/
-
-.home {
-  @include desktop {
-    .main-title {
-      width: 50%;
-      height: auto;
-      margin: 0 auto;
-      padding: 30px 0 0;
-    }
-
-    .learning-benefits-container,
-    .community-impact-container {
-      display: flex;
-      flex-wrap: wrap;
-      div {
-        width: 33.3%;
-      }
-    }
-    .quotes-container {
-      display: flex;
-      align-items: flex-start;
-    }
-    .quotes {
-      width: 50%;
-      min-height: 340px;
-      padding: 0 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .quote-source {
-      width: 80%;
-    }
-    .quote-separator {
-      display: none;
-    }
-  } //end desktop media query
-} //end home page
-
-/* ----------- Community Partners' Logos (Template Part)  -----------*/
 @include desktop {
-  .partners-images {
-    width: 75%;
-    margin-top: 40px;
-  }
-  .partner-image img {
-    width: 240px;
-    height: auto;
-  }
-}
-
-/* ----------- Footer  -----------*/
-@include desktop {
-  .footer-menu li{
-    display: inline;
-    padding: 0 20px;
-  }
-}
 
 /* ----------- Header Navigation  -----------*/
 
-//hide mobile navigation
-@include desktop {
+  //hide mobile navigation
   .main-navigation {
     display: none;
   }
-}
 
-//display desktop navigation
-@include desktop {
+  //display desktop navigation
+
   .site-header {
-    display: flex; 
-    align-items: center; 
-    height: 100px;
+    display: flex;
+    align-items: center;
   }
+
   .desktop-nav {
     width: 50%;
     display: flex;
@@ -96,9 +35,100 @@
       }
     }
   }
+
   #btn-a {
     padding: 10px 15px;
     background: $orange;
     color: #fff;
   }
-}
+
+
+/* ----------- Front Page  -----------*/
+
+  .home {
+    .main-title {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 30px 0 0;
+    }
+
+    .learning-benefits-container,
+    .community-impact-container {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        width: 33.3%;
+      }
+    }
+
+    .quotes-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .quotes {
+      width: 50%;
+      min-height: 340px;
+      padding: 0 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .quote-source {
+      width: 80%;
+    }
+
+    .quote-separator {
+      display: none;
+    }
+  } //end home page
+
+
+/* ----------- Community Partners' Logos (Template Part)  -----------*/
+
+  .partners-images {
+    width: 75%;
+    margin-top: 40px;
+  }
+
+  .partner-image img {
+    width: 240px;
+    height: auto;
+  }
+
+
+/* ----------- About  -----------*/
+
+  .page-template-about {
+    .site-content {
+      margin-top: 5.5rem;
+    }
+
+    .about-title {
+      padding: 10px;
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .logo-container img{
+      margin: 30px auto 0;
+      height: auto;
+      transform: translateX(0);
+    }
+
+  } //end page-template-about
+
+
+/* ----------- Footer  -----------*/
+
+  .footer-menu li {
+    display: inline;
+    padding: 0 20px;
+  }
+
+
+} //end desktop media query

@@ -4,7 +4,8 @@
 
 .not-found-page-wrapper { 
 	color: #fff;
-	height: 90vh;
+	min-height: 380px;
+	height: 90vh; 
 	.site-main {
 		margin-top: 25px;
 	}
@@ -49,33 +50,49 @@
 		margin: 2% 5%;
 	}
 
-	// .btn-container {
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	margin: 0 4%;
+	.btn-container {
+		display: none;
+		
+		margin: 0 4%;
 
-	// 	.btn { 
-	// 		display: flex;
-	// 		align-items: center;
-	// 		justify-content: center;
-	// 		padding: 15px 30px;
-	// 		border-radius: 20px;
-	// 		p {
-	// 			margin: 0;
-	// 			text-transform: uppercase;
-	// 			font-size: 1rem;
-	// 			font-weight: 600;
-	// 		}
-	// 	}
-	// 	.return {
-	// 		background: #892b88;
-	// 	}
+		.btn { 
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 15px 30px;
+			border-radius: 20px;
+			p {
+				margin: 0;
+				text-transform: uppercase;
+				font-size: 1rem;
+				font-weight: 600;
+			}
+		}
+		.return {
+			background: #892b88;
+		}
 
-	// 	.contact {
-	// 		background: #f5a623;
-	// 	}
+		.contact {
+			background: #f5a623;
+		}
 
-	// }
+	}
 	
 	
+}
+
+@include desktop {
+	.not-found-page-wrapper {
+		height: 100vh;
+		min-height: 600px;
+
+		.btn-container {
+			display: flex;
+			justify-content: space-between;
+		}
+		.big-text {
+		    margin: 12% 0 0;
+		}
+
+	}
 }
