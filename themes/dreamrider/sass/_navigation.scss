@@ -9,7 +9,7 @@ a {
 
 	&:visited {
 		color: $color__link-visited;
-	}
+	} 
 	&:hover,
 	&:focus,
 	&:active {
@@ -153,7 +153,10 @@ a {
 		background: none;
 	}
 	.site-branding {
-		img {
+		.desktop-logo {
+			display: none;
+		}
+		.mobile-logo {
 			height: 50px;
 		}
 	}
@@ -263,9 +266,13 @@ a {
 @include desktop {
 	.site-header {
 		.site-branding {
-			img {
+			.desktop-logo {
+				display: inline;
 				height: 60px;
 			}
-	}
+			.mobile-logo {
+				display: none;
+			}
+		}
 	}
 }
