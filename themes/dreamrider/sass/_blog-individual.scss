@@ -1,0 +1,25 @@
+.single-post{
+	
+	h1{	@include page-heading;}
+
+	.entry-header{
+		text-align:center;
+
+		.caption{ 
+			margin:0 auto;
+			}
+	}
+	
+	.entry-content{
+		max-width:$mobile-width;
+		margin:20px auto; 
+	}
+
+	//Desktop View
+	@include desktop{
+		.entry-content{
+			max-width:$desktop-width;
+		}
+	}	
+	
+}

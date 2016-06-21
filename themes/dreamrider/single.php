@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single-blog' ); ?>
 
-			<?php the_post_navigation(); ?>
+			<?php next_post_link('Next Post', 0); ?>
 
 		<?php endwhile; // End of the loop. ?>
 
@@ -25,5 +25,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
