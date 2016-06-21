@@ -21,7 +21,14 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php the_posts_navigation(); ?>
+				<div class="pagination">
+					<?php echo paginate_links(
+						array(
+							'prev_text' => '< Prev',
+							'next_text' =>'Next >'
+						)
+					); ?>						
+				</div>
 
 			<?php else : ?>
 

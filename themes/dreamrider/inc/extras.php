@@ -79,6 +79,6 @@ add_action( 'pre_get_posts', 'dreamrider_program_custom_query' );
 // Replaces the excerpt "Read More" text by a link
 function new_excerpt_more($more) {
        global $post;
-	return ' <a class="read-more" href="'. get_permalink($post->ID) . '">...</a>';
+	return ' <a class="read-more" href="'. get_permalink($post->ID) . '">(more)...</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');

@@ -1,6 +1,5 @@
 .blog{
 	
-	//Page title Style
 	h1{	@include page-heading;}
 
 	article{
@@ -8,12 +7,23 @@
 		max-width:$mobile-width;
 		text-align:center;
 
-		h2 a{
-			color:$black;
+		a{
+			color:$gray;
 			text-decoration:none;
 		}
 	}
 
+	.pagination{
+		text-align:center;
+		
+		a{
+			color:$gray;
+			text-decoration:none;
+			margin:0 5px;
+		}
+	}
+	
+	//Desktop View
 	@include desktop{
 		article{
 			max-width:$desktop-width;
