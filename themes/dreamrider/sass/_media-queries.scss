@@ -5,6 +5,44 @@
 
 @include desktop {
 
+/* ----------- Header Navigation  -----------*/
+
+  //hide mobile navigation
+  .main-navigation {
+    display: none;
+  }
+
+  //display desktop navigation
+
+  .site-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      &:visited {
+        color: black;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  #btn-a {
+    padding: 10px 15px;
+    background: $orange;
+    color: #fff;
+  }
+
+
 /* ----------- Front Page  -----------*/
 
   .home {
@@ -66,7 +104,7 @@
 
   .page-template-about {
     .site-content {
-      margin-top: 4.8rem;
+      margin-top: 5.5rem;
     }
 
     .about-title {
@@ -75,6 +113,13 @@
         font-size: 3rem;
       }
     }
+
+    .logo-container img{
+      margin: 30px auto 0;
+      height: auto;
+      transform: translateX(0);
+    }
+
   } //end page-template-about
 
 
@@ -86,41 +131,4 @@
   }
 
 
-/* ----------- Header Navigation  -----------*/
-
-//hide mobile navigation
-@include desktop {
-  .main-navigation {
-    display: none;
-  }
-}
-
-//display desktop navigation
-@include desktop {
-  .site-header {
-    display: flex;
-    align-items: center;
-  }
-  .desktop-nav {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      &:visited {
-        color: black;
-      }
-      &:hover {
-        color: black;
-      }
-    }
-  }
-  #btn-a {
-    padding: 10px 15px;
-    background: $orange;
-    color: #fff;
-  }
-}
-} 
+} //end desktop media query
