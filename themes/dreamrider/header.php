@@ -31,9 +31,10 @@
 				</div><!-- .site-branding -->
 				
 				<div class="desktop-nav">
-					<a href="">About Us</a>
-					<a href="">Community</a>
 					<a href="">Learning</a>
+					<a href="">Community</a>
+					<a href="">About Us</a>
+					<a href="">Programs</a>
 					<a href="">Blog</a>
 					<a id="btn-a" href="">Contact</a>
 				</div><!-- desktop-nav -->
