@@ -35,9 +35,11 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 			<?php endif; ?>
+
 			<div class="cta-button">
 				<a href="#">Get started now</a>
 			</div>
+			
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- blog-page-wrapper -->
