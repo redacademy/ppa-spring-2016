@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying 404 pages (not found).
- *
+ * 
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package RED_Starter_Theme
@@ -22,16 +22,16 @@ get_header(); ?>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/goober_404.png" alt="Goober Jumping">
 							<h4>goober is working on it</h4>
 					</div><!-- .page-content -->
-					<p class="looking-for">The page you were looking for can't be found. But we have solutions for you.</p>
+					<p class="looking-for">The page you were looking for can't be found. Please select a page from the navigation menu.</p>
 
-					<div class="btn-container">
+					<!-- <div class="btn-container">
 						<div class="btn return">
 							<p>return home</p>
 						</div>
 						<div class="btn contact">
 							<p>contact us</p>
 						</div>
-					</div>
+					</div> -->
 				</section><!-- .error-404 -->
 
 			</main><!-- #main -->
