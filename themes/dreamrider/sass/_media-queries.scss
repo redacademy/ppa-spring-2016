@@ -140,7 +140,17 @@
       padding: 0 200px;
     }
 
-    .partners-images {
+    .about-pictures {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      div {
+        width: 50vw;
+        height: auto;
+      }
+    }
+
+    .partners-images { //Section with community-partners template part
       width: 100%;
       margin: 0 auto 20px;
       display: inline-flex;
@@ -150,7 +160,6 @@
     .partner-image img {
       width: 135px;
       height: auto;
-      // margin: 0 50px;
     }
 
   } //end page-template-about

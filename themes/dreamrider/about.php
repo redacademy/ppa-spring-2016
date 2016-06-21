@@ -35,7 +35,8 @@ get_header(); ?>
 					<p>Following the succes of our award-winning live theatre shows, we wanted to scale our reach and impact beyond Metro Vancouver to inspire a whole generation of environmental superheroes. The result is the Planet Protector Academy, a unique digital-led class-room based program in which kids become 'apprentice' Planet Protectors' and go home on superhero missions to change their families' behaviours!</p>
 				</section><!-- about-story -->
 				<section class="about-pictures">
-
+					<div><img src="<?php echo get_template_directory_uri()?>/images/classroom-game-pics.jpg"></div>
+					<div><img src="<?php echo get_template_directory_uri()?>/images/goober-esmeralda.jpg"></div>
 				</section><!-- about-pictures -->
 				<section class="about-today">
 					<h3>Today</h3>

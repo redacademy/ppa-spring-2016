@@ -309,8 +309,13 @@
 .about-story {
   @extend .about-intro;
   margin-bottom: 0px;
+  padding: 35px 0 18px;
   h3 {
     @include about-black-heading;
+  }
+
+  .about-pictures {
+    margin-bottom: 0;
   }
 }
 
