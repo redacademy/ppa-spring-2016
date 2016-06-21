@@ -41,14 +41,14 @@ get_header(); ?>
 					<?php
 					   $args = array( 'post_type' => 'program',
 					   				  'order' => 'ASC',
-					   				  'posts_per_page' => 3	 );
+					   				  'posts_per_page' => 2	 );
 					   $programs_posts = get_posts( $args ); // returns an array of posts
 					?>
 
 					<?php foreach ( $programs_posts as $post ) : setup_postdata( $post ); ?>
 
 						<div class="individual-program">
-							<a href="#"><img src="<?php echo CFS()->get('program_image')?>" alt="Garbage Bag Icon"></a>
+							<a href="#"><img src="<?php echo CFS()->get('program_image')?>"></a>
 							<h4><?php echo get_the_title() ?></h4>
 							<p><?php echo wp_trim_words(get_the_content(), 10, '...'); ?></p>
 						</div>
