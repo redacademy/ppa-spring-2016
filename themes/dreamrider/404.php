@@ -24,14 +24,14 @@ get_header(); ?>
 					</div><!-- .page-content -->
 					<p class="looking-for">The page you were looking for can't be found. But we have solutions for you.</p>
 
-					<!-- <div class="btn-container">
+					<div class="btn-container">
 						<div class="btn return">
 							<p>return home</p>
 						</div>
 						<div class="btn contact">
 							<p>contact us</p>
 						</div>
-					</div> -->
+					</div>
 				</section><!-- .error-404 -->
 
 			</main><!-- #main -->

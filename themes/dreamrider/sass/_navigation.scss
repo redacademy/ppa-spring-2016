@@ -152,6 +152,11 @@ a {
 	.main-navigation button{
 		background: none;
 	}
+	.site-branding {
+		img {
+			height: 50px;
+		}
+	}
 }
 
 // .hamburger-container {
@@ -253,4 +258,14 @@ a {
 //hide desktop site navigation
 .desktop-nav {
 	display: none;
+}
+
+@include desktop {
+	.site-header {
+		.site-branding {
+			img {
+				height: 60px;
+			}
+	}
+	}
 }
