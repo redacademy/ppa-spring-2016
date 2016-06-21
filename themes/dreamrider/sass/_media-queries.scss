@@ -14,15 +14,6 @@
       padding: 30px 0 0;
     }
 
-    .individual-program {
-      margin: 0 20px;
-      display: inline-block;
-      img {
-        width: auto;
-        max-height: 200px;
-      }
-    }
-
     .learning-benefits-container,
     .community-impact-container {
       display: flex;
@@ -70,5 +61,44 @@
   .footer-menu li{
     display: inline;
     padding: 0 20px;
+  }
+}
+
+/* ----------- Header Navigation  -----------*/
+
+//hide mobile navigation
+@include desktop {
+  .main-navigation {
+    display: none;
+  }
+}
+
+//display desktop navigation
+@include desktop {
+  .site-header {
+    display: flex; 
+    align-items: center; 
+    height: 100px;
+  }
+  .desktop-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      &:visited {
+        color: black;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  #btn-a {
+    padding: 10px 15px;
+    background: $orange;
+    color: #fff;
   }
 }
