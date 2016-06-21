@@ -137,17 +137,19 @@ a {
 
 .site-header {
 	width: 100%;
-	padding: 10px 15px;
+	padding:5px 0; 
 	background-color: #fff;
 	border-bottom: 1px solid #eee;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 	
-	display:flex;
-	flex-flow:row nowrap;
-	justify-content:space-between;
-	align-items:center;
+	.header-container{
+		display:flex;
+		flex-flow:row nowrap;
+		justify-content:space-between;
+		align-items:center;
+	}
 
 	.site-branding {
 		.desktop-logo {
@@ -166,7 +168,10 @@ a {
 //Deskop Menu
 .desktop-nav{
 	display:none;
-	text-align:right;
+
+	ul{
+		text-align:right;
+	}
 	
 	li{
 		display:inline-block;
@@ -182,8 +187,8 @@ a {
 
 		&:last-child a{
 		    padding: 10px 15px;
-		    background: $green;
-		    color: $white;
+		    background: $color_button-background-default;
+		    color: $color_button-text-default;
 		}
 	}
 
@@ -211,6 +216,7 @@ a {
 				text-decoration: none;	
 				text-transform: capitalize;
 				font-size: 26px;
+				color:$color_button-text-default;
 			}
 			
 		}

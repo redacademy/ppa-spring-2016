@@ -59,3 +59,10 @@
 .site-main {
 	margin-top: 71px;
 }
+
+//Container
+.container{
+	width:100%;
+	max-width:$desktop-width;
+	margin:0 auto;
+}
