@@ -1,9 +1,15 @@
 /* ==============================================
-     Dreamrider: Custom Styles
+     Dreamrider: Custom Styles for Desktop View
  ============================================== */
 
 
 @include desktop {
+
+/* ----------- Header Navigation  -----------*/
+.site-content {
+	margin-top: 5.5rem;
+}
+
 
 /* ----------- Header Navigation  -----------*/
 
