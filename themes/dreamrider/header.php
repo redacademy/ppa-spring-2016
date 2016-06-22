@@ -28,12 +28,20 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="header-container container">
 					<div class="site-branding">
+
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 							<img class="desktop-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo-for-print-use.png" alt="Planet Protector Logo desktop">
 						</a>
+						
+						<?php if (is_front_page()): ?>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 							<img class="mobile-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo.png" alt="Planet Protector Logo mobile">
 						</a>
+						<?php else: ?>
+							<a  href="#" onClick="history.back(); return false;" >
+								<img class="back-button" src="<?php echo get_template_directory_uri() ?>/images/back.png" alt="back button">
+							</a>
+						<?php endif; ?>
 					</div><!-- .site-branding -->
 				
 					<div class="desktop-nav">
