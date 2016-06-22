@@ -318,8 +318,12 @@
   }
 }
 
-.about-pictures div {
-  line-height: 0px;
+.about-pictures {
+  margin:0 auto;
+  max-width:1240px;
+  div {
+    line-height: 0px;
+  }
 }
 
 .about-today {
