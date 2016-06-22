@@ -1,5 +1,10 @@
  .contact-page-wrapper,
  #eModal-1 {
+	
+	article{
+		width:96%;
+		padding:0 2%;
+	}
 
 	//!important is required to overwrite Easy Modal plugin's styles
  	background-color:#fff !important;
@@ -20,9 +25,6 @@
 			margin: 0;
 		}
  	}
- 	.wpcf7 input.wpcf7-text {
- 		width: 90%;
- 	}
 	.wpcf7 textarea.wpcf7-textarea {
 		width: 90%;
 	}
@@ -40,13 +42,22 @@
 	    margin: 10px auto 30px;
 	}
 	input {
+		width: 90%;
 		border: none;
 		border-bottom: 2px solid #ccc;
 		border-radius:0;
+		outline:none;
 
-		&:invalid{
+		&:invalid,
+		{
 			border-color:red;
 		}
+	}
+	.wpcf7-not-valid{
+		border-color:red;
+	}
+	.wpcf7-not-valid-tip{
+		display:none;
 	}
 	textarea {
 		border: none;
