@@ -16,8 +16,8 @@ jQuery(document).ready(function($) {
 	});
 
 	//Adds Modals class to the menu for Contact Pop up
-	$("#menu-footer-menu li:last-child a").addClass("eModal-1");
-	$(".desktop-nav li:last-child a").addClass("eModal-1");
+	// $("#menu-footer-menu li:last-child a").addClass("eModal-1");
+	// $(".desktop-nav li:last-child a").addClass("eModal-1");
 
 
 });

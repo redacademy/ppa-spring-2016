@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-	
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -48,7 +48,7 @@ get_header(); ?>
 					<?php foreach ( $programs_posts as $post ) : setup_postdata( $post ); ?>
 
 						<div class="individual-program">
-							<a href="#"><img src="<?php echo CFS()->get('program_image')?>"></a>
+							<a href="/program"><img src="<?php echo CFS()->get('program_image')?>"></a>
 							<h4><?php echo get_the_title() ?></h4>
 							<p><?php echo wp_trim_words(get_the_content(), 10, '...'); ?></p>
 						</div>

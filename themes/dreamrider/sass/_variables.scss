@@ -44,7 +44,7 @@ $secondary-text: 'francois-one', sans-serif;
 $white: #fff;
 $black: #000;
 $violet: #8c2c8b;
-$orange: #f3a536;
+$brand_color: #8fd18f;
 $blue: #4ab4e9;
 $light-gray: #afafaf;
 $gray: #4a4a4a;
@@ -75,16 +75,16 @@ $color_text-footer: $white; //"Back to Top" text on Footer
 
 /* Color: Buttons */
 
-//Main orange button
+//Main brand_color button
 $color_button-text-default: $white;
-$color_button-background-default: $orange;
+$color_button-background-default: $brand_color;
 
 //Inverted main button
-$color_button-text-inverted: $orange;
+$color_button-text-inverted: $brand_color;
 $color_button-text-inverted-hover: $white;
 $color_button-background-inverted: $white;
-$color_button-background-inverted-hover: $orange;
-$color_button-border-inverted: $orange;
+$color_button-background-inverted-hover: $brand_color;
+$color_button-border-inverted: $brand_color;
 
 /* Color: Backgrounds */
 $color_background-programs: $blue; //Programs section of front-page.php

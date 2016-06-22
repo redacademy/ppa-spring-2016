@@ -1,6 +1,8 @@
 .blog{
-	
-	h1{	@include page-heading;}
+
+	h1 {
+		@include page-heading;
+	}
 
 	article{
 		margin: 50px auto;
@@ -15,19 +17,19 @@
 
 	.pagination{
 		text-align:center;
-		
+
 		a{
 			color:$gray;
 			text-decoration:none;
 			margin:0 5px;
 		}
 	}
-	
+
 	//Desktop View
 	@include desktop{
 		article{
 			max-width:$desktop-width;
 		}
-	}	
+	}
 
 }
