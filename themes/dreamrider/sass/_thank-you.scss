@@ -1,0 +1,32 @@
+/* ==============================================
+     Dreamrider: Custom Styles
+ ============================================== */
+
+
+.page-template-thank-you {
+
+  .entry-content {
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .checkmark-green {
+      width: 30px;
+      height: auto;
+    }
+    p {
+      margin: 10px;
+      text-align: center;
+    }
+    .done {
+      @include cta-button;
+      a {
+        padding: 5px 65px;
+      }
+    }
+  }
+
+}
