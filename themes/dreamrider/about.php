@@ -18,7 +18,7 @@ get_header(); ?>
 						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/logo-text-with-human.jpg" alt="DreamRider Logo">
 					</div>
 					<p class="about-intro">
-						Through story, music, interactive media and live theatre, we create inclusive, meaningful, and full-throttle that children adore and that instill positive environmental values in their hearts - and in their actions. Kids feel energized, happy, and eager to put into practice what they have learned! Read more about our Mission and Values!
+						<?php the_content(); ?>
 					</p>
 					<div class="about-quote">
 						<p>
