@@ -14,12 +14,11 @@
 		color: #44b3eb;
 		text-align: center;
 		font-family: 'montserrat-light' !important;
+		margin-top:20px;
 
-		h3 {
-			margin: 0;
-		}
-		.middle {
-			margin-top: 4px;
+		h3,span {
+			margin: 0 0 15px 0;
+			color:$black;
 		}
 		p {
 			margin: 0;
@@ -82,25 +81,23 @@
 	.wpcf7-submit {
 		background: #eba704;
 	    padding: 13px 50px;
+	    width:auto;
 	    color: $color_button-text-default;
-	    font-size: 20px;
+	    font-size: 1.1em;
 		font-family: 'francois-one', sans-serif;
 		background-color: $color_button-background-default;
 		border-radius: 2rem;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		box-shadow: none;
-		text-shadow: none;
+		border:none;
+
 		&:hover {
 			background-color: darken($color_button-background-default, 5%);
-		}
-		&:visited {
-		color: $color_button-text-default;
+			box-shadow:none;
 		}
 	}
-	.ajax-loader {
-		display: none;
-	}
+
 
 	@include mobile {
 		form {
