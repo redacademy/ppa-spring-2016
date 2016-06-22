@@ -104,7 +104,7 @@
     background: none;
     position: relative;
     p {
-      margin-top: 10px;
+      margin-top: 0;
     }
     &:before { //Background hack for the style of middle speech bubble
       width: 280px;
@@ -114,6 +114,7 @@
       content: "";
       position: absolute;
       left: 0;
+      top: 0;
       transform: scaleX(-1);
     }
   }
