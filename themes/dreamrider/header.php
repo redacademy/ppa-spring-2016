@@ -28,10 +28,10 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="header-container container">
 					<div class="site-branding">
-						<img class="desktop-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo-for-print-use.png" alt="Planet Protector Acadmey Logo">
-						<img class="mobile-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo.png" alt="Planet Protector Acadmey Logo">
+						<img class="desktop-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo-for-print-use.png" alt="Planet Protector Logo desktop">
+						<img class="mobile-logo" src="<?php echo get_template_directory_uri() ?>/images/Logo.png" alt="Planet Protector Logo mobile">
 					</div><!-- .site-branding -->
-					
+				
 					<div class="desktop-nav">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</div><!-- desktop-nav -->
