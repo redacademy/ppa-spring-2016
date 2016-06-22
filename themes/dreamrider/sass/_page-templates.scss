@@ -284,12 +284,14 @@
   max-width: 100%;
   height: auto;
   overflow: hidden;
-  img {
-    max-width: none;
-    width: auto;
-    height: 120px;
-    margin-top: 30px;
-    transform: translateX(-45%);
+  .text-logo {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    // transform: translateX(-45%);
+  }
+  .logo-with-human {
+    display: none;
   }
 }
 

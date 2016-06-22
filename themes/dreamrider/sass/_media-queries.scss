@@ -135,11 +135,14 @@
       }
     }
 
-    .logo-container img{
-      margin: 30px auto 0;
-      height: auto;
-      transform: translateX(0);
-    }
+
+
+		// .logo-with-human {
+		// 	width: auto;
+		// 	height: 120px;
+		// 	margin: 30px auto 0;
+		// 	display: block;
+		// }
 
     .about-intro {
       width: 60%;
@@ -208,3 +211,22 @@
 
 
 } //end desktop media query
+
+
+
+@include in-between {
+	
+	.page-template-about {
+		.text-logo {
+			display: none;
+		}
+
+		.logo-with-human {
+			width: 800px;
+			height: auto;
+			margin: 30px auto 0;
+			display: block;
+		}
+	}
+
+} //end in-between

@@ -195,3 +195,9 @@
 		@content;
 	}
 }
+
+@mixin in-between {
+	@media (min-width: 500px){
+		@content;
+	}
+}
