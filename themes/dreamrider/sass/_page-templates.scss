@@ -276,7 +276,7 @@
   text-align: center;
 }
 
-.about-title {
+.page-template-about h1 {
   @include page-heading;
 }
 
@@ -288,7 +288,6 @@
     width: 500px;
     height: auto;
     margin-top: 20px;
-    // transform: translateX(-45%);
   }
   .logo-with-human {
     display: none;

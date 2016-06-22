@@ -128,22 +128,6 @@
       margin-top: 5.5rem;
     }
 
-    .about-title {
-      padding: 10px;
-      h1 {
-        font-size: 3rem;
-      }
-    }
-
-
-
-		// .logo-with-human {
-		// 	width: auto;
-		// 	height: 120px;
-		// 	margin: 30px auto 0;
-		// 	display: block;
-		// }
-
     .about-intro {
       width: 60%;
     }
@@ -215,7 +199,7 @@
 
 
 @include in-between {
-	
+
 	.page-template-about {
 		.text-logo {
 			display: none;
