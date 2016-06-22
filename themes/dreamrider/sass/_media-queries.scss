@@ -61,6 +61,7 @@
       &:nth-child(even) .testimonial-bubble { //Middle speech bubble
         &:before { //Background hack for the style of middle speech bubble
           transform: scaleX(1);
+          top: 0;
         }
         p {
           margin-top: 0;
