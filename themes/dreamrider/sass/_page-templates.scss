@@ -89,40 +89,49 @@
 
 .cta-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 1px solid #010D17;
   border-radius: 10px;
-  margin: 25px auto;
-  width: 80%;
+  margin: 100px auto 25px auto;
+  width: 100%;
+  min-height: 340px;
   a {
     text-decoration: none;
   }
 }
 .cta-link {
-  border: 1px solid black;
+  border: 1px solid #010D17;
   background: $brand-color;
   border-radius: 3%;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 48%;
+  height: 35%;
   margin: 10px;
-  img {
-    width: 170px;
+  a {
+    &:visited {
+      color: #fff;
+      color: #fff;
+    }
   }
-  // h3 {
-  //   font-family: 'lato-bold';
-  //   font-size: 2.5rem;
-  //   padding: 0 25%;
-  //   margin: 0 auto;
-  //   text-decoration: none;
-  //   text-align: left;
-  //   }
-  // p {
-  //   font-size: 2rem;
-  //   text-decoration: none;
-  //   text-align: left;
-
-  // }
+  img {
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 15%;
+  }
+  h3 {
+    font-family: 'lato-bold';
+    text-decoration: none;
+    margin: 0 7% 0 5%;
+  }
+  p {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10%;
+    line-height: 1.3;
+  }
 }
+  .cta-link-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
