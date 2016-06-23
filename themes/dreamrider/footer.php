@@ -26,14 +26,10 @@
 						)); ?>
 
 					</div><!-- footer-nav -->
-					<div class="site-info">
-						<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
-					</div><!-- .site-info -->
 				</div><!-- footer-container -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/build/js/header.min.js"></script>
 	</body>
 </html>

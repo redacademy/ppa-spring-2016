@@ -13,20 +13,24 @@ get_header(); ?>
 					<h1>About Us</h1>
 				</div>
 				<section class="about-main">
-					<div class="logo-container">
-						<img class="text-logo" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-text-logo.jpg" alt="DreamRider Logo">
-						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/logo-text-with-human.jpg" alt="DreamRider Logo">
+					<div class="logo-container container">
+						<img class="text-logo" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-text.jpg" alt="DreamRider Logo">
+						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-with-characters.jpg" alt="DreamRider Logo">
 					</div>
-					<p class="about-intro">
-						<?php the_content(); ?>
+					<p class="about-intro container">
+						<?php while ( have_posts() ) : the_post(); ?>
+							<?php the_content(); ?>
+						<?php endwhile; // End of the loop. ?>
 					</p>
 					<div class="about-quote">
-						<p>
-							"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."
-						</p>
-						<p class="quote-source">
-							Christianne Wilhemson, <br>Executive Director, <br>Georgia Straight Alliance
-						</p>
+						<div class="container">
+							<p>
+								"DreamRider's work to engage with young people throughout the region is critical to raising environmental literacy throughout our communities - we simply love that they do it in such a fun and creative way."
+							</p>
+							<p class="quote-source">
+								Christianne Wilhemson, <br>Executive Director, <br>Georgia Straight Alliance
+							</p>
+						</div>
 					</div>
 				</section><!-- about-main -->
 				<section class="about-story">
@@ -40,10 +44,12 @@ get_header(); ?>
 					<div><img src="<?php echo get_template_directory_uri()?>/images/goober-esmeralda.jpg"></div>
 				</section><!-- about-pictures -->
 				<section class="about-today">
-					<h3>Today</h3>
-					<p>We work with municipal governments, school districts, foundations and companies to reach more than 50,000 K-7 students each year - at no cost to 95% of schools! Read more about our Partners and Supporters!</p>
+					<div class="container">
+						<h3>Today</h3>
+						<p>We work with municipal governments, school districts, foundations and companies to reach more than 50,000 K-7 students each year - at no cost to 95% of schools! Read more about our Partners and Supporters!</p>
+					</div>
 				</section><!-- about-today -->
-				<section class="about-community">
+				<section class="about-community container">
 					<h3>2016 Community Partners</h3>
 					<?php get_template_part('template-parts/community-partners') ?>
 					<p>
