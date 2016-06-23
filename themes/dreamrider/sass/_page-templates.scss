@@ -33,7 +33,7 @@
 .about-quote {
   @include blue-section;
   margin-top: 10px;
-  padding: 15px 25px;
+  padding: 15px 0;
   font-family: 'montserrat-ultra-light', sans-serif;
   .quote-source {
     color: #fff;
@@ -41,17 +41,16 @@
 }
 
 .about-story {
-  @extend .about-intro;
-  margin-bottom: 0px;
-  padding: 35px 0 18px;
+  width: 90%;
+  margin: 0 auto 50px;
+  padding: 35px auto 18px;
   h3 {
     @include about-black-heading;
   }
 }
 
 .about-pictures {
-  margin:0 auto;
-  max-width:1240px;
+  max-width: 1240px;
   div {
     line-height: 0px;
   }
@@ -60,7 +59,7 @@
 .about-today {
   @include blue-section;
   margin: 0;
-  padding: 5px 25px;
+  padding: 5px 0;
   h3 {
     font-family: $secondary-text;
     text-transform: uppercase;
@@ -72,7 +71,7 @@
 }
 
 .about-community {
-  padding: 20px 20px 5px;
+  padding: 20px 0 5px;
   h3 {
     @include about-black-heading;
   }
