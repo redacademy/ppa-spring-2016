@@ -18,7 +18,9 @@ get_header(); ?>
 						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-with-characters.jpg" alt="DreamRider Logo">
 					</div>
 					<p class="about-intro container">
-						<?php the_content(); ?>
+						<?php while ( have_posts() ) : the_post(); ?>
+							<?php the_content(); ?>
+						<?php endwhile; // End of the loop. ?>
 					</p>
 					<div class="about-quote">
 						<div class="container">
