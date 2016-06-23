@@ -53,6 +53,9 @@ add_filter( 'login_headertitle', 'dreamrider_login_title');
 
 //Custom Function added to dreamrider
 function dreamrider_enqueued_scripts() {
+
+		//font awesome 
+		wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/fonts/font-awesome/css/font-awesome.css');
        	
 		//Include jquery and Css for bxslider
 		wp_enqueue_style('bxstyle', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxslider.css');

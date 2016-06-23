@@ -10,9 +10,16 @@ jQuery(document).ready(function($) {
 		pager:false
 	});
 
-	//Adds Modals class to the menu for Contact Pop up
-	// $("#menu-footer-menu li:last-child a").addClass("eModal-1");
-	// $(".desktop-nav li:last-child a").addClass("eModal-1");
+	//Toggle Mobile menu to hide
+	$('.mobile-nav .menu-menu-1-container').toggle();
+	 //Toggle menu to display on click
+	 $( ".menu-toggle" ).click(function() {
+	 	$('.menu-open').toggle();
+	   $( ".light-bar" ).toggle();
+	   $( ".dark-bar" ).toggle();
+	   $('.opacity').toggle();
+	   $( ".menu-menu-1-container" ).toggle();
+	 });
 
 
 	//Functionality: Scroll to Learning Benefits Section
