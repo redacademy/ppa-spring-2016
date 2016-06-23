@@ -14,8 +14,8 @@ get_header(); ?>
 				</div>
 				<section class="about-main">
 					<div class="logo-container container">
-						<img class="text-logo" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-text-logo.jpg" alt="DreamRider Logo">
-						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/logo-text-with-human.jpg" alt="DreamRider Logo">
+						<img class="text-logo" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-text.jpg" alt="DreamRider Logo">
+						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-with-characters.jpg" alt="DreamRider Logo">
 					</div>
 					<p class="about-intro container">
 						<?php the_content(); ?>
