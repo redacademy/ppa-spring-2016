@@ -225,6 +225,12 @@ a {
 			
 		}
 	}
+
+	//Hide the 'Learning' and 'Community' from mobile menu
+	.menu-item-118,
+	.menu-item-119{
+		display:none;
+	}
 }
 
 .menu-toggle {

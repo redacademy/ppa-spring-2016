@@ -3,17 +3,12 @@
  	.site-main {
  		text-align: center;
 	}
-	h2 {
-		font-family: 'francois-one';
-		font-size: 1.3em;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-	}
-	.entry-header {
+	.entry-header h2{
 		@include page-heading;
+		margin:0 auto;
 	}
 	.image-container img{
-		margin:0 auto;
+		margin:0 auto 30px;
 	}
 
 	.bx-wrapper .bx-controls-direction a{
@@ -40,14 +35,13 @@
 	@media (min-width: 340px) {
 		h1 {
 			font-family: 'montserrat-light';
-			font-size: 66px;
+			font-size: 1.4em;
 			color: #fff;
 			text-transform: uppercase;
 			margin: 0;
 		}
 		h2 {
 			font-family: 'francois-one';
-			font-size: 1.5em;
 			letter-spacing: 5px;
 		}
 		p {

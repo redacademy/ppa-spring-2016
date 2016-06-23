@@ -76,7 +76,7 @@
 	width: 100%;
 	padding: 5px;
 	font-size: 2.4rem;
-  font-family: $font_page-title;
+  font-family: $secondary-text;
   color: $color_text-page-titles;
   background-color: $color_background-page-titles;
   text-transform: uppercase;
@@ -103,7 +103,7 @@
 //For white headings on the blue sections of a page
 //Mainly used front-page.php
 @mixin white-on-blue-heading {
-	font-family: $font_heading-section;
+	font-family: $secondary-text;
 	text-transform: uppercase;
 	letter-spacing:  2px;
 }
@@ -111,7 +111,7 @@
 //For black headings on the white sections of about.php
 @mixin about-black-heading {
 	color: $color_text-heading;
-	font-family: $font_heading-section;
+	font-family: $secondary-text;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
