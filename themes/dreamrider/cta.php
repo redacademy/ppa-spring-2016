@@ -13,17 +13,17 @@ get_header(); ?>
 			
 			<div class="cta-link trial">
 				<a href="">
-					<div class="cta-link-inside">
+					<div class="cta-link-inside trial">
 						<img src="<?php echo get_template_directory_uri() ?>/images/monitor-icon.png" alt="Monitor Icon">
 						<h3>Start my free trial</h3>
 					</div>
-					<p>get a feel for the product for my classroom</p>
+					<p>Get a feel for the product for my classroom</p>
 				</a>
 			</div>
 			
 			<div class="cta-link demo">
 				<a href="">
-				<div class="cta-link-inside">
+				<div class="cta-link-inside demo">
 					<img src="<?php echo get_template_directory_uri() ?>/images/person-icon.png" alt="Person Icon">
 					<h3>Request a demo</h3>
 				</div>
