@@ -5,11 +5,6 @@ jQuery(document).ready(function($) {
 	    $('body,html').animate({ scrollTop : 0}, 1000); // Scroll to top of body
 	});
 
-	//Functionality: Back Button
-	// $('.back-btn').click(function(){	// On Click of Class
-	// 	window.history.back(); //links back to the previous page of the browser
-	// });
-
 	//initialize bxslider for Program Page
 	$('.bxslider').bxSlider({
 		pager:false
