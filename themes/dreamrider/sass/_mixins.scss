@@ -202,3 +202,9 @@
 		@content;
 	}
 }
+
+@mixin extended-desktop {
+	@media (min-width: $extended-desktop-width) {
+		@content;
+	}
+}
