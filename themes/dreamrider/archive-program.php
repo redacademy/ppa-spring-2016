@@ -11,7 +11,7 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 				
 				<header class="entry-header">
-					<h2>Programs</h2>
+					<h2><?php echo get_the_archive_title()?></h2>
 				</header>
 
 				<!-- List for bxslider  -->

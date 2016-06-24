@@ -85,3 +85,9 @@ function new_excerpt_more($more) {
 	return ' <a class="read-more" href="'. get_permalink($post->ID) . '">(more)...</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
+//Custom function to change Program Page title
+function dreamrider_program_archive_title() {
+    return 'Programs';
+}
+add_filter('get_the_archive_title', 'dreamrider_program_archive_title');
