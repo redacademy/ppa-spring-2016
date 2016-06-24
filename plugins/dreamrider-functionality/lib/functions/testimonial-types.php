@@ -43,7 +43,7 @@ function testimonial_type() {
 		'description'           => 'Post type for Testimonials',
 		'labels'                => $labels,
 		'supports'              => array( ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
+		'taxonomies'            => array( ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
