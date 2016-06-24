@@ -1,15 +1,82 @@
 /* ==============================================
-     Dreamrider: Custom Styles for Desktop View
+     Dreamrider: Custom Styles for
+		 900 breakpoint
  ============================================== */
 
+@include extended-desktop {
 
-@include desktop {
-
-/* ----------- Header Navigation  -----------*/
+//Pushes content just right below the sticky header
 .site-content {
 	margin-top: 5.5rem;
 }
 
+
+/* ----------- Nav  -----------*/
+
+ .site-header {
+		.site-branding {
+			.desktop-logo {
+				display: inline;
+				max-width: none;
+				width: auto;
+				max-height: 60px;
+			}
+			.mobile-logo {
+				display: none;
+			}
+			.back-button {
+				display: none;
+			}
+		}
+
+		.desktop-nav{
+			width: 80%;
+			display: inline-block;
+			a {
+	      text-decoration: none;
+	      text-transform: uppercase;
+	      &:visited {
+	        color: black;
+	      }
+				&:hover {
+					color: black;
+				}
+			}
+		}
+
+		.menu-toggle {
+			display: none;
+		}
+	} //end site-header
+
+
+/* ----------- About  -----------*/
+
+ 	.page-template-about {
+ 		.text-logo {
+ 			display: none;
+ 		}
+
+ 		.logo-with-human {
+ 			width: 800px;
+ 			height: auto;
+ 			margin: 30px auto 0;
+ 			display: block;
+ 		}
+ 	}
+
+
+} //end extended-desktop
+
+
+
+
+/* ==============================================
+     Dreamrider: Custom Styles for
+		 1240 breakpoint
+ ============================================== */
+
+@include extended-desktop {
 
 /* ----------- Header Navigation  -----------*/
 
@@ -185,24 +252,4 @@
     padding: 0 20px;
   }
 
-
 } //end desktop media query
-
-
-
-@include extended-desktop {
-
-	.page-template-about {
-		.text-logo {
-			display: none;
-		}
-
-		.logo-with-human {
-			width: 800px;
-			height: auto;
-			margin: 30px auto 0;
-			display: block;
-		}
-	}
-
-} //end in-between
