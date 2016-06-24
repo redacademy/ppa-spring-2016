@@ -6,12 +6,15 @@
 
 	article{
 		margin: 50px auto;
-		max-width:$mobile-width;
 		text-align:center;
-
 		a{
 			color:$gray;
 			text-decoration:none;
+		}
+
+		p {
+			width: $mobile-width;
+			margin: 0 auto;
 		}
 	}
 
@@ -22,13 +25,6 @@
 			color:$gray;
 			text-decoration:none;
 			margin:0 5px;
-		}
-	}
-
-	//Desktop View
-	@include desktop{
-		article{
-			max-width:$desktop-width;
 		}
 	}
 
