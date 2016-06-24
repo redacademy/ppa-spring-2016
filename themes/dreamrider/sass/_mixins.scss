@@ -197,12 +197,6 @@
 	}
 }
 
-@mixin in-between {
-	@media (min-width: 500px){
-		@content;
-	}
-}
-
 @mixin extended-desktop {
 	@media (min-width: $extended-desktop-width) {
 		@content;
