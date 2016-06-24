@@ -9,7 +9,7 @@ a {
 
 	&:visited {
 		color: $color__link-visited;
-	} 
+	}
 	&:hover,
 	&:focus,
 	&:active {
@@ -102,7 +102,7 @@ a {
 }
 
 @include extended-desktop {
-	
+
 	.main-navigation ul {
 		display: block;
 	}
@@ -137,13 +137,13 @@ a {
 
 .site-header {
 	width: 100%;
-	padding:10px 18px; 
+	padding:10px 18px;
 	background-color: #fff;
 	border-bottom: 1px solid #eee;
 	position: fixed;
 	top: 0;
 	z-index: 1;
-	
+
 	.header-container{
 		display:flex;
 		flex-flow:row nowrap;
@@ -165,7 +165,7 @@ a {
 
 }
 
-.screen-rider-text { 
+.screen-rider-text {
 	display: none;
 }
 
@@ -176,7 +176,7 @@ a {
 	ul{
 		text-align:right;
 	}
-	
+
 	li{
 		display:inline-block;
 		margin-left:25px;
@@ -198,7 +198,7 @@ a {
 
 }
 
-//Mobile Menu - Hamburger Menu 
+//Mobile Menu - Hamburger Menu
 .mobile-nav .menu-menu-1-container {
 	display: flex;
 	position: fixed;
@@ -217,12 +217,12 @@ a {
 			text-align: left;
 			padding-left: 35px;
 			a {
-				text-decoration: none;	
+				text-decoration: none;
 				text-transform: capitalize;
 				font-size: 26px;
 				color:$color_button-text-default;
 			}
-			
+
 		}
 	}
 
@@ -235,7 +235,7 @@ a {
 
 .menu-toggle {
 	background: #fff;
-    border: none; 
+    border: none;
     box-shadow: none;
     &:visited {
     	border: none;
@@ -247,7 +247,7 @@ a {
     .dark-bar {
 		color: #C0C0C0;
     }
-	
+
 }
 
 .menu-open {
@@ -264,7 +264,7 @@ a {
 	.light-bar {
 		display: none;
 		color: #fff;
-		
+
 	}
 }
 
@@ -284,7 +284,9 @@ a {
 		.site-branding {
 			.desktop-logo {
 				display: inline;
-				height: 60px;
+				max-width: none;
+				width: auto;
+				max-height: 60px;
 			}
 			.mobile-logo {
 				display: none;
@@ -299,4 +301,3 @@ a {
 		}
 	}
 }
-
