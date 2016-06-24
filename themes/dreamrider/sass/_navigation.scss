@@ -297,7 +297,22 @@ a {
 		}
 
 		.desktop-nav{
-			display:inline-block;
+			width: 80%;
+			display: inline-block;
+			a {
+	      text-decoration: none;
+	      text-transform: uppercase;
+	      &:visited {
+	        color: black;
+	      }
+				&:hover {
+					color: black;
+				}
+			}
+		}
+
+		.menu-toggle {
+			display: none;
 		}
 	}
 }

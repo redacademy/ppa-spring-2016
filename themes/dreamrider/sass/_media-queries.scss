@@ -26,20 +26,9 @@
   }
 
   .desktop-nav {
-    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      &:visited {
-        color: black;
-      }
-      &:hover {
-        color: black;
-      }
-    }
   }
 
 
