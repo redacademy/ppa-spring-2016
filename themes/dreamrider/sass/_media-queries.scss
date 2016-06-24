@@ -1,6 +1,6 @@
 /* ==============================================
      Dreamrider: Custom Styles for
-		 900 breakpoint
+		 940 breakpoint
  ============================================== */
 
 @include min-desktop {
@@ -36,10 +36,10 @@
 	      text-decoration: none;
 	      text-transform: uppercase;
 	      &:visited {
-	        color: black;
+	        color: $color-link-nav;
 	      }
 				&:hover {
-					color: black;
+					color: $color-link-nav;
 				}
 			}
 		}
@@ -52,21 +52,21 @@
 
 /* ----------- About  -----------*/
 
- 	.page-template-about {
- 		.text-logo {
- 			display: none;
- 		}
+	.page-template-about {
+		.text-logo {
+			display: none;
+		}
 
- 		.logo-with-human {
- 			width: 800px;
- 			height: auto;
- 			margin: 30px auto 0;
- 			display: block;
- 		}
- 	}
+		.logo-with-human {
+			width: 800px;
+			height: auto;
+			margin: 30px auto 0;
+			display: block;
+		}
+	} //end about page
 
 
-} //end extended-desktop
+} //end min-desktop media query
 
 
 
@@ -225,7 +225,7 @@
           width: auto;
         }
       }
-      div:last-child{
+      div:last-child {
         width: 40%;
       }
     }

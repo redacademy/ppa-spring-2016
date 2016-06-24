@@ -101,8 +101,7 @@ a {
 	display: block;
 }
 
-@include min-desktop {
-
+@include min-desktop { //Changed from the boilerplate's default media query of 37.5em
 	.main-navigation ul {
 		display: block;
 	}
@@ -138,17 +137,17 @@ a {
 .site-header {
 	width: 100%;
 	padding:10px 18px;
-	background-color: #fff;
-	border-bottom: 1px solid #eee;
+	background-color: $color_background-alternative3;
+	border-bottom: 1px solid $color_separator;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 
 	.header-container{
-		display:flex;
-		flex-flow:row nowrap;
-		justify-content:space-between;
-		align-items:center;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.site-branding {
@@ -170,28 +169,31 @@ a {
 
 //Deskop Menu
 .desktop-nav{
-	display:none;
+	display: none;
 
-	ul{
+	ul {
 		text-align:right;
 	}
 
-	li{
-		display:inline-block;
-		margin-left:25px;
+	li {
+		display: inline-block;
+		margin-left: 25px;
 
-		a,a:visited{
-			color:$black;
+		a,a:visited {
+			color: $color_link-nav;
 		}
 
-		a:hover{
+		a:hover {
 			font-weight:600;
 		}
 
-		&:last-child a{
+		&:last-child a {
 		    padding: 10px 15px;
 		    background: $color_button-background-default;
 		    color: $color_button-text-default;
+				&:visited {
+					color: $color_link-nav-alternative;
+				}
 		}
 	}
 }
@@ -204,7 +206,7 @@ a {
 	right: 0;
 	top: 0;
 	ul {
-		background: #44b3eb;
+		background: $color_background-default;
 		min-height: 392px;
 		width: 75vw;
 		display: flex;
@@ -218,20 +220,20 @@ a {
 				text-decoration: none;
 				text-transform: capitalize;
 				font-size: 26px;
-				color:$color_button-text-default;
+				color: $color_button-text-default;
 			}
 		}
 	}
 
 	//Hide the 'Learning' and 'Community' from mobile menu
 	.menu-item-118,
-	.menu-item-119{
-		display:none;
+	.menu-item-119 {
+		display: none;
 	}
 }
 
 .menu-toggle {
-	background: #fff;
+	background: $color_background-alternative3;
     border: none;
     box-shadow: none;
     &:visited {
@@ -240,9 +242,8 @@ a {
     &:active {
     	border: none;
     }
-
     .dark-bar {
-		color: #C0C0C0;
+			color: $color_text-alternative4;
     }
 }
 
@@ -251,7 +252,7 @@ a {
 	position: fixed;
 	top: 20px;
 	right: 16px;
-	background: #44b3eb;
+	background: $color_background-default;
 	display: none;
 	&:hover {
 		box-shadow: none;
@@ -259,7 +260,7 @@ a {
 
 	.light-bar {
 		display: none;
-		color: #fff;
+		color: $color_background-alternative3;
 	}
 }
 

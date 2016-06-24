@@ -36,7 +36,7 @@
   padding: 15px 0;
   font-family: 'montserrat-ultra-light', sans-serif;
   .quote-source {
-    color: #fff;
+    color: #color_text-alternative1;
   }
 }
 
@@ -101,15 +101,15 @@
 }
 .cta-link {
   border: 1px solid #c0c0c0;
-  background: $brand-color;
+  background: $color_background-alternative2;
   border-radius: 3%;
-  color: #fff;
+  color: #color_text-alternative1;
   height: 35%;
   margin: 10px;
   a {
     &:visited {
-      color: #fff;
-      color: #fff;
+      color: #color_link-nav-alternative;
+      color: #color_link-nav-alternative;
     }
   }
   img {
