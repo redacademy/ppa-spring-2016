@@ -3,7 +3,7 @@
 		 900 breakpoint
  ============================================== */
 
-@include extended-desktop {
+@include min-desktop {
 
 //Pushes content just right below the sticky header
 .site-content {
@@ -76,7 +76,7 @@
 		 1240 breakpoint
  ============================================== */
 
-@include extended-desktop {
+@include desktop {
 
 /* ----------- Header Navigation  -----------*/
 

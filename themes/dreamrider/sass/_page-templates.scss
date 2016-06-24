@@ -137,11 +137,11 @@
 
   //Desktop cta Page
 
-@include extended-desktop {
+@include min-desktop {
   .cta-container {
     flex-direction: row;
     width: 80%;
-  }   
+  }
   .cta-link {
     height: auto;
     width: 49%;

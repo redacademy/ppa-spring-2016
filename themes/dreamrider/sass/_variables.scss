@@ -36,11 +36,11 @@ $font__line-height-pre: 1.6;
 
 /* ----------- Variables: Descriptive  -----------*/
 
-/* Fonts */
+//Fonts
 $default-text: 'lato-light', sans-serif;
 $secondary-text: 'francois-one', sans-serif;
 
-/* Colors */
+//Colors
 $white: #fff;
 $black: #000;
 $violet: #8c2c8b;
@@ -49,48 +49,39 @@ $blue: #4ab4e9;
 $light-gray: #afafaf;
 $gray: #4a4a4a;
 
+//Media Queries
+$mobile-width: 340px;
+$min-desktop-width: 940px;
+$desktop-width: 1240px;
+
+
 
 /* ----------- Variables: Functional  -----------*/
 
 
-/* Color: Text Links */
-$color_text-testimonials: $white;
-$color_text-link-footer: $white; //Nav on Footer
+//Plain Text Colors
+$color-text-default: $gray;
+$color_text-alternative1: $white;
+$color_text-alternative2: $black;
+$color_text-alternative3: $light-gray;
 
+//Text Links
+$color_text-link-footer: $white;
 
-/* Color: Plain Text */
-$color-text-default: $gray; //Default Text
-$color_text-programs: $white; //Alternative Text Color
-$color_text-heading: $black; //Alternative Heading of sections
-$color_text-testimonial-main: $gray;
-$color_text-partner-testimonial: $light-gray;
+//Background Colors
+$color_background-default: $blue;
+$color_background-alternative1: $violet;
 
-$color_text-page-titles: $white; //Main Page Headings
-$color_text-footer: $white; //"Back to Top" text on Footer
+// Borders / Separators */
+$color_separator: $light-gray;
 
-/* Color: Buttons */
-
-//Main brand_color button
+//Main Button (Green background with white text)
 $color_button-text-default: $white;
 $color_button-background-default: $brand_color;
 
-//Inverted main button
+//Inverted Button (White background with green text)
 $color_button-text-inverted: $brand_color;
 $color_button-text-inverted-hover: $white;
 $color_button-background-inverted: $white;
 $color_button-background-inverted-hover: $brand_color;
 $color_button-border-inverted: $brand_color;
-
-/* Color: Backgrounds */
-$color_background-programs: $blue; //Programs section of front-page.php
-$color_background-page-titles: $blue; //Page headings
-$color_background-footer: $violet; //Footer
-
-/* Color: Borders / Separators */
-$color_separator-partner-testimonial: $light-gray;
-
-
-/* ----------- Media Queries  -----------*/
-$mobile-width: 340px;
-$desktop-width: 1240px;
-$extended-desktop-width: 940px;
