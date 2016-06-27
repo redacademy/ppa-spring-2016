@@ -16,6 +16,7 @@
 
 <p>The use of SASS allowed for the creation of variables and mixins to greatly reduce the amount of CSS that needed to be written. </p>
 <p>JQuery is used to dynamically bring the pop up hamburger menu on the mobile version of the website. </p>
+<p>BxSlider is used for slider in the Programs page. A jquery plugin that helps display the programs in a slider.</p>
 <p>PHP is used to create custom functionality</p>
 <p>Contact Form 7 wordpress plugin is used to create the form on the Contact page. A separate plugin, Contact Form 7 Success Page Redirects, is used to display a welcome page once the contact form has been successfully submitted.</p>
 <p>Images were resized to ensure quick load times for pages and minimal data usage on the mobile site.</p>
