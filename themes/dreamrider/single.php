@@ -17,7 +17,7 @@ get_header(); ?>
 		<?php endwhile; // End of the loop. ?>
 
 		<div class="cta-button">
-			<a href="#">Get started now</a>
+			<a href="<?php echo home_url() ?>/cta">Get started now</a>
 		</div>
 
 		</main><!-- #main -->
