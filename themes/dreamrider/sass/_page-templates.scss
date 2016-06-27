@@ -103,13 +103,12 @@
   border: 1px solid #c0c0c0;
   background: $color_background-alternative2;
   border-radius: 3%;
-  color: #color_text-alternative1;
+  color: #color_text-alternative;
   height: 35%;
   margin: 10px;
   a {
-    &:visited {
-      color: #color_link-nav-alternative;
-      color: #color_link-nav-alternative;
+    &:visited { 
+      color: $color_text-alternative1;
     }
   }
   img {
