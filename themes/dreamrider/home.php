@@ -37,7 +37,7 @@ get_header(); ?>
 			<?php endif; ?>
 
 			<div class="cta-button">
-				<a href="#">Get started now</a>
+				<a href="<?php echo home_url() ?>/cta">Get started now</a>
 			</div>
 			
 			</main><!-- #main -->

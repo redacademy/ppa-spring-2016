@@ -32,7 +32,7 @@ get_header(); ?>
 					<p class="more-info"><?php the_content(); ?></p>
 				</section><!-- main-title -->
 				<div class="cta-button">
-					<a href="#">Get started now</a>
+					<a href="<?php echo home_url() ?>/cta">Get started now</a>
 				</div>
 
 				<section class="programs">
@@ -119,7 +119,7 @@ get_header(); ?>
 					<?php endforeach; wp_reset_postdata(); ?>
 
 					<div class="free-trial-button">
-						<a href="#">Start My Free Trial</a>
+						<a href="<?php echo home_url() ?>/cta">Start My Free Trial</a>
 					</div>
 				</section>
 				<!-- end testimonials section-->
