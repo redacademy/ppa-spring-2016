@@ -9,10 +9,7 @@
   text-align:center;
   overflow: hidden;
   min-height:200px;
-  background:linear-gradient( 
-    rgba(0,0,0,0.3),
-    rgba(0,0,0,0.3)
-  ),url('../../images/loading.gif') no-repeat;
+  background:url('../../images/loading.gif') no-repeat;
   background-position:center;
   line-height:0;
   text-align:left;
