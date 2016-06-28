@@ -24,7 +24,9 @@ get_header(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 				<section class="hero-banner" >
-					<img src ="<?php echo CFS()->get('hero_image') ?>" alt="Hero Image">
+				<?php if(CFS()->get('hero_image') !== "") : ?>
+					<img src ="<?php echo CFS()->get('hero_image') ?>">
+				<?php endif; ?>
 				</section>
 
 				<section class="main-title">
