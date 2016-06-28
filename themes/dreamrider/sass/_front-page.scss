@@ -12,14 +12,23 @@
   background:linear-gradient( 
     rgba(0,0,0,0.3),
     rgba(0,0,0,0.3)
-  ),url('../../images/banner.gif') no-repeat;
-  background-position:center top;
-  background-size:100%;
+  ),url('../../images/loading.gif') no-repeat;
+  background-position:center;
   line-height:0;
+  text-align:left;
+
+  i{
+    font-size:1.8em;
+    cursor:pointer;
+    color:$white;
+    margin-top:20px;
+  }
+
   img {
     width:100%;
     height:auto;
   }
+
 }
 
 .main-title {

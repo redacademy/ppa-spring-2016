@@ -27,6 +27,9 @@ get_header(); ?>
 				<?php if(CFS()->get('hero_image') !== "") : ?>
 					<img src ="<?php echo CFS()->get('hero_image') ?>">
 				<?php endif; ?>
+					<div class="container">
+						<i class="fa fa-play" aria-hidden="true"></i>
+					</div>
 				</section>
 
 				<section class="main-title">
