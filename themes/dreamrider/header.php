@@ -34,7 +34,7 @@
 
 						<?php if (is_front_page()): ?>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="mobile-logo" src="<?php echo get_template_directory_uri() ?>/images/logos/ppa-logo-stand-alone.png" alt="Planet Protector Logo mobile">
+							<img class="mobile-logo" src="<?php echo get_template_directory_uri() ?>/images/logos/ppa-logo-full.png" alt="Planet Protector Logo mobile">
 						</a>
 						<?php else: ?>
 							<a  href="#" onClick="history.back(); return false;" >
