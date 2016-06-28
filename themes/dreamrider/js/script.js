@@ -43,6 +43,17 @@ jQuery(document).ready(function($) {
 		$('body,html').animate({ scrollTop : $('.community-impact').offset().top - 100}, 1000); //Scroll to section with class name
 	});
 
+	////////////////////////////////////////
+	//// Animations Related Javascript  ////
+	////////////////////////////////////////
+
+	//Animate Program section
+	$('.individual-program').css('opacity', 0);
+	 
+	$('.individual-program').waypoint(function() {
+      $('.individual-program').addClass('fadeInDown');
+ 	}, { offset: '60%' });
+
 });
 
 

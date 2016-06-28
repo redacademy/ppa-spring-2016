@@ -60,6 +60,7 @@ function dreamrider_enqueued_scripts() {
 		//Include jquery and Css for bxslider
 		wp_enqueue_style('bxstyle', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxslider.css');
 	    wp_enqueue_script('bxscript', '/wp-content/themes/dreamrider/js/bxslider/jquery.bxslider.min.js', array('jquery'));
+	     wp_enqueue_script('waypoints', '/wp-content/themes/dreamrider/build/js/jquery.waypoints.min.js');
 
        	//adds custom javascript for search function
 		wp_enqueue_script( 'my_custom_js_script', get_template_directory_uri() . '/build/js/script.min.js');
