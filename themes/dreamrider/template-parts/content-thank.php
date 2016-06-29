@@ -12,7 +12,7 @@
 	<div class="entry-content">
 
 		<p>
-			<img src="<?php echo get_template_directory_uri() ?>/images/logos/logo.png" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>/images/logos/ppa-logo-stand-alone.png" alt="">
 		</p>
 		<p>
 			<img class="checkmark-green" src="<?php echo get_template_directory_uri() ?>/images/checkmark-brandcolor.png" alt="">
