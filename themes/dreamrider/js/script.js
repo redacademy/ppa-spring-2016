@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
 	//Functionality: loader for banner image
-	$('<img src="../dreamrider/wp-content/themes/dreamrider/images/banner.gif">').load(function() {
+	$('<img src="../wp-content/themes/dreamrider/images/banner.gif">').load(function() {
 	  $('.hero-banner').css({
 	  	'background' : 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(' + $(this).attr('src') + ') no-repeat',
 	  	'background-position': 'top center',
