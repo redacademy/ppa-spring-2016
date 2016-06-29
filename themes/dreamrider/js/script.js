@@ -58,13 +58,8 @@ jQuery(document).ready(function($) {
  	$('.individual-testimonial').css('opacity', 0);
 	 
 	$('.individual-testimonial').waypoint(function() {
-	  var delay = 0;
-      $('.individual-testimonial').each(function(){
-      	$(this).delay(delay).addClass('fadeInUp');
-      	console.log(delay);
-      	delay += 1500;
-      });
- 	}, { offset: '40%' });
+      $('.individual-testimonial').addClass('fadeInUp');
+ 	}, { offset: '70%' });
 
 
  	//About us - Animate Logo section
@@ -80,6 +75,13 @@ jQuery(document).ready(function($) {
 	$('.about-pictures').waypoint(function() {
       $('.about-pictures').addClass('fadeInUp');
  	}, { offset: '80%' });
+
+	//Programs - Animate Slider section
+	$('.archive .bxslider-container').css('opacity', 0);
+	 
+	$('.archive .bxslider-container').waypoint(function() {
+      $('.archive .bxslider-container').addClass('fadeInUp');
+ 	}, { offset: '80%' });	
 
  	//Blog - Animate blog section
  	$('.blog .type-post').css('opacity', 0);
