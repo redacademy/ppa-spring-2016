@@ -7,7 +7,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('animated'); ?>>
 	<header class="entry-header">
 		
 		<a href="<?php echo get_permalink() ?>""><img src ="<?php echo esc_html(CFS()->get('post_image')) ?>"></a>

@@ -47,12 +47,54 @@ jQuery(document).ready(function($) {
 	//// Animations Related Javascript  ////
 	////////////////////////////////////////
 
-	//Animate Program section
+	//Homepage - Animate Program section
 	$('.individual-program').css('opacity', 0);
 	 
 	$('.individual-program').waypoint(function() {
-      $('.individual-program').addClass('fadeInDown');
+      $('.individual-program').addClass('fadeInUp');
+ 	}, { offset: '70%' });
+
+	//Homepage - Testimonial section
+ 	$('.individual-testimonial').css('opacity', 0);
+	 
+	$('.individual-testimonial').waypoint(function() {
+	  var delay = 0;
+      $('.individual-testimonial').each(function(){
+      	$(this).delay(delay).addClass('fadeInUp');
+      	console.log(delay);
+      	delay += 1500;
+      });
+ 	}, { offset: '40%' });
+
+
+ 	//About us - Animate Logo section
+	$('.logo-container').css('opacity', 0);
+	 
+	$('.logo-container').waypoint(function() {
+      $('.logo-container').addClass('bounceIn');
  	}, { offset: '60%' });
+
+ 	//About us - Animate Logo section
+	$('.about-pictures').css('opacity', 0);
+	 
+	$('.about-pictures').waypoint(function() {
+      $('.about-pictures').addClass('fadeInUp');
+ 	}, { offset: '80%' });
+
+ 	//Blog - Animate blog section
+ 	$('.blog .type-post').css('opacity', 0);
+	 
+	$('.blog .type-post').waypoint(function() {
+      $('.blog .type-post').addClass('fadeInUp');
+ 	}, { offset: '80%' });
+
+	//Contact - Animate Contact section
+	$('.contact-header-section').css('opacity', 0);
+	 
+	$('.contact-header-section').waypoint(function() {
+      $('.contact-header-section').addClass('fadeInUp');
+      $('.contact-page-wrapper article').addClass('fadeInUp');
+ 	}, { offset: '80%' });	
 
 });
 

@@ -27,9 +27,6 @@ get_header(); ?>
 				<?php if(CFS()->get('hero_image') !== "") : ?>
 					<img src ="<?php echo CFS()->get('hero_image') ?>">
 				<?php endif; ?>
-					<div class="container">
-						<i class="fa fa-play" aria-hidden="true"></i>
-					</div>
 				</section>
 
 				<section class="main-title">
@@ -107,7 +104,7 @@ get_header(); ?>
 
 					<?php foreach ( $testimonial_posts as $post ) : setup_postdata( $post ); ?>
 
-					<div class="individual-testimonial">
+					<div class="individual-testimonial animated">
 					
 						<div class="testimonial-bubble">
 							<p>"<?php echo wp_trim_words(get_the_content(), 36, '...'); ?>"</p>

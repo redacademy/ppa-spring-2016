@@ -13,7 +13,7 @@ get_header(); ?>
 				</div>
 
 				<section class="about-main">
-					<div class="logo-container container">
+					<div class="logo-container container animated">
 						<img class="text-logo" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-text.jpg" alt="DreamRider Logo">
 						<img class="logo-with-human" src="<?php echo get_template_directory_uri()?>/images/logos/dreamrider-logo-with-characters.jpg" alt="DreamRider Logo">
 					</div>
@@ -40,7 +40,7 @@ get_header(); ?>
 					<p><?php echo esc_html(CFS()->get('about_story')) ?></p>
 				</section><!-- about-story -->
 
-				<section class="about-pictures">
+				<section class="about-pictures animated">
 					<div><img src="<?php echo CFS()->get('about_image_1') ?>"></div>
 					<div><img src="<?php echo CFS()->get('about_image_2') ?>"></div>
 				</section><!-- about-pictures -->
