@@ -97,7 +97,7 @@ get_header(); ?>
 					<!-- Custom Loop Defined for Testimonial -->
 					<?php
 					   $args = array( 'post_type' => 'testimonial',
-					   				  'order' => 'ASC',
+					   				  'order' => 'DSC',
 					   				  'posts_per_page' => 3	 );
 					   $testimonial_posts = get_posts( $args ); // returns an array of posts
 					?>
@@ -111,7 +111,7 @@ get_header(); ?>
 						</div>
 					
 						<div class="testimonial-source">
-							<div><img src="<?php echo get_template_directory_uri()?>/images/icons/Testimonial_1.png" alt="testimonial-icon"></div>
+							<div><img src="<?php echo esc_html(CFS()->get('testimonial_icon')) ?>" alt="testimonial-icon"></div>
 							<!-- Pulls the testimonial's name and title -->
 							<div><p><?php echo esc_html(CFS()->get('testimonial_name')) ?>, <?php echo esc_html(CFS()->get('testimonial_title')) ?></p></div>
 						</div>
