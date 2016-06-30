@@ -23,8 +23,6 @@ jQuery(document).ready(function($) {
 		pager:false
 	});
 
-	//Toggle Mobile menu to hide
-	$('.mobile-nav .menu-menu-1-container').toggle();
 	 //Toggle menu to display on click
 	 $( ".menu-toggle" ).click(function() {
 	 	$('.menu-open').toggle();
